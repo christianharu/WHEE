@@ -1,0 +1,90 @@
+speaker_utterance,listener_utterance,usable,id,Empathy_1,Empathy_2,final_label
+"What is your favorite subject?
+",Nature and technology.,1,ND_1,1,1,1
+What are your ages?,My age is 12.,1,ND_1,1,1,1
+What grade are you?,6th grade. But we have a different grading school. It starts from zero.,1,ND_1,1,1,1
+We also start with zero,How is your school?,1,ND_1,2,3,3
+It is wonderful.,"To be honest, I hate my school. I don’t like going to school.",1,ND_1,1,1,1
+I like school.,"I like school, but I also don’t? I don’t know",1,ND_1,1,1,1
+I took this picture of my bike because I go to school on it. You can also see my house in the background.,Do you go to school without a school uniform?,1,DN_1,1,1,1
+Yeah because I go to a public school.,I see. Do you guys do the piano dance?,1,DN_1,1,1,1
+I used to play the piano. But now I play the violin.,"No, I’m talking about dancing.",1,DN_1,1,1,1
+"oh no, I do ballet.","I see.
+",1,DN_1,1,1,1
+How do you go to school? ,I live in the school.,1,DN_1,1,1,1
+Are you guys not having exams?,"Oh no, not at the moment. Well, she might but I’m not. What is the name of you guys’ school?",1,ND_2,2,3,3
+ primary school. And yours?,"We go to Bember and she goes to South
+",1,ND_2,1,1,1
+"Those are nice school names. And really, what is your favorite sport?",My favorite sport is probably soccer,1,ND_2,1,1,1
+Oh! ,I used to play but now I don't play much anymore,1,ND_2,1,1,1
+Why?! ,"Maybe it is cause I do other things, like I act. I’m an actor",1,ND_2,1,1,1
+Wow!,Actress I guess,1,ND_2,1,1,1
+What movie did you play?,"Oh, not like a movie actor. Just musical theater and art creatively ",1,ND_2,2,2,1
+Oh,"Like, do you know about it? So, I just do…there is a field of theater districts in Bloomington that I do just once in a while. I’m not hugely hugely experienced but I enjoy it and singing",1,ND_2,1,1,1
+So you sing?,Yes,1,ND_2,1,1,1
+What is your favorite song,"You know, I don’t really have a favorite song but probably anything from Hamilton.",1,ND_2,1,1,1
+Can you sing for us?,"Hahaha, I don’t know. There is this weird thing, I can sing in front of people I don’t know. But singing in a room with people I know is so weird.",1,ND_2,1,1,1
+How is your country like (there?),Pretty good. How is yours?,1,ND_2,2,3,3
+Fine. Is it daytime?,Do you guys have pets?,1,ND_2,1,1,1
+What is the name of your instrument?,It is a trombone.,1,ND_2,1,1,1
+"I enjoy making costumes. I like roleplaying.
+",Is that a school project or you’re just doing it for fun?,1,DN_2,3,3,3
+I made it for fun and for other people who like acting.,That is nice.,1,DN_2,3,1,2
+Why did you take a picture of this?,Because I like it. It reflects my identity.,1,DN_2,3,1,1
+That is nice to hear.,Thank you,1,DN_2,3,1,1
+What is your favorite color?,"Pink, red, and blue.",1,DN_2,3,1,1
+It is my basketball t-shirt.,What is your favorite basketball player?,1,ND_3,1,1,1
+It is Lebron James,Wooww! I don’t like Lebrone. James,1,ND_3,1,1,1
+Why do you like Lebron?, I think he is a good player. I like his playing style.,1,DN_3,1,1,1
+Can I ask you a question?,Yeah,1,ND_4,1,1,1
+Who is your favorite celebrity?,I really like Taylos Swift because she is a strong and independent woman.,1,ND_4,1,1,1
+"So, she wanted to know who your favorite celebrities are","Jenna Ortega, Kanye West, and Taylor Swift",1,ND_4,1,1,1
+Ok,Did you get it?,1,ND_4,1,1,1
+Yeah,What about yours?,1,ND_4,1,1,1
+Mine is Katty B and Nicki Minaj,Who? Is that even a celebrity? ,1,ND_4,1,1,1
+What do you like Lipgloss?,"I don’t know. I can answer that another time.
+",1,ND_5,1,1,1
+I chose this avatar cause I ate fish yesterday,What type of fish?,1,JA_1,1,3,3
+You know maguro? I had it yesterday,Oh! Yum! Is that your favorite food?,1,JA_1,3,3,3
+I chose this because I like cheese,Oh same! We all like cheese,1,JA_1,3,3,3
+I chose this one cause it is the same,Good choice,1,JA_1,1,1,1
+I like playing rock songs,Rock! Good I like metal,1,JA_1,3,1,3
+What is your favorite music band?,I like Black Sabbath,1,JA_1,1,1,1
+Very nice I always listen to black Sabbath,My sister has a very different type of music taste,1,JA_1,1,1,1
+I play the flute and I like listening to pop music and recently went to a concert. Have you guys been to any concert?,I can play the trumpet. Ever since grade school I have played the trumpet,1,JA_1,3,1,3
+Do you have any pets? another pet?,Yes I have a bird and I used to have dog. Do you have pets? ,1,JA_1,3,3,3
+"No, I am allergic",What is your favorite animal?,1,JA_1,1,3,1
+Cat!,Yay! Have you been to a cat café in Tokyo?,1,JA_1,4,3,4
+"No, I have allergy","Oh, yeah that does not help. If you had any pet what would it be?",1,JA_1,5,3,4
+I had a beetle ,Wow do you like dogs?,1,JA_1,1,3,3
+Yeah,You have a favorite breed?,1,JA_1,1,1,1
+Do you know the Japanese one?,"Oh yeah, we saw a lot of Shibas",1,JA_1,1,1,1
+I chose my avatar to be a donut because I live eating donuts.,Me too. Delicious! ,1,AJ_1,3,3,3
+I chose my avatar to be a fried egg because I ate a fried egg this morning.,Ahh! I love fried eggs. ,1,JA_2,3,1,3
+I took this picture during summer vacation. It is a summer festival. It is a picture of Bon Dance.,How often is this festival? Is it only one day? Or once a year?,1,JA_2,3,3,3
+It is once a year.,Ohh once a year. Is it always at night?,1,JA_2,3,3,3
+"Yes, Bon Dance is performed at night.","Oh, very interesting.",1,JA_2,3,3,3
+ This is a picture of my band festival. We took it during a school festival. I play the trombone.,We also play instruments. It is super fun. I play the flute. ,1,JA_3,4,1,4
+That is nice!,I also play the French Horn. Maybe it is called different in Japanese. It is the curled one.,1,JA_3,4,1,3
+Ohh I see. ,How long have you been playing the trombone?,1,JA_3,3,3,3
+Only two years.,Two years! Wow! That is exciting.,1,JA_3,4,3,3
+ I took this picture at a festival for girls.,Do you need to go to a place to see what you show in the picture?,1,JA_4,3,3,3
+"No, this one is at my house. ",Nice!,1,JA_4,3,1,1
+My grandmother made these dolls in the picture.,She is very talented.,1,AJ_2,3,1,3
+This is a soccer match at a field near the place where I live.,What sports do you play?,1,AJ_2,3,3,3
+I do swimming because I live close to the beach. I also play tag rugby. ,wow! Really!,1,AJ_2,3,3,3
+Do you guys play any sport? ,I like basketball.,1,AJ_2,3,1,1
+This is me getting graded. I do Brazilian jiu-jitsu. This is a gray belt which is one from white bell.,Good job! Is white bell the top one?,1,JA_3,4,5,5
+"No, white bell is the lowest one.",Oh! Hahaha.,1,JA_3,4,1,3
+"Do you know karate?
+","Yes, I used to do it when I was little.",1,JA_3,4,1,1
+Do you do karate?,Only a little bit. Not too much.,1,JA_3,4,1,1
+What style do you do?,Only the elementary school type.,1,JA_3,3,1,2
+This is a photo with my friends at a concert in Sydney. We had a really fun night.,Did you make your dress?,1,AJ_3,2,3,3
+I didn’t make my dress but I made my bracelets. Also the decorated parts. ,Nice!,1,AJ_3,2,1,2
+Do you guys know who Taylor Swift is? Do you know any of her songs?,"No, sorry.",1,AJ_3,2,1,2
+What do you listen to?,I listen to a famous Japanese artist called Yonezu. Do you know it?,1,AJ_3,2,3,3
+"No, is it very famous? ","Yeah, at least in Japan. He makes songs for animations and openings. ",1,AJ_3,2,1,2
+"My favorite subject at school is English. I like reading and writing. I love everything related to books. And I express my creativity with drama, acting.",I cook and I like playing the piano,1,AJ_4,2,1,2
+It sounds fun. What is your favorite thing to cook?,I like cupcakes. ,1,AJ_4,2,1,2
+"During Christmas, we meet up with family and we eat lunch. It is during the summer, so we have a barbecue or we go to the beach to swim.",Many people like sleeping in their beds with mandarins. I like eating soup with mochi. But you can get fat if you eat too much mochi.,1,AJ_5,2,1,2
