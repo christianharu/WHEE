@@ -5,7 +5,7 @@ client = openai.OpenAI(api_key= "sk-proj-t7ru4GkqG39npK_V30Bcv2ObzYP4p2--UpH-wpf
 
 # Define the classification prompt template
 prompt_template = """
-Classify a conversation based on the following empathy categories:
+Classify an utterance based on the following empathy categories:
 
 - **Seeking Empathy (Label: 1)** – Defined as a need to be heard and understood. When people experience challenging situations, they need their feelings to be recognized and acknowledged.
 - **Providing Empathy (Label: 2)** – Defined as experiencing and understanding the feelings of another and acting accordingly.
@@ -13,52 +13,47 @@ Classify a conversation based on the following empathy categories:
 
 Additionally, consider the following **empathy-related features** for classification:
 
-- **Arousal** (range: -1 to 1) – Reflects the emotional intensity of the speaker and listener (-1 = very calm, 1 = highly aroused).
+- **Arousal** (range: -1 to 1) – Reflects the emotional intensity of a person (-1 = very calm, 1 = highly aroused).
 - **Valence** (range: -1 to 1) – Indicates emotional polarity (-1 = very negative, 1 = very positive).
-- **Who** (range: [0, 1, 2]) – Identifies the subject of the conversation of the speaker and listener:
-  - 0 = The speaker or listener talks about themselves (e.g., "I" pronoun).
-  - 1 = The speaker or listener talks about the listener (e.g., "you" pronoun).
-  - 2 = The speaker or listener talks about another person or topic.
+- **Who** (range: [0, 1, 2]) – Identifies the subject of the conversation:
+  - 0 = The person talks about themselves (e.g., "I" pronoun).
+  - 1 = The person talks about the person their having the conversation with (e.g., "you" pronoun).
+  - 2 = The person talks about another person or topic.
 - **Sentiment** (range: [0, 1]) – Identifies polarity:
   - 0 = Negative sentiment.
   - 1 = Positive sentiment.
-- **Emotional Reactions** (range: [0, 1]) – Measures emotional expressiveness in the listener’s response:
+  - 2 = Neutral sentiment.
+- **Emotional Reactions** (range: [0, 1]) – Measures emotional expressiveness in the person who could provide empathy response:
   - 0 = Weak (no explicit emotional label).
   - 1 = Strong (explicit emotional response, e.g., "I feel sad for you").
-- **Interpretations** (range: [0, 1]) – Evaluates how well the listener demonstrates understanding:
+- **Interpretations** (range: [0, 1]) – Evaluates how well the person who could provide empathy demonstrates understanding:
   - 0 = Weak (generic acknowledgment, e.g., "I understand how you feel").
   - 1 = Strong (specific inference, e.g., "This must be terrifying" or descriptions of similar experiences).
-- **Explorations** (range: [0, 1]) – Assesses how well the listener helps the speaker explore their emotions:
+- **Explorations** (range: [0, 1]) – Assesses how well the the person who could provide empathy helps the person who seeks empathy explore their emotions:
   - 0 = Weak (generic question, e.g., "What happened?").
   - 1 = Strong (specific question, e.g., "Are you feeling alone right now?").
 
 Provide your classification using the following format:
 
-Classification label (Speaker): _  
-Classification label (Listener): _  
+Classification label: _  
 Reason: _  
-Arousal (Speaker): _  
-Valence (Speaker): _  
-Arousal (Listener): _  
-Valence (Listener): _  
-Who (Speaker): _  
-Who (Listener): _  
-Sentiment (Speaker): _  
-Sentiment (Listener): _  
-Emotional Reaction (Listener): _  
-Interpretations (Listener): _  
-Explorations (Listener): _  
+Arousal: _  
+Valence: _   
+Who: _  
+Sentiment: _  
+Emotional Reaction: _  
+Interpretations: _  
+Explorations: _  
 
 Conversation to classify:  
-Speaker: {speaker_text}  
-Listener: {listener_text}
+Utterance: {utterance_classify}  
 """
-def classify_conversation(speaker_text, listener_text):
+def classify_conversation(utterance_classify):
     """
     Sends a conversation to OpenAI API for classification based on empathy-related factors.
     """
     # Format the prompt with user input
-    prompt = prompt_template.format(speaker_text=speaker_text, listener_text=listener_text)
+    prompt = prompt_template.format(utterance_classify = utterance_classify)
 
     try:
         # Call OpenAI's GPT model using the updated API
@@ -79,11 +74,10 @@ def classify_conversation(speaker_text, listener_text):
 
 if __name__ == "__main__":
     # User input for conversation
-    speaker_text = input("Enter the speaker's message: ")
-    listener_text = input("Enter the listener's response: ")
+    utterance_classify = input("Enter the utterance: ")
 
     # Get classification
-    result = classify_conversation(speaker_text, listener_text)
+    result = classify_conversation(utterance_classify)
 
     # Print the classification result
     print("\nClassification Result:\n", result)
