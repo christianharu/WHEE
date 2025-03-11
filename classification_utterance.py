@@ -41,7 +41,7 @@ Additionally, consider the following **empathy-related features** for classifica
 
 Provide your classification using the following format:
 
-classification_label: _  
+
 reason: _  
 arousal: _  
 valence: _   
@@ -50,6 +50,8 @@ sentiment: _
 emotional_reaction: _  
 interpretations: _  
 explorations: _  
+classification_label: _  
+
 
 Conversation to classify:  
 Utterance: {utterance_classify}  
@@ -87,7 +89,7 @@ if __name__ == "__main__":
     
     parser.add_argument("--model", 
                         type=str, help="The name LLM model to use",
-                        default="gpt-4",)
+                        # default="gpt-4",) gpt-4o-mini
     
     args = parser.parse_args()
 
