@@ -574,44 +574,44 @@ Mine is Katty B and Nicki Minaj,0,0,The utterance is a straightforward statement
 What do you like Lipgloss?,0,0,The utterance is a straightforward question about a preference and does not express or seek emotional understanding or connection.,0,2,2,2,0,0,0
 I chose this avatar cause I ate fish yesterday,0,0,The utterance is a straightforward statement about a choice made regarding an avatar and does not express any feelings or seek understanding from others. It is fact-oriented and does not involve emotional content or a need for empathy.,0,2,0,2,0,0,0
 You know maguro? I had it yesterday,0,0,"The utterance is a straightforward statement about having eaten maguro, which does not express a need for empathy or provide empathy to another person. It is fact-oriented and does not engage with emotions or feelings.",0,2,0,2,0,0,0
-I chose this because I like cheese,0,,,,,,,,,
-I chose this one cause it is the same,0,,,,,,,,,
-I like playing rock songs,0,,,,,,,,,
-What is your favorite music band?,1,,,,,,,,,
-Very nice I always listen to black Sabbath,2,,,,,,,,,
-I play the flute and I like listening to pop music and recently went to a concert. Have you guys been to any concert?,1,,,,,,,,,
-Do you have any pets? another pet?,2,,,,,,,,,
-"No, I am allergic",0,,,,,,,,,
-Cat!,0,,,,,,,,,
-"No, I have allergy",0,,,,,,,,,
-I had a beetle,0,,,,,,,,,
-Yeah,0,,,,,,,,,
-Do you know the Japanese one?,0,,,,,,,,,
-I chose my avatar to be a donut because I live eating donuts.,0,,,,,,,,,
-I chose my avatar to be a fried egg because I ate a fried egg this morning.,0,,,,,,,,,
-I took this picture during summer vacation. It is a summer festival. It is a picture of Bon Dance.,0,,,,,,,,,
-It is once a year.,0,,,,,,,,,
-"Yes, Bon Dance is performed at night.",0,,,,,,,,,
-This is a picture of my band festival. We took it during a school festival. I play the trombone.,1,,,,,,,,,
-That is nice!,2,,,,,,,,,
-Ohh I see.,0,,,,,,,,,
-Only two years.,0,,,,,,,,,
-I took this picture at a festival for girls.,0,,,,,,,,,
-"No, this one is at my house.",0,,,,,,,,,
-My grandmother made these dolls in the picture.,0,,,,,,,,,
-This is a soccer match at a field near the place where I live.,0,,,,,,,,,
-I do swimming because I live close to the beach. I also play tag rugby.,0,,,,,,,,,
-Do you guys play any sport?,0,,,,,,,,,
-This is me getting graded. I do Brazilian jiu-jitsu. This is a gray belt which is one from white bell.,0,,,,,,,,,
-"No, white bell is the lowest one.",0,,,,,,,,,
-Do you know karate?,1,,,,,,,,,
-Do you do karate?,0,,,,,,,,,
-What style do you do?,0,,,,,,,,,
-This is a photo with my friends at a concert in Sydney. We had a really fun night.,1,,,,,,,,,
-I didn’t make my dress but I made my bracelets. Also the decorated parts.,0,,,,,,,,,
-Do you guys know who Taylor Swift is? Do you know any of her songs?,1,,,,,,,,,
-What do you listen to?,0,,,,,,,,,
-"No, is it very famous?",0,,,,,,,,,
-"My favorite subject at school is English. I like reading and writing. I love everything related to books. And I express my creativity with drama, acting.",1,,,,,,,,,
-It sounds fun. What is your favorite thing to cook?,2,,,,,,,,,
-"During Christmas, we meet up with family and we eat lunch. It is during the summer, so we have a barbecue or we go to the beach to swim.",1,,,,,,,,,
+I chose this because I like cheese,0,0,The utterance is a straightforward statement about a personal preference and does not express a need for empathy or provide empathy to another person.,0,1,0,1,0,0,0
+I chose this one cause it is the same,0,0,"The utterance is straightforward and does not express a need for empathy or provide empathy to another person. It appears to be a factual statement about a choice made, lacking emotional content or engagement with feelings.",0,2,0,2,0,0,0
+I like playing rock songs,0,0,The utterance is a straightforward statement about a personal preference and does not express a need for empathy or provide empathy to another person.,0,1,0,1,0,2,0
+What is your favorite music band?,1,0,The utterance is a straightforward question about preferences and does not express or seek emotional understanding or connection.,0,2,2,2,0,0,0
+Very nice I always listen to black Sabbath,2,0,The utterance is a straightforward statement about a personal preference and does not express a need for empathy or provide empathy to another person. It is fact-oriented and does not engage with emotional content.,0,1,0,1,0,0,0
+I play the flute and I like listening to pop music and recently went to a concert. Have you guys been to any concert?,1,0,"The utterance is primarily focused on sharing personal interests and experiences related to music and concerts, without expressing a need for emotional support or understanding. It does not seek or provide empathy.",0,1,0,1,0,0,0
+Do you have any pets? another pet?,2,0,The utterance is a straightforward question about pets and does not express or seek emotional understanding or connection. It is fact-oriented and does not indicate any emotional content.,0,2,2,2,0,0,0
+"No, I am allergic",0,0,"The utterance ""No, I am allergic"" is a straightforward statement about a personal condition and does not express a need for empathy or provide empathy to another person. It is fact-oriented and does not engage emotionally with the listener.",0,2,0,2,0,0,0
+Cat!,0,0,"The utterance ""Cat!"" does not express a need for empathy or provide empathy. It is a straightforward, fact-oriented statement that does not convey emotional content or context.",0,2,2,2,0,0,0
+"No, I have allergy",0,0,"The utterance is a straightforward statement about having an allergy, which does not express a need for empathy or provide empathy to another person. It is factual and does not engage emotionally.",0,0,0,2,0,0,0
+I had a beetle,0,0,"The utterance ""I had a beetle"" is a straightforward statement that does not express a need for empathy or provide empathy to another person. It is fact-oriented and lacks emotional content.",0,2,0,2,0,0,0
+Yeah,0,0,"The utterance ""Yeah"" is a very brief and neutral response that does not express any emotional content or indicate a need for empathy. It does not seek to be understood or provide understanding to another person.",0,2,0,2,0,0,0
+Do you know the Japanese one?,0,0,The utterance is a straightforward question seeking information about a specific topic (the Japanese one) without any emotional context or need for empathy.,0,2,2,2,0,0,0
+I chose my avatar to be a donut because I live eating donuts.,0,0,The utterance is a straightforward statement about a personal preference and does not express a need for empathy or provide empathy to another person. It is fact-oriented and does not involve emotional content that would require acknowledgment or understanding.,0,1,0,1,0,0,0
+I chose my avatar to be a fried egg because I ate a fried egg this morning.,0,0,The utterance is a straightforward statement about a personal choice and does not express a need for empathy or provide empathy to another person. It is fact-oriented and lacks emotional depth.,0,2,0,2,0,0,0
+I took this picture during summer vacation. It is a summer festival. It is a picture of Bon Dance.,0,0,"The utterance is a straightforward description of a picture taken during a summer festival, with no emotional content or need for empathy expressed.",0,2,2,2,0,0,0
+It is once a year.,0,0,"The utterance ""It is once a year"" is a straightforward statement that provides factual information without expressing or seeking emotional understanding or connection.",0,2,2,2,0,0,0
+"Yes, Bon Dance is performed at night.",0,0,"The utterance is a straightforward statement providing factual information about the Bon Dance, without any emotional content or indication of seeking or providing empathy.",0,2,2,2,0,0,0
+This is a picture of my band festival. We took it during a school festival. I play the trombone.,1,0,The utterance is primarily focused on sharing information about a personal experience related to a band festival and does not express a need for empathy or provide empathetic understanding.,0,1,0,1,0,0,0
+That is nice!,2,0,"The utterance ""That is nice!"" expresses a positive sentiment but does not indicate a need for empathy or an understanding of another's feelings. It is a straightforward, positive acknowledgment without deeper emotional engagement.",0.5,1,2,1,0,0,0
+Ohh I see.,0,0,"The utterance ""Ohh I see."" is a neutral acknowledgment without any explicit emotional content or a clear indication of seeking or providing empathy. It does not express a need for understanding or recognition of feelings, nor does it demonstrate an understanding of another's feelings.",0,2,0,2,0,0,0
+Only two years.,0,0,"The utterance ""Only two years"" is a straightforward statement that does not express a need for empathy or provide empathy. It lacks emotional content and does not indicate any feelings or experiences that require acknowledgment or understanding.",0,2,0,2,0,0,0
+I took this picture at a festival for girls.,0,0,The utterance is a straightforward statement about an event and does not express a need for empathy or provide empathy to another person. It is fact-oriented and does not involve emotional content or engagement with feelings.,0,2,0,2,0,0,0
+"No, this one is at my house.",0,0,The utterance is a straightforward statement about the location of something and does not express any feelings or emotions. It does not seek or provide empathy.,0,2,0,2,0,0,0
+My grandmother made these dolls in the picture.,0,0,The utterance is a straightforward statement about a picture of dolls made by the speaker's grandmother. It does not express a need for empathy or provide empathy to another person.,0,2,0,2,0,0,0
+This is a soccer match at a field near the place where I live.,0,0,The utterance is a straightforward statement about a soccer match and does not express any feelings or seek emotional understanding. It is fact-oriented and does not involve empathy.,0,2,2,2,0,0,0
+I do swimming because I live close to the beach. I also play tag rugby.,0,0,"The utterance is straightforward and fact-oriented, providing information about the speaker's activities without expressing or seeking emotional support or understanding.",0,2,0,2,0,0,0
+Do you guys play any sport?,0,0,The utterance is a straightforward question about sports and does not express or seek emotional understanding or connection.,0,2,2,2,0,0,0
+This is me getting graded. I do Brazilian jiu-jitsu. This is a gray belt which is one from white bell.,0,0,The utterance is primarily factual and does not express a need for empathy or an emotional connection. It describes a personal achievement in Brazilian jiu-jitsu without seeking or providing emotional support.,0,2,0,2,0,0,0
+"No, white bell is the lowest one.",0,0,The utterance is a straightforward statement providing factual information about the white bell being the lowest one. It does not express any emotional content or seek or provide empathy.,0,2,2,2,0,0,0
+Do you know karate?,1,0,"The utterance ""Do you know karate?"" is a straightforward question that does not express a need for empathy or provide empathy. It is fact-oriented and does not involve emotional content or the recognition of feelings.",0,2,2,2,0,0,0
+Do you do karate?,0,0,The utterance is a straightforward question about karate and does not express or seek emotional understanding or connection.,0,2,2,2,0,0,0
+What style do you do?,0,0,The utterance is a straightforward question about someone's style and does not express or seek emotional understanding or connection.,0,2,2,2,0,0,0
+This is a photo with my friends at a concert in Sydney. We had a really fun night.,1,0,"The utterance describes a positive experience shared with friends, focusing on a fun event without expressing a need for understanding or emotional support. It is straightforward and fact-oriented.",0.5,1,0,1,0,0,0
+I didn’t make my dress but I made my bracelets. Also the decorated parts.,0,0,The utterance is primarily factual and does not express a need for empathy or an understanding of another's feelings. It focuses on the speaker's accomplishments without seeking acknowledgment or emotional connection.,0,1,0,1,0,0,0
+Do you guys know who Taylor Swift is? Do you know any of her songs?,1,0,"The utterance is a straightforward inquiry about Taylor Swift and her songs, lacking any emotional content or a need for empathy.",0,2,2,2,0,0,0
+What do you listen to?,0,0,"The utterance ""What do you listen to?"" is a straightforward question that does not express a need for empathy or provide empathy. It is fact-oriented and does not engage with emotional content.",0,2,2,2,0,0,0
+"No, is it very famous?",0,0,"The utterance is a straightforward question seeking information about the fame of something, without any emotional content or need for empathy.",0,2,0,2,0,0,0
+"My favorite subject at school is English. I like reading and writing. I love everything related to books. And I express my creativity with drama, acting.",1,0,The utterance is focused on the speaker's personal interests and experiences related to school subjects and creative activities. It does not express a need for empathy or provide empathy to another person.,0,1,0,1,0,0,0
+It sounds fun. What is your favorite thing to cook?,2,0,"The utterance is focused on asking about the other person's interests and preferences, indicating an engagement in conversation rather than expressing or seeking empathy. It does not reflect a need for emotional support or understanding.",0,1,1,1,0,0,0
+"During Christmas, we meet up with family and we eat lunch. It is during the summer, so we have a barbecue or we go to the beach to swim.",1,0,"The utterance is a straightforward description of family gatherings and activities during Christmas and summer. It does not express any emotional need or understanding, nor does it seek or provide empathy.",0,2,2,2,0,0,0
