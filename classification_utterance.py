@@ -89,7 +89,7 @@ if __name__ == "__main__":
     
     parser.add_argument("--model", 
                         type=str, help="The name LLM model to use",
-                        # default="gpt-4o-mini",) 
+                         default="gpt-4o-mini",) 
     
     args = parser.parse_args()
 
