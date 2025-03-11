@@ -148,12 +148,7 @@ if __name__ == "__main__":
         database.at[index, "explorations"] = explorations
 
         # Save the updated database
-        database.to_csv(f"{database_path.split('.csv')[0]}_{model}_classified.csv", index=False)
-
-        if index == 200:
-            break
-
-            
+        database.to_csv(f"{database_path.split('.csv')[0]}_{model}_classified.csv", index=False)            
 
     # The end
     print("\n\n Finished! Classification results saved to: ", f"{database_path.split('.csv')[0]}_{model}_classified.csv")
