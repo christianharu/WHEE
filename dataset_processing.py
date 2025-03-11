@@ -77,7 +77,6 @@ def main():
     tsc = pd.read_csv(dir_path + '/TSC.csv')
     #key none = 0, seek = 1, provide = 2
 
-
     tweetemp = tweetemp.rename(columns={"content": "text"})
     joined_df = pd.concat([tweetemp,iempathize])
 
@@ -97,24 +96,36 @@ def main():
     robotic_df = pd.concat([extracted_listener_eer,extracted_speaker_eer,extracted_listener_tsc,extracted_speaker_tsc], ignore_index=True)
 
 
+
+    #replace _comma_ to an actual comma
     computer_df['text'] = computer_df['text'].apply(change_commas) 
     robotic_df['text'] = robotic_df['text'].apply(change_commas) 
 
-    
+    computer_df['text'] = computer_df['text'].str.strip()
+    robotic_df['text'] = robotic_df['text'].str.strip()
+
+
     computer_df.to_csv('./processed_datasets/non_hri_data.csv', index=False)
     robotic_df.to_csv('./processed_datasets/hri_data.csv', index=False)
 
+    print('test')
 
     #get cues
+    robotic_df_cues = get_VA(robotic_df)
+    robotic_df.to_csv('./processed_datasets/hri_data.csv', index=False)
+    robotic_df_cues = get_sentiment(robotic_df_cues)
+    robotic_df.to_csv('./processed_datasets/hri_data.csv', index=False)
+    robotic_df_cues = epitome.predict_epitome_values('cue_utilities/epitome_mechanisms/trained_models',robotic_df_cues)
+    robotic_df_cues.to_csv('./processed_datasets/hri_data_cues.csv', index=False)
+    print('test 2')
     computer_df_cues = get_VA(computer_df)
+    computer_df_cues.to_csv('./processed_datasets/non_hri_data_cues.csv', index=False)
     computer_df_cues = get_sentiment(computer_df_cues)
+    computer_df_cues.to_csv('./processed_datasets/non_hri_data_cues.csv', index=False)
     computer_df_cues = epitome.predict_epitome_values('cue_utilities/epitome_mechanisms/trained_models',computer_df_cues)
     computer_df_cues.to_csv('./processed_datasets/non_hri_data_cues.csv', index=False)
     
-    robotic_df_cues = get_VA(robotic_df)
-    robotic_df_cues = get_sentiment(robotic_df_cues)
-    robotic_df_cues = epitome.predict_epitome_values('cue_utilities/epitome_mechanisms/trained_models',robotic_df_cues)
-    robotic_df_cues.to_csv('./processed_datasets/hri_data_cues.csv', index=False)
+
 
 
     print(computer_df_cues)
