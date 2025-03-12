@@ -43,6 +43,7 @@ Provide your classification using the following format:
 
 
 reason: _  
+classification_label: _  
 arousal: _  
 valence: _   
 who: _  
@@ -50,7 +51,6 @@ sentiment: _
 emotional_reaction: _  
 interpretations: _  
 explorations: _  
-classification_label: _  
 
 
 Conversation to classify:  
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Classify an utterance based on empathy-related factors.")
     parser.add_argument("--database", 
                         type=str, help="The name of the database to load",
-                        default="non_hri_data.csv",)
+                        default="hri_data.csv",)
     
     parser.add_argument("--model", 
                         type=str, help="The name LLM model to use",
