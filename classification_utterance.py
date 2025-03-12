@@ -86,7 +86,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Classify an utterance based on empathy-related factors.")
     parser.add_argument("--database", 
                         type=str, help="The name of the database to load",
-                        default="hri_data.csv",)
+                        default="hri_data_cues_revised_label.csv",)
     
     parser.add_argument("--model", 
                         type=str, help="The name LLM model to use",
