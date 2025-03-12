@@ -10,9 +10,9 @@ client = openai.OpenAI(api_key= "sk-proj-t7ru4GkqG39npK_V30Bcv2ObzYP4p2--UpH-wpf
 prompt_template = """
 Classify an utterance based on the following empathy categories:
 
-- **Seeking Empathy (Label: 1)** – Defined as a need to be heard and understood. When people experience challenging situations, they need their feelings to be recognized and acknowledged.
-- **Providing Empathy (Label: 2)** – Defined as experiencing and understanding the feelings of another and acting accordingly.
-- **None (Label: 0)** – Conversations that do not seek or provide empathy. These are straightforward, fact-oriented exchanges.
+- **Seeking Empathy (Label: 1)** – Defined as a wanting to be heard and understood. People need their negative feelings recognized and acknowledged in challenging situations and their positive emotions understood and vicariously shared
+- **Providing Empathy (Label: 2)** – Defined as experiencing and understanding the feelings and emotions (negative and positive) of another and communicating accordingly
+- **None (Label: 0)** – Conversations that do not seek or provide empathy. These are straightforward, fact-oriented utterances.
 
 Additionally, consider the following **empathy-related features** for classification:
 
@@ -22,19 +22,22 @@ Additionally, consider the following **empathy-related features** for classifica
   - 0 = The person's main attention is on themselves (e.g., "I" or "we" pronoun).
   - 1 = The person's main attention is on the person their having the conversation with (e.g., "you" pronoun).
   - 2 = The person's main attention is on another person or topic.
-- **Sentiment** (range: [0, 1]) – Identifies polarity:
+- **Sentiment** label – Identifies polarity:
   - negative = Negative sentiment.
   - positive = Positive sentiment.
   - neutral = Neutral sentiment.
-- **Emotional Reactions** (range: [0, 1]) – Measures emotional expressiveness in the person who could provide empathy response:
-  - 0 = Weak (no explicit emotional label).
-  - 1 = Strong (explicit emotional response, e.g., "I feel sad for you").
+- **Emotional Reactions** (range: [0, 2]) – Measures emotional expressiveness in the person who could provide empathy response:
+  - 0 = Does not allude to any emotion.
+  - 1 = Weak (no explicit emotional label).
+  - 2 = Strong (explicit emotional response, e.g., "I feel sad for you").
 - **Interpretations** (range: [0, 1]) – Evaluates how well the person who could provide empathy demonstrates understanding:
-  - 0 = Weak (generic acknowledgment, e.g., "I understand how you feel").
-  - 1 = Strong (specific inference, e.g., "This must be terrifying" or descriptions of similar experiences).
+  - 0 = No expression of understanding.
+  - 1 = Weak (generic acknowledgment, e.g., "I understand how you feel").
+  - 2 = Strong (specific inference, e.g., "This must be terrifying" or descriptions of similar experiences).
 - **Explorations** (range: [0, 1]) – Assesses how well the the person who could provide empathy helps the person who seeks empathy explore their emotions:
-  - 0 = Weak (generic question, e.g., "What happened?").
-  - 1 = Strong (specific question, e.g., "Are you feeling alone right now?").
+  - 0 = No interest or probing into the situation of another 
+  - 1 = Weak (generic question, e.g., "What happened?").
+  - 2 = Strong (specific question, e.g., "Are you feeling alone right now?").
 
 
   
@@ -55,6 +58,7 @@ reason: _
 who: _ 
 classification_label: _  
 """
+
 def classify_conversation(model, utterance_classify, arousal_level, valence_level, sentiment_label, emotional_reaction_label, interpretations_label, explorations_label):
     """
     Sends a conversation to OpenAI API for classification based on empathy-related factors.
