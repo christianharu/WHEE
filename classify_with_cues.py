@@ -17,30 +17,8 @@ class ClassificationResult(BaseModel):
     reason: str = Field(
         description="Step-by-step reasoning process.",
     )
-    arousal: float = Field(
-        description="Predicted arousal field.",
-        ge=-1.0,
-        le=1.0,
-    )
-    valence: float = Field(
-        description="Predicted valence field.",
-        ge=-1.0,
-        le=1.0,
-    )
     who: Literal[0, 1, 2] = Field(
         description="Predicted who field.",
-    )
-    sentiment: Literal["negative", "neutral", "positive"] = Field(
-        description="Predicted sentiment field.",
-    )
-    emotional_reaction: Literal[0, 1, 2] = Field(
-        description="Predicted emotional reaction field.",
-    )
-    interpretations: Literal[0, 1, 2] = Field(
-        description="Predicted interpretations field.",
-    )
-    explorations: Literal[0, 1, 2] = Field(
-        description="Predicted explorations field.",
     )
     classification_label: Literal[0, 1, 2] = Field(
         description="Predicted classification_label field.",
@@ -96,19 +74,7 @@ def classify(
     # Process response
     if use_structured_outputs:
         ds["reason"] = ds["response"].apply(lambda x: json.loads(x).get("reason"))
-        ds["arousal"] = ds["response"].apply(lambda x: json.loads(x).get("arousal"))
-        ds["valence"] = ds["response"].apply(lambda x: json.loads(x).get("valence"))
         ds["who"] = ds["response"].apply(lambda x: json.loads(x).get("who"))
-        ds["sentiment"] = ds["response"].apply(lambda x: json.loads(x).get("sentiment"))
-        ds["emotional_reaction"] = ds["response"].apply(
-            lambda x: json.loads(x).get("emotional_reaction")
-        )
-        ds["interpretations"] = ds["response"].apply(
-            lambda x: json.loads(x).get("interpretations")
-        )
-        ds["explorations"] = ds["response"].apply(
-            lambda x: json.loads(x).get("explorations")
-        )
         ds["classification_label"] = ds["response"].apply(
             lambda x: json.loads(x).get("classification_label")
         )
@@ -118,41 +84,9 @@ def classify(
             if re.search(r"(?<=reason:\s)([^\n]*)", x) is not None
             else None
         )
-        ds["arousal"] = ds["response"].apply(
-            lambda x: re.search(r"(?<=arousal:\s)([\d.]*)", x).group(1)
-            if re.search(r"(?<=arousal:\s)([\d.]*)", x) is not None
-            else None
-        )
-        ds["valence"] = ds["response"].apply(
-            lambda x: re.search(r"(?<=valence:\s)([\d.]*)", x).group(1)
-            if re.search(r"(?<=valence:\s)([\d.]*)", x) is not None
-            else None
-        )
         ds["who"] = ds["response"].apply(
             lambda x: re.search(r"(?<=who:\s)([\d.]*)", x).group(1)
             if re.search(r"(?<=who:\s)([\d.]*)", x) is not None
-            else None
-        )
-        ds["sentiment"] = ds["response"].apply(
-            lambda x: re.search(
-                r"(?<=sentiment:\s)(negative|neutral|positive)", x
-            ).group(1)
-            if re.search(r"(?<=sentiment:\s)(negative|neutral|positive)", x) is not None
-            else None
-        )
-        ds["emotional_reaction"] = ds["response"].apply(
-            lambda x: re.search(r"(?<=emotional_reaction:\s)([\d.]*)", x).group(1)
-            if re.search(r"(?<=emotional_reaction:\s)([\d.]*)", x) is not None
-            else None
-        )
-        ds["interpretations"] = ds["response"].apply(
-            lambda x: re.search(r"(?<=interpretations:\s)([\d.]*)", x).group(1)
-            if re.search(r"(?<=interpretations:\s)([\d.]*)", x) is not None
-            else None
-        )
-        ds["explorations"] = ds["response"].apply(
-            lambda x: re.search(r"(?<=explorations:\s)([\d.]*)", x).group(1)
-            if re.search(r"(?<=explorations:\s)([\d.]*)", x) is not None
             else None
         )
         ds["classification_label"] = ds["response"].apply(
