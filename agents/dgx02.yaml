@@ -5,50 +5,50 @@ agent_prompt: |-
 template: |-
   Classify an utterance based on the following empathy categories:
 
-  - **Seeking Empathy (Label: 1)** - Defined as a wanting to be heard and understood. People need their negative feelings recognized and acknowledged in challenging situations and their positive emotions understood and vicariously shared
-  - **Providing Empathy (Label: 2)** - Defined as experiencing and understanding the feelings and emotions (negative and positive) of another and communicating accordingly
-  - **None (Label: 0)** - Conversations that do not seek or provide empathy. These are straightforward, fact-oriented utterances.
+  - **Seeking Empathy (Label: 1)** – Defined as a wanting to be heard and understood. People need their negative feelings recognized and acknowledged in challenging situations and their positive emotions understood and vicariously shared
+  - **Providing Empathy (Label: 2)** – Defined as experiencing and understanding the feelings and emotions (negative and positive) of another and communicating accordingly
+  - **None (Label: 0)** – Conversations that do not seek or provide empathy. These are straightforward, fact-oriented utterances.
 
   Additionally, consider the following **empathy-related features** for classification:
 
-  - **Arousal** (range: -1 to 1) - Reflects the emotional intensity of a person (-1 = very calm, 1 = highly aroused).
-  - **Valence** (range: -1 to 1) - Indicates emotional polarity (-1 = very negative, 1 = very positive).
-  - **Who** (range: [0, 1, 2]) - Identifies the subject of the conversation:
+  - **Arousal** (range: -1 to 1) – Reflects the emotional intensity of a person (-1 = very calm, 1 = highly aroused).
+  - **Valence** (range: -1 to 1) – Indicates emotional polarity (-1 = very negative, 1 = very positive).
+  - **Who** (range: [0, 1, 2]) – Identifies the subject of the conversation:
     - 0 = The person's main attention is on themselves (e.g., "I" or "we" pronoun).
     - 1 = The person's main attention is on the person their having the conversation with (e.g., "you" pronoun).
     - 2 = The person's main attention is on another person or topic.
-  - **Sentiment** label - Identifies polarity:
+  - **Sentiment** label – Identifies polarity:
     - negative = Negative sentiment.
     - positive = Positive sentiment.
     - neutral = Neutral sentiment.
-  - **Emotional Reactions** (range: [0, 2]) - Measures emotional expressiveness in the person who could provide empathy response:
+  - **Emotional Reactions** (range: [0, 2]) – Measures emotional expressiveness in the person who could provide empathy response:
     - 0 = Does not allude to any emotion.
     - 1 = Weak (no explicit emotional label).
     - 2 = Strong (explicit emotional response, e.g., "I feel sad for you").
-  - **Interpretations** (range: [0, 1]) - Evaluates how well the person who could provide empathy demonstrates understanding:
+  - **Interpretations** (range: [0, 1]) – Evaluates how well the person who could provide empathy demonstrates understanding:
     - 0 = No expression of understanding.
     - 1 = Weak (generic acknowledgment, e.g., "I understand how you feel").
     - 2 = Strong (specific inference, e.g., "This must be terrifying" or descriptions of similar experiences).
-  - **Explorations** (range: [0, 1]) - Assesses how well the the person who could provide empathy helps the person who seeks empathy explore their emotions:
-    - 0 = No interest or probing into the situation of another 
+  - **Explorations** (range: [0, 1]) – Assesses how well the the person who could provide empathy helps the person who seeks empathy explore their emotions:
+    - 0 = No interest or probing into the situation of another
     - 1 = Weak (generic question, e.g., "What happened?").
     - 2 = Strong (specific question, e.g., "Are you feeling alone right now?").
 
-    
-  Conversation to classify:  
-  Utterance: {text} 
+
+  Conversation to classify:
+  Utterance: {text}
 
   Provide your classification using the following format:
-  reason: _  
-  arousal: _  
-  valence: _   
-  who: _  
-  sentiment: _  
-  emotional_reaction: _  
-  interpretations: _  
-  explorations: _  
+  reason: _
+  arousal: _
+  valence: _
+  who: _
+  sentiment: _
+  emotional_reaction: _
+  interpretations: _
+  explorations: _
 
-  classification_label: _ 
+  classification_label: _
 default_generation_args:
   temperature: 0.7
   seed: 0

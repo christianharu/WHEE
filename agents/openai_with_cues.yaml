@@ -38,16 +38,18 @@ template: |-
   Conversation to classify:
   Utterance: {text}
 
+  Also consider for the classification the observed empathy feature values in the utterance:
+  arousal: {arousal}
+  valence: {valence}
+  sentiment: {sentiment}
+  emotional_reaction: {predictions_ER}
+  interpretations: {predictions_IP}
+  explorations: {predictions_EX}
+
+
   Provide your classification using the following format:
   reason: _
-  arousal: _
-  valence: _
   who: _
-  sentiment: _
-  emotional_reaction: _
-  interpretations: _
-  explorations: _
-
   classification_label: _
 default_generation_args:
   temperature: 0.7

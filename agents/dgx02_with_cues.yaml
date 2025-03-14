@@ -1,5 +1,5 @@
-api_key: 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
-model_id: gpt-4o-mini
+host: dgx02
+port: 8000
 agent_prompt: |-
   You are an expert in affective computing and empathy classification.
 template: |-
@@ -38,16 +38,18 @@ template: |-
   Conversation to classify:
   Utterance: {text}
 
+  Also consider for the classification the observed empathy feature values in the utterance:
+  arousal: {arousal}
+  valence: {valence}
+  sentiment: {sentiment}
+  emotional_reaction: {predictions_ER}
+  interpretations: {predictions_IP}
+  explorations: {predictions_EX}
+
+
   Provide your classification using the following format:
   reason: _
-  arousal: _
-  valence: _
   who: _
-  sentiment: _
-  emotional_reaction: _
-  interpretations: _
-  explorations: _
-
   classification_label: _
 default_generation_args:
   temperature: 0.7
