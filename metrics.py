@@ -18,31 +18,17 @@ def compute_metrics(dataset_file: str, label_col: str, prediction_col: str) -> N
     predictions = ds[prediction_col]
 
     # Compute metrics
-    accuracy = metrics.accuracy_score(labels, predictions)
-
-    macro_precision = metrics.precision_score(labels, predictions, average="macro")
-    weighted_precision = metrics.precision_score(
-        labels, predictions, average="weighted"
-    )
-
-    macro_recall = metrics.recall_score(labels, predictions, average="macro")
-    weighted_recall = metrics.recall_score(labels, predictions, average="weighted")
-
-    macro_f1 = metrics.f1_score(labels, predictions, average="macro")
-    weighted_f1 = metrics.f1_score(labels, predictions, average="weighted")
-
-    confusion_matrix = metrics.confusion_matrix(labels, predictions)
-
     report = metrics.classification_report(labels, predictions, output_dict=True)
-    print(report)
+    confusion_matrix = metrics.confusion_matrix(labels, predictions)
 
     # Save results
     save_metrics = dataset_file.parent / f"{dataset_file.stem}.json"
+    with save_metrics.open("w") as f:
+        json.dump(report, f, indent=4)
+
     save_plot = dataset_file.parent / f"{dataset_file.stem}.png"
     metrics.ConfusionMatrixDisplay(confusion_matrix).plot()
     plt.savefig(save_plot)
-    with save_metrics.open("w") as f:
-        json.dump(report, f, indent=4)
 
 
 if __name__ == "__main__":
