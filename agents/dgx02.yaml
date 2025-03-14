@@ -1,4 +1,4 @@
-host: sgx02
+host: dgx02
 port: 8000
 agent_prompt: |-
   You are an expert in affective computing and empathy classification.
