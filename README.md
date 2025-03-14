@@ -13,3 +13,13 @@ The dataset (iempathize.csv) has three classes. Label 0 represents none, label 1
 - Samples: 5000
 
 
+# Install
+
+```bash
+pip install haru-llm --extra-index-url https://pypi.haru-project.com/simple/
+```
+
+# Run
+```bash
+bash run.sh
+```
