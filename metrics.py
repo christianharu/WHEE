@@ -13,7 +13,13 @@ def compute_metrics(dataset_file: str, label_col: str, prediction_col: str) -> N
     dataset_file = Path(dataset_file)
 
     # Read dataset
-    ds = pd.read_csv(dataset_file)
+    raw_ds = pd.read_csv(dataset_file)
+    ds = raw_ds.dropna(axis=0, subset=[label_col, prediction_col])
+    if len(raw_ds) > len(ds):
+        print(
+            f"Computing metrics without {len(raw_ds) - len(ds)} samples because they are null"
+        )
+
     labels = ds[label_col]
     predictions = ds[prediction_col]
 
