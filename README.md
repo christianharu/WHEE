@@ -18,7 +18,7 @@ The dataset (iempathize.csv) has three classes. Label 0 represents none, label 1
 ```bash
 pip install haru-llm --extra-index-url https://pypi.haru-project.com/simple/
 pip install scikit-learn
-pip install transformers datasets evaluate
+pip install transformers[torch] datasets evaluate
 ```
 
 # Run
