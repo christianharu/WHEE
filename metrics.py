@@ -19,7 +19,7 @@ def compute_metrics(dataset_file: str, label_col: str, prediction_col: str) -> N
 
     # Compute metrics
     report = metrics.classification_report(labels, predictions, output_dict=True)
-    confusion_matrix = metrics.confusion_matrix(labels, predictions)
+    confusion_matrix = metrics.confusion_matrix(labels, predictions, normalize="true")
 
     # Save results
     save_metrics = dataset_file.parent / f"{dataset_file.stem}.json"
