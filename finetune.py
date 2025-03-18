@@ -7,7 +7,8 @@ from transformers import (
     AutoModelForSequenceClassification,
     AutoTokenizer,
     Trainer,
-    TrainingArguments
+    TrainingArguments,
+    DataCollatorWithPadding,
 )
 
 
@@ -23,23 +24,29 @@ def finetune(
     """Finetune the model on the dataset."""
     # Read dataset
     ds = load_dataset("csv", data_files=dataset_files)
-    num_labels = len(ds.unique(labels_col))
+    ds = ds.select(range(n)) if n is not None else ds
+    labels = sorted(ds["train"].unique(labels_col))
+    label2id = {label: i for i, label in enumerate(labels)}
+    id2label = {i: label for label, i in label2id.items()}
 
     # Prepare dataset
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    data_collator = DataCollatorWithPadding(tokenizer, padding=True, pad_to_multiple_of=8, return_tensors="pt")
 
     def tokenize_function(examples):
-        return tokenizer(examples[inputs_col], padding="max_length", truncation=True)
+        return tokenizer(examples[inputs_col], truncation=True)
 
     tokenized_ds = ds.map(tokenize_function, batched=True)
-    train_dataset = tokenized_ds["train"].select(range(n)) if n is not None else tokenized_ds["train"]
-    eval_dataset = tokenized_ds["validation"].select(range(n)) if n is not None else tokenized_ds["validation"]
-    test_dataset = tokenized_ds["test"].select(range(n)) if n is not None else tokenized_ds["test"]
+    train_dataset = tokenized_ds["train"]
+    eval_dataset = tokenized_ds["validation"]
+    test_dataset = tokenized_ds["test"]
 
     # Define model
     model = AutoModelForSequenceClassification.from_pretrained(
         model_name,
-        num_labels=num_labels,
+        num_labels=len(labels),
+        label2id=label2id,
+        id2label=id2label,
     )
 
     # Prepare trainer
@@ -60,7 +67,7 @@ def finetune(
         learning_rate=5e-5,
         warmup_steps=500,
         logging_strategy="steps",
-        logging_steps=500,
+        logging_steps=100,
         eval_strategy="epoch",
         save_strategy="epoch",
         save_total_limit=2,
@@ -71,20 +78,17 @@ def finetune(
 
     trainer = Trainer(
         model=model,
+        processing_class=tokenizer,
         args=train_args,
         train_dataset=train_dataset,
         eval_dataset=eval_dataset,
+        data_collator=data_collator,
         compute_metrics=compute_metrics,
     )
 
     # Finetune
     trainer.train()
-
-    # Predict
-    predictions = trainer.predict(test_dataset)
-    print(predictions.metrics)
-    test_dataset = test_dataset.add_column("prediction", predictions.predictions.argmax(-1))
-    test_dataset.to_csv(f'{output_dir}/test_results.csv')
+    trainer.save_model()
 
 if __name__ == "__main__":
     import fire
