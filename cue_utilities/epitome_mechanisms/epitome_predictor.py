@@ -41,7 +41,7 @@ def classify_epitome_values(empathy_classifier,in_df):
     #print(epitome_df)
     return epitome_df   
 
-def predict_epitome_values(mdl_path,in_df):
+def predict_epitome_values(mdl_path,in_df,target):
     if torch.cuda.is_available():
         device = torch.device("cuda")
     else:
@@ -57,20 +57,23 @@ def predict_epitome_values(mdl_path,in_df):
 							EX_model_path = mdl_path+'/reddit_EX.pth')
 
     epitome_df = input_df.copy()
-    epitome_df['speaker_utterance'] = 'this is a dummy text'
-    epitome_df['predictions_ER'] = 0
-    epitome_df['predictions_IP'] = 0
-    epitome_df['predictions_EX'] = 0
+    #epitome_df['speaker_utterance'] = 'this is a dummy text'
+    epitome_df[str(target)+'_predictions_ER'] = 0
+    epitome_df[str(target)+'_predictions_IP'] = 0
+    epitome_df[str(target)+'_predictions_EX'] = 0
     #epitome_df = pd.DataFrame(columns=['ids', 'seeker_posts', 'response_posts', 'predictions_ER', 'predictions_IP', 'predictions_EX', 'predictions_rationale_ER', 'predictions_rationale_IP', 'predictions_rationale_EX'])
-    for i in range(len(epitome_df['text'])):
+    print(len(epitome_df[target]))
+    print(target)
+    for i in range(len(epitome_df[target])):
+        #print(str(epitome_df.loc[i, 'speaker_utterance']) + '' + str(epitome_df.loc[i, 'listener_utterance']))
         #(logits_empathy_ER, predictions_ER, logits_empathy_IP, predictions_IP, logits_empathy_EX, predictions_EX, logits_rationale_ER, predictions_rationale_ER, logits_rationale_IP, predictions_rationale_IP, logits_rationale_EX,predictions_rationale_EX) = empathy_classifier.predict_empathy([epitome_df.loc[i, 'seeker_post']], [epitome_df.loc[i, 'response_post']])
-        (logits_empathy_ER, predictions_ER, logits_empathy_IP, predictions_IP, logits_empathy_EX, predictions_EX, logits_rationale_ER, predictions_rationale_ER, logits_rationale_IP, predictions_rationale_IP, logits_rationale_EX,predictions_rationale_EX) = empathy_classifier.predict_empathy([str(epitome_df.loc[i, 'speaker_utterance'])], [str(epitome_df.loc[i, 'text'])])
+        (logits_empathy_ER, predictions_ER, logits_empathy_IP, predictions_IP, logits_empathy_EX, predictions_EX, logits_rationale_ER, predictions_rationale_ER, logits_rationale_IP, predictions_rationale_IP, logits_rationale_EX,predictions_rationale_EX) = empathy_classifier.predict_empathy([str(epitome_df.loc[i, 'speaker_utterance'])], [str(epitome_df.loc[i, 'listener_utterance'])])
         #epitome_df.loc[i] = [ids[i], seeker_posts[i], response_posts[i], predictions_ER[0], predictions_IP[0], predictions_EX[0], predictions_rationale_ER[0].tolist(), predictions_rationale_IP[0].tolist(), predictions_rationale_EX[0].tolist()]
-        epitome_df.loc[i, 'predictions_ER'] = predictions_ER[0]
-        epitome_df.loc[i, 'predictions_IP'] = predictions_IP[0]
-        epitome_df.loc[i, 'predictions_EX'] = predictions_EX[0]
+        epitome_df.loc[i, str(target)+'_predictions_ER'] = predictions_ER[0]
+        epitome_df.loc[i, str(target)+'_predictions_IP'] = predictions_IP[0]
+        epitome_df.loc[i, str(target)+'_predictions_EX'] = predictions_EX[0]
     #print(epitome_df)
-    epitome_df.drop(columns=['speaker_utterance'])
+    #epitome_df.drop(columns=['speaker_utterance'])
     return epitome_df
 
 
