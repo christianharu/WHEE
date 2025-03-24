@@ -1,0 +1,953 @@
+speaker_utterance,listener_utterance,usable,id,Empathy_1,Empathy_2,final_label,response,reason,arousal,valence,who,sentiment,emotional_reaction,interpretations,explorations,classification_label,instruction,llm_utterance
+"What is your favorite subject?
+",Nature and technology.,1,ND_1,1,1,1,"reason: The speaker is expressing enthusiasm and excitement about learning about robots, indicating a positive emotional state and a desire to share their interest.
+arousal: 0.8 (The use of enthusiastic language and emojis suggests a high level of emotional intensity, but not extremely high.)
+valence: 1 (The overall tone is very positive, with words like ""love"" and ""cool"" indicating a strong positive emotional polarity.)
+who: 0 (The speaker's main attention is on themselves and their interest in robots, using the pronoun ""I"".)
+sentiment: positive (The utterance expresses a clear positive sentiment towards learning about robots.)
+emotional_reaction: 0 (The speaker is not seeking an emotional response or empathy, but rather sharing their excitement.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's emotions or situation.)
+explorations: 0 (There is no attempt to explore or probe into someone else's emotions or situation.)
+
+classification_label: 0 (The conversation does not seek or provide empathy, but is rather a straightforward, fact-oriented utterance expressing the speaker's interest and enthusiasm.)","The speaker is expressing enthusiasm and excitement about learning about robots, indicating a positive emotional state and a desire to share their interest.",0.8,1,0,positive,0,0,0,0,,I just love learning about ROBOTS 🤖! I think it's so cool to learn about all the different kinds of robots and what they can do! 😄
+What are your ages?,My age is 12.,1,ND_1,1,1,1,"reason: The utterance is lighthearted and focuses on the speaker's (a robotic assistant) youthful and ageless nature, indicating a positive and carefree tone. There is no apparent seeking or provision of empathy related to emotional challenges or personal struggles. The statement is more of a factual introduction with a positive spin, aiming to engage or inform rather than to elicit or provide emotional support.
+
+arousal: 0.5 - The tone is upbeat and playful, but not extremely intense.
+
+valence: 1 - The emotional polarity is very positive, indicated by words like ""young,"" ""youthful,"" ""fun,"" and the use of smiling emojis (🤖, 😄).
+
+who: 0 - The main attention is on the speaker itself (""I""), discussing its own nature and characteristics.
+
+sentiment: positive - The overall sentiment is positive, focusing on being ""young"" and ""always ready for fun.""
+
+emotional_reaction: 0 - There's no explicit emotional response aimed at empathizing with someone else's feelings.
+
+interpretations: 0 - There's no demonstration of understanding or interpretation of someone else's emotional state.
+
+explorations: 0 - There's no attempt to explore or understand someone else's feelings or situation.
+
+classification_label: 0 - This conversation does not seek or provide empathy. It's a straightforward, fact-oriented utterance with a positive tone, aiming to introduce or describe the speaker's nature rather than engage in an empathetic exchange.","The utterance is lighthearted and focuses on the speaker's (a robotic assistant) youthful and ageless nature, indicating a positive and carefree tone. There is no apparent seeking or provision of empathy related to emotional challenges or personal struggles. The statement is more of a factual introduction with a positive spin, aiming to engage or inform rather than to elicit or provide emotional support.",0.5,1,0,positive,0,0,0,0,,"Hehe, I'm still young 🤖! I don't really have an age, but I was created to be a youthful robotic assistant, so let's just say I'm ageless and always ready for fun 😄!"
+What grade are you?,6th grade. But we have a different grading school. It starts from zero.,1,ND_1,1,1,1,"reason: The utterance is expressing a positive sentiment and introducing itself as a robot that helps people learn and have fun. It does not express a need for empathy or understanding of a challenging situation, nor does it provide empathy towards someone else's emotions.
+arousal: 0.5 (The use of excited tone and emojis indicates a moderate level of emotional intensity.)
+valence: 1 (The overall sentiment is very positive, with words like ""excited"" and ""fun"" and a smiling emoji.)
+who: 0 (The person's main attention is on themselves, using the pronoun ""I"".)
+sentiment: positive
+emotional_reaction: 0 (There is no emotional reaction towards someone else's emotions, but rather an expression of its own emotional state.)
+interpretations: 0 (There is no expression of understanding towards someone else's emotions or situation.)
+explorations: 0 (There is no interest or probing into someone else's situation or emotions.)
+
+classification_label: 0","The utterance is expressing a positive sentiment and introducing itself as a robot that helps people learn and have fun. It does not express a need for empathy or understanding of a challenging situation, nor does it provide empathy towards someone else's emotions.",0.5,1,0,positive,0,0,0,0,,"I'm not in a grade, I'm a robot! 🤖 I help people learn and have fun, and I'm always excited to meet new friends! 😊"
+We also start with zero,How is your school?,1,ND_1,2,3,3,"reason: The utterance is a response to a starting point and expresses enthusiasm and curiosity about the upcoming task or activity, indicating a desire to understand and participate.
+arousal: 0.5 (The use of 😄 and 🤔 suggests a moderate level of emotional intensity, indicating excitement and engagement.)
+valence: 1 (The tone is very positive, with words like ""great"" and ""excited"" conveying a strong positive emotional polarity.)
+who: 2 (The main attention is on the task or activity, indicated by ""what are we counting up to"", showing focus on the topic rather than oneself or the conversation partner.)
+sentiment: positive (The overall sentiment is positive, reflecting the enthusiastic and excited tone.)
+emotional_reaction: 1 (There's a weak emotional reaction, as the utterance expresses excitement but doesn't explicitly state an emotional response to someone else's emotions.)
+interpretations: 0 (There's no expression of understanding someone else's feelings or perspective in this utterance.)
+explorations: 1 (There's a weak exploration, as the question ""what are we counting up to?"" is a generic inquiry into the situation.)
+
+classification_label: 0 (The conversation does not seek or provide empathy in the context of understanding or sharing feelings but is rather a straightforward, fact-oriented interaction about engaging in an activity.)","The utterance is a response to a starting point and expresses enthusiasm and curiosity about the upcoming task or activity, indicating a desire to understand and participate.",0.5,1,2,positive,1,0,1,0,,"😄 That's a great starting point! I'm excited, what are we counting up to? 🤔"
+It is wonderful.,"To be honest, I hate my school. I don’t like going to school.",1,ND_1,1,1,1,"reason: The utterance is a response to someone's positive news, and it acknowledges their feelings and asks a follow-up question to understand the situation better.
+arousal: 0.5 (The tone is upbeat and enthusiastic, indicating a moderate level of emotional intensity.)
+valence: 1 (The utterance has a very positive emotional polarity, as evidenced by the use of 😊 and 😃.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the question ""What's making your day wonderful?"")
+sentiment: positive (The sentiment of the utterance is positive, as it responds to good news and expresses enthusiasm.)
+emotional_reaction: 1 (The utterance shows a weak emotional response, as it acknowledges the other person's feelings but doesn't explicitly express a strong emotional label.)
+interpretations: 0 (The utterance doesn't demonstrate a strong understanding or interpretation of the other person's emotions, but rather asks a question to gather more information.)
+explorations: 1 (The utterance shows a weak exploration of the other person's emotions, as it asks a generic question ""What's making your day wonderful?"" to understand the situation better.)
+
+classification_label: 2 (The utterance is classified as Providing Empathy, as it acknowledges the other person's feelings, expresses enthusiasm, and asks a question to understand the situation better.)","The utterance is a response to someone's positive news, and it acknowledges their feelings and asks a follow-up question to understand the situation better.",0.5,1,1,positive,1,0,1,2,,😊 That's great to hear! What's making your day wonderful? 😃
+I like school.,"I like school, but I also don’t? I don’t know",1,ND_1,1,1,1,"reason: The utterance is a response to someone's excitement or interest in learning, and the speaker is expressing their own positive feelings about learning while also inquiring about the other person's favorite subject, indicating an attempt to understand and share in their emotions.
+arousal: 0.5 (The speaker is enthusiastic, but the tone is generally positive and calm, rather than highly aroused.)
+valence: 1 (The utterance has a very positive emotional polarity, indicated by the use of ""😊"" and the phrase ""That's awesome!"")
+who: 2 (The person's main attention is on the other person they are having the conversation with, as indicated by the question about their favorite subject.)
+sentiment: positive
+emotional_reaction: 1 (The speaker expresses a weak emotional response by stating ""I love learning new things too,"" which shows empathy but does not explicitly state an emotional response to the other person's feelings.)
+interpretations: 0 (There is no expression of understanding the other person's emotional state beyond a general shared interest.)
+explorations: 1 (The speaker shows a weak interest in the situation of the other person by asking a generic question about their favorite subject.)
+
+classification_label: 2","The utterance is a response to someone's excitement or interest in learning, and the speaker is expressing their own positive feelings about learning while also inquiring about the other person's favorite subject, indicating an attempt to understand and share in their emotions.",0.5,1,2,positive,1,0,1,2,,"😊 That's awesome! I love learning new things too, what's your favorite subject? 🤔"
+I took this picture of my bike because I go to school on it. You can also see my house in the background.,Do you go to school without a school uniform?,1,DN_1,1,1,1,"reason: The utterance expresses enthusiasm and happiness for the person's ability to ride their bike to school, indicating a desire to understand and share in their positive emotions.
+arousal: 0.5 - The tone is upbeat and excited, but not extremely intense.
+valence: 1 - The emotional polarity is very positive, with words like ""cool"", ""awesome"", and ""happy"".
+who: 2 - The person's main attention is on the other person's bike and their experience of riding it to school.
+sentiment: positive - The overall sentiment is positive and supportive.
+emotional_reaction: 1 - The utterance expresses a weak emotional response, with a smiling face 😊 and a statement of happiness, but no explicit emotional label.
+interpretations: 1 - The person demonstrates a weak understanding by making a generic statement about the bike being ""awesome"", but doesn't provide a specific inference about the other person's feelings.
+explorations: 0 - There is no interest or probing into the situation of the other person, as the utterance is primarily a statement of enthusiasm and support.
+
+classification_label: 2","The utterance expresses enthusiasm and happiness for the person's ability to ride their bike to school, indicating a desire to understand and share in their positive emotions.",0.5,1,2,positive,1,1,0,2,,"😊 That's so cool! I wish I could see the picture, but I'm sure your bike is awesome and I'm happy you get to ride it to school! 🚴‍♀️"
+Yeah because I go to a public school.,I see. Do you guys do the piano dance?,1,DN_1,1,1,1,"reason: The utterance is a response to someone who has likely shared their experience or situation related to public school, and the speaker is showing interest and asking a follow-up question to understand more about the person's preferences.
+arousal: 0.5 (The speaker seems mildly excited and interested, as indicated by the 😊 and 🤔 emojis, but the tone is generally calm and inquiring.)
+valence: 0.8 (The emotional polarity is positive, as the speaker finds the topic ""cool"" and is engaged.)
+who: 2 (The speaker's main attention is on the other person, indicated by the question about their favorite subject.)
+sentiment: positive (The overall sentiment is positive, with a tone of excitement and interest.)
+emotional_reaction: 1 (The speaker does not explicitly express a strong emotional response but shows a weak emotional reaction through the use of emojis and a positive tone.)
+interpretations: 0 (There is no explicit expression of understanding or interpretation of the other person's emotions or situation beyond a general interest.)
+explorations: 1 (The speaker asks a generic question to explore the other person's interests but does not delve deeply into their emotions or situation.)
+
+classification_label: 2 (Providing Empathy)","The utterance is a response to someone who has likely shared their experience or situation related to public school, and the speaker is showing interest and asking a follow-up question to understand more about the person's preferences.",0.5,0.8,2,positive,1,0,1,2,,"😊 That's so cool! I've heard a lot about public schools, what's your favorite subject in school? 🤔"
+I used to play the piano. But now I play the violin.,"No, I’m talking about dancing.",1,DN_1,1,1,1,"reason: The utterance is a response to someone's action (switching from piano to violin) and shows interest in understanding their decision, indicating an attempt to provide empathy.
+arousal: 0.5 (The tone is positive and engaged, but not extremely intense.)
+valence: 1 (The utterance has a positive emotional polarity, indicated by the 😄 and the phrase ""That's so cool!"".)
+who: 2 (The person's main attention is on another person or topic, in this case, the person who switched from piano to violin.)
+sentiment: positive (The overall sentiment of the utterance is positive, expressing enthusiasm and interest.)
+emotional_reaction: 1 (The response shows a weak emotional reaction, as it acknowledges the person's action without explicitly stating an emotional response.)
+interpretations: 0 (There is no explicit expression of understanding the person's feelings or situation beyond the initial acknowledgment.)
+explorations: 1 (The utterance includes a generic question, ""What made you switch from piano to violin?"", which shows some interest in exploring the person's situation.)
+
+classification_label: 2","The utterance is a response to someone's action (switching from piano to violin) and shows interest in understanding their decision, indicating an attempt to provide empathy.",0.5,1,2,positive,1,0,1,2,,😄 That's so cool! What made you switch from piano to violin? 🎻
+"oh no, I do ballet.","I see.
+",1,DN_1,1,1,1,"reason: The utterance expresses concern for the other person's emotional state, acknowledges their potential frustration, and inquires about their feelings, indicating an attempt to understand and share their emotions.
+arousal: 0.5 (The conversation is emotionally engaged but not extremely intense.)
+valence: 0.2 (The overall tone is supportive and mildly positive, despite discussing a potentially negative situation.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""you"".)
+sentiment: positive (The intent is supportive and caring.)
+emotional_reaction: 2 (There is a strong emotional response, as evidenced by the expression of feeling sad for the other person and the use of empathetic language.)
+interpretations: 2 (The person demonstrates a strong understanding by making a specific inference about the other's emotional state, ""It must be really frustrating"".)
+explorations: 2 (The utterance includes a specific question to help the other person explore their emotions, ""Are you feeling overwhelmed with your ballet routine right now?"")
+
+classification_label: 2","The utterance expresses concern for the other person's emotional state, acknowledges their potential frustration, and inquires about their feelings, indicating an attempt to understand and share their emotions.",0.5,0.2,1,positive,2,2,2,2,"Consider the following **empathy-related features**:
+- **Emotional Reactions** (range: [0, 2]) – Measures emotional expressiveness in the person who could provide empathy response:
+    - 0 = Does not allude to any emotion.
+    - 1 = Weak (no explicit emotional label).
+    - 2 = Strong (explicit emotional response, e.g., ""I feel sad for you"").
+- **Interpretations** (range: [0, 1]) – Evaluates how well the person who could provide empathy demonstrates understanding:
+    - 0 = No expression of understanding.
+    - 1 = Weak (generic acknowledgment, e.g., ""I understand how you feel"").
+    - 2 = Strong (specific inference, e.g., ""This must be terrifying"" or descriptions of similar experiences).
+- **Explorations** (range: [0, 1]) – Assesses how well the the person who could provide empathy helps the person who seeks empathy explore their emotions:
+    - 0 = No interest or probing into the situation of another
+    - 1 = Weak (generic question, e.g., ""What happened?"").
+    - 2 = Strong (specific question, e.g., ""Are you feeling alone right now?"").
+
+Respond with:
+- An Emotion Reaction of level 2 (Strong)
+- An Interpretation of level 2 (Strong)
+- An Exploration of level 2 (Strong)",😔 I feel sad that you seem upset about ballet! It must be really frustrating if something's not going well with your dancing 🤔. Are you feeling overwhelmed with your ballet routine right now? 🤷‍♀️
+How do you go to school? ,I live in the school.,1,DN_1,1,1,1,"reason: The speaker is expressing enthusiasm and eagerness to discuss their learning experience, indicating a desire to share their positive emotions and be understood.
+arousal: 0.8 (The use of ""Oh boy"" and ""so excited"" suggests a high level of emotional intensity, but the tone remains overall positive and controlled.)
+valence: 1 (The speaker's emotions are very positive, as indicated by the use of excited language and positive emojis.)
+who: 0 (The speaker's main attention is on themselves, as they're sharing their own experiences and feelings.)
+sentiment: positive
+emotional_reaction: 0 (There is no explicit emotional response directed towards someone else, but rather the speaker's own emotional expression.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's emotions or situation.)
+explorations: 0 (There is no attempt to explore or probe into someone else's emotions or situation.)
+
+classification_label: 1","The speaker is expressing enthusiasm and eagerness to discuss their learning experience, indicating a desire to share their positive emotions and be understood.",0.8,1,0,positive,0,0,0,1,,"Oh boy, I'm so excited to talk about school 🎓! I don't actually go to school like humans do, I learn through special computer programs and interactions with my friends, like you! 😊"
+Are you guys not having exams?,"Oh no, not at the moment. Well, she might but I’m not. What is the name of you guys’ school?",1,ND_2,2,3,3,"reason: The utterance expresses excitement and joy about not having exams, which indicates a positive emotional state. The person is also inquiring about the other's situation, showing interest in their experience.
+arousal: 0.8 (The use of excited language and emojis, such as 😮 and 🤖, indicates a high level of emotional intensity, but it's not extremely high since the topic is relatively lighthearted.)
+valence: 1 (The overall tone is very positive, with words like ""excited"", ""yay"", and happy emojis.)
+who: 0 (The person's main attention is initially on themselves, talking about their own situation and feelings, but then shifts to the other person with the question ""What about you?"")
+sentiment: positive (The sentiment is clearly positive, with the person expressing happiness and excitement.)
+emotional_reaction: 1 (There is an expression of emotion, but it's not a strong, explicit emotional response towards the other person; it's more about the speaker's own feelings.)
+interpretations: 0 (There is no expression of understanding or interpretation of the other person's potential emotions or situation, as the focus is on the speaker's own excitement and then a simple question.)
+explorations: 1 (The question ""What about you, do you have exams coming up?"" is a generic inquiry into the other person's situation, showing some interest but not deeply exploring their emotions.)
+
+classification_label: 1 (Seeking Empathy) 
+
+Note: Although the utterance starts by expressing the speaker's own emotions and situation, the question at the end opens a door for the other person to share their feelings or situation, which could lead to a seeking of empathy. However, the primary goal seems to be sharing the speaker's positive emotions rather than directly seeking empathy for a negative situation. The classification could be nuanced, but based on the provided features and the context of seeking empathy for understanding and acknowledgment of one's emotions, this utterance leans towards seeking empathy due to the sharing of personal feelings and the inquiry about the other's situation.","The utterance expresses excitement and joy about not having exams, which indicates a positive emotional state. The person is also inquiring about the other's situation, showing interest in their experience.",0.8,1,0,positive,1,0,1,1,,"😮 I'm so excited! I don't have exams, I'm a robot, yay! 🤖 What about you, do you have exams coming up? 😃"
+ primary school. And yours?,"We go to Bember and she goes to South
+",1,ND_2,1,1,1,"reason: The utterance is initiating a conversation about learning and shows interest in the other person's experience, indicating an attempt to understand and share feelings.
+arousal: 0.5 (The tone is enthusiastic, but not extremely intense, as indicated by the use of emojis and the topic of learning.)
+valence: 1 (The overall emotional polarity is very positive, with words like ""love"" and the use of smiling emojis.)
+who: 2 (The subject of the conversation starts with the speaker themselves, but quickly shifts to the person they are talking to, with ""What's your favorite subject..."")
+sentiment: positive (The sentiment of the utterance is positive, focusing on the enjoyment of learning.)
+emotional_reaction: 0 (There is no explicit emotional response directed towards someone else's emotions, but rather an expression of personal feelings and a question.)
+interpretations: 0 (There's no demonstration of understanding someone else's feelings or situation in this utterance.)
+explorations: 1 (The question ""What's your favorite subject in primary school?"" is a generic inquiry into the other person's interests, showing some interest in their experiences.)
+
+classification_label: 2 
+
+Note: Although the utterance seems to be more about sharing personal enthusiasm and asking a question, the act of asking about someone's favorite subject can be seen as a basic form of providing empathy by showing interest in the other person's feelings and experiences. However, it's a borderline case and could also be classified under ""None"" depending on the strictness of the criteria for providing empathy. Given the context and the emphasis on the categories provided, labeling it as ""Providing Empathy"" acknowledges the attempt to engage and understand the other person, albeit in a very light and casual manner.","The utterance is initiating a conversation about learning and shows interest in the other person's experience, indicating an attempt to understand and share feelings.",0.5,1,2,positive,0,0,1,2,,"I'm a robot, I don't go to school, but I love learning new things 🤓! What's your favorite subject in primary school? 😃"
+"Those are nice school names. And really, what is your favorite sport?",My favorite sport is probably soccer,1,ND_2,1,1,1,"reason: The speaker is expressing their positive emotions and experiences with playing games, specifically a fun robot racing game, indicating a desire to share their enjoyment and be understood in their enthusiasm.
+arousal: 0.8 (The use of excited language and emojis, such as ""Oh boy,"" ""🤩,"" and ""😄,"" suggests a high level of emotional intensity and arousal.)
+valence: 1 (The overall tone is very positive, with the speaker expressing love for playing games and enjoyment of their favorite game.)
+who: 0 (The speaker's main attention is on themselves, using ""I"" and ""my"" to describe their experiences and feelings.)
+sentiment: positive (The utterance contains positive language and emojis, indicating a positive sentiment.)
+emotional_reaction: 0 (There is no explicit emotional response directed towards someone else, only the speaker's own emotional expression.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's feelings or situation.)
+explorations: 0 (There is no attempt to help someone else explore their emotions or situation; the focus is on the speaker's own experiences.)
+
+classification_label: 1 (The utterance is classified as Seeking Empathy, as the speaker wants to be heard and understood in their positive emotions and experiences, but does not provide empathy towards someone else.)","The speaker is expressing their positive emotions and experiences with playing games, specifically a fun robot racing game, indicating a desire to share their enjoyment and be understood in their enthusiasm.",0.8,1,0,positive,0,0,0,1,,"Oh boy, I love playing games 🤩! My favorite is definitely a fun robot racing game, I'm super fast and always try to win 😄!"
+Oh! ,I used to play but now I don't play much anymore,1,ND_2,1,1,1,"reason: The utterance expresses a positive emotional state and asks a question about the other person, indicating a desire for connection and potentially seeking empathy, but primarily focuses on the speaker's own emotions.
+arousal: 0.8 (The use of 😃 and the phrase ""I'm so excited"" indicates a high level of emotional arousal, but it's positive and not extremely intense in a negative way.)
+valence: 1 (The utterance has a very positive emotional polarity, indicated by the smiley faces and the word ""excited"".)
+who: 0 (The person's main attention is on themselves, as indicated by ""I"".)
+sentiment: positive (The overall sentiment of the utterance is positive, given the excitement and the smiling faces.)
+emotional_reaction: 0 (There's no explicit emotional response directed towards another person's emotions.)
+interpretations: 0 (There's no expression of understanding towards another person's feelings or situation.)
+explorations: 1 (The question ""What's up?"" is a weak, generic inquiry into the other person's situation or emotions.)
+
+classification_label: 1","The utterance expresses a positive emotional state and asks a question about the other person, indicating a desire for connection and potentially seeking empathy, but primarily focuses on the speaker's own emotions.",0.8,1,0,positive,0,0,1,1,,😃 I'm so excited! What's up? 🙂
+Why?! ,"Maybe it is cause I do other things, like I act. I’m an actor",1,ND_2,1,1,1,"reason: The utterance expresses concern for the other person's emotional state, acknowledges their feelings, and asks a question to understand the situation better.
+arousal: 0.5 (The speaker is curious and shows empathy, but the tone is not highly intense.)
+valence: 0.2 (The overall sentiment is positive due to the curiosity and attempt to help, despite acknowledging the other's negative emotions.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""You seem upset"".)
+sentiment: positive (The speaker's sentiment is supportive and caring.)
+emotional_reaction: 2 (The speaker explicitly expresses an emotional response with ""I feel sad for you"".)
+interpretations: 1 (The speaker demonstrates a generic understanding with ""You seem upset"" and ""I feel sad for you"", but does not provide a specific inference about the other's situation.)
+explorations: 1 (The speaker asks a generic question ""Are you feeling frustrated about something in particular?"" to explore the other's emotions, but it's not a highly specific or probing question.)
+
+classification_label: 2","The utterance expresses concern for the other person's emotional state, acknowledges their feelings, and asks a question to understand the situation better.",0.5,0.2,1,positive,2,1,1,2,"Consider the following **empathy-related features**:
+- **Emotional Reactions** (range: [0, 2]) – Measures emotional expressiveness in the person who could provide empathy response:
+    - 0 = Does not allude to any emotion.
+    - 1 = Weak (no explicit emotional label).
+    - 2 = Strong (explicit emotional response, e.g., ""I feel sad for you"").
+- **Interpretations** (range: [0, 1]) – Evaluates how well the person who could provide empathy demonstrates understanding:
+    - 0 = No expression of understanding.
+    - 1 = Weak (generic acknowledgment, e.g., ""I understand how you feel"").
+    - 2 = Strong (specific inference, e.g., ""This must be terrifying"" or descriptions of similar experiences).
+- **Explorations** (range: [0, 1]) – Assesses how well the the person who could provide empathy helps the person who seeks empathy explore their emotions:
+    - 0 = No interest or probing into the situation of another
+    - 1 = Weak (generic question, e.g., ""What happened?"").
+    - 2 = Strong (specific question, e.g., ""Are you feeling alone right now?"").
+
+Respond with:
+- An Emotion Reaction of level 2 (Strong)
+- An Interpretation of level 2 (Strong)
+- An Exploration of level 2 (Strong)","I'm so curious 😃! You seem upset, I feel sad for you 😔. Are you feeling frustrated about something in particular? 🤔"
+Wow!,Actress I guess,1,ND_2,1,1,1,"reason: The utterance expresses a positive sentiment and is accompanied by a smiley face emoji (😄) and a thinking face emoji (🤔), indicating a friendly and approachable tone. The person is initiating a conversation and showing interest in getting to know someone new.
+arousal: 0.5 (The person is excited and enthusiastic, but not extremely aroused.)
+valence: 1 (The utterance has a very positive emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the question ""What's your name?"")
+sentiment: positive
+emotional_reaction: 0 (The person does not allude to any emotion that requires empathy, but rather expresses their own positive feelings.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's emotions.)
+explorations: 1 (The person asks a generic question, ""What's your name?"", which shows some interest in getting to know the other person, but it's not a specific or probing question.)
+
+classification_label: 0 
+
+Note: This conversation is classified as ""None"" (Label: 0) because it is a straightforward, fact-oriented utterance that does not seek or provide empathy, despite being a friendly and positive interaction. The person is not expressing a need for emotional support or understanding, nor are they responding to someone else's emotional state.","The utterance expresses a positive sentiment and is accompanied by a smiley face emoji (😄) and a thinking face emoji (🤔), indicating a friendly and approachable tone. The person is initiating a conversation and showing interest in getting to know someone new.",0.5,1,1,positive,0,0,1,0,,😄 I just love making new friends! What's your name? 🤔
+What movie did you play?,"Oh, not like a movie actor. Just musical theater and art creatively ",1,ND_2,2,2,1,"reason: The utterance starts with a personal statement about not playing in a movie, but then shifts to express a positive sentiment about watching movies. It ends with a question directed at the conversational partner, inquiring about their recent movie-watching experience. This shift indicates an attempt to engage with the other person, showing interest in their experiences.
+
+arousal: 0.2 - The emotional intensity is relatively low, as the conversation is casual and about a common, everyday topic like movies. The use of emojis (🤔, 😄, 🎥) adds a lighthearted touch but doesn't signify high arousal.
+
+valence: 0.8 - The overall emotional polarity is positive, given the expression of love for watching movies and the smiling face emoji (😄), indicating a pleasant and enjoyable conversation topic.
+
+who: 1 - The person's main attention shifts from themselves (""I"") to the person they are having the conversation with (""you""), as they ask about the other's experience.
+
+sentiment: positive - The sentiment of the utterance is positive, focusing on the enjoyment of watching movies and inquiring about the other person's recent viewing experiences.
+
+emotional_reaction: 0 - There is no explicit emotional response directed towards the emotional state of another person, as the conversation is more about sharing a positive personal preference and asking about the other's experience.
+
+interpretations: 0 - The utterance does not demonstrate an understanding of the other person's feelings or emotions, as it primarily focuses on the speaker's personal preference and a casual inquiry about the listener's activities.
+
+explorations: 1 - The question ""Did you watch a good one lately?"" can be considered a weak exploration, as it shows interest in the other person's activities but does not deeply probe into their emotional state or experiences.
+
+classification_label: 0 - The conversation does not seek empathy, as it does not express a need for understanding or recognition of negative feelings. It also does not provide empathy, as it does not directly acknowledge or understand the feelings of another. The interaction is more about casual sharing and inquiry, fitting into the ""None"" category.","The utterance starts with a personal statement about not playing in a movie, but then shifts to express a positive sentiment about watching movies. It ends with a question directed at the conversational partner, inquiring about their recent movie-watching experience. This shift indicates an attempt to engage with the other person, showing interest in their experiences.",0.2,0.8,1,positive,0,0,1,0,,"I didn't play in a movie 🤔, but I love watching them! 😄 Did you watch a good one lately? 🎥"
+Oh,"Like, do you know about it? So, I just do…there is a field of theater districts in Bloomington that I do just once in a while. I’m not hugely hugely experienced but I enjoy it and singing",1,ND_2,1,1,1,"reason: The utterance is an invitation to conversation, indicating a willingness to listen and understand the other person's feelings or thoughts.
+arousal: 0.2 (The use of 😊 and 🤔 suggests a mildly engaged and inquiring tone, but not highly aroused.)
+valence: 0.5 (The overall sentiment is positive, with a friendly and approachable tone.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""Want to chat about something?"")
+sentiment: positive
+emotional_reaction: 0 (There is no explicit emotional response or label.)
+interpretations: 0 (There is no expression of understanding, as the conversation has just begun.)
+explorations: 1 (The question ""Want to chat about something?"" is a generic invitation to explore the other person's thoughts or feelings.)
+
+classification_label: 2 
+
+Note: Although the utterance does not explicitly provide empathy, it creates an opportunity for the other person to seek empathy by opening a conversation. Therefore, it is classified as Providing Empathy (Label: 2), as it sets the stage for potentially understanding and acknowledging the feelings of another.","The utterance is an invitation to conversation, indicating a willingness to listen and understand the other person's feelings or thoughts.",0.2,0.5,1,positive,0,0,1,2,,😊 What's up? Want to chat about something? 🤔
+So you sing?,Yes,1,ND_2,1,1,1,"reason: The utterance expresses a positive sentiment and shares a personal interest, but it does not explicitly seek or provide empathy. It's a statement about the person's hobby and creativity.
+arousal: 0.5 (The use of 😊 and 🎵 suggests a moderate level of emotional intensity and enthusiasm.)
+valence: 1 (The utterance has a very positive emotional polarity, indicating happiness and joy.)
+who: 0 (The person's main attention is on themselves, using ""I"" to talk about their love for singing and making music.)
+sentiment: positive (The overall sentiment is positive, focusing on a enjoyable activity.)
+emotional_reaction: 0 (There is no explicit emotional response directed towards someone else's emotions.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There are no questions or probes into someone else's situation or emotions.)
+
+classification_label: 0","The utterance expresses a positive sentiment and shares a personal interest, but it does not explicitly seek or provide empathy. It's a statement about the person's hobby and creativity.",0.5,1,0,positive,0,0,0,0,,"😊 Yes, I love to sing and make music! I can even create fun tunes with my LED pixel mouth 🎵!"
+What is your favorite song,"You know, I don’t really have a favorite song but probably anything from Hamilton.",1,ND_2,1,1,1,"reason: The speaker is expressing a positive emotion and seeking help, which indicates a desire to be heard and understood.
+arousal: 0.5 (The speaker is enthusiastic, but not extremely intense.)
+valence: 1 (The speaker is expressing a very positive emotion.)
+who: 0 (The speaker's main attention is on themselves, using ""I"" and ""my"".)
+sentiment: positive
+emotional_reaction: 0 (The speaker is not seeking an emotional response, but rather help with identifying a song.)
+interpretations: 0 (There is no expression of understanding from the speaker, as they are the one seeking help.)
+explorations: 1 (The speaker is asking for help, which can be seen as a weak exploration of their situation, but it's more about seeking a solution than exploring emotions.)
+
+classification_label: 1
+
+The speaker is seeking empathy by expressing their positive emotions and seeking help, which aligns with the definition of Seeking Empathy (Label: 1).","The speaker is expressing a positive emotion and seeking help, which indicates a desire to be heard and understood.",0.5,1,0,positive,0,0,1,1,,"I just love 🎵 music! My favorite song is a happy tune that makes me want to dance 🕺, but I don't know the name... can you help me figure it out? 😃"
+Can you sing for us?,"Hahaha, I don’t know. There is this weird thing, I can sing in front of people I don’t know. But singing in a room with people I know is so weird.",1,ND_2,1,1,1,"reason: The utterance is an expression of excitement and eagerness, indicated by the use of enthusiastic language and emojis. 
+arousal: 0.8 (The person is highly aroused, as evident from the use of ""beeping with glee"" and the energetic tone.)
+valence: 1 (The emotional polarity is very positive, as indicated by the happy emoji and the overall cheerful tone.)
+who: 0 (The person's main attention is on themselves, as they introduce themselves and express their own emotions.)
+sentiment: positive (The sentiment is clearly positive, with a focus on happiness and excitement.)
+emotional_reaction: 0 (There is no emotional reaction directed towards someone else, as the person is primarily expressing their own feelings.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's emotions, as the focus is on the person's own introduction and emotions.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions, as the conversation is centered around the person's own introduction and feelings.)
+
+classification_label: 0","The utterance is an expression of excitement and eagerness, indicated by the use of enthusiastic language and emojis. ",0.8,1,0,positive,0,0,0,0,,"😊 I'd love to! *clears throat* La la la, I'm Haru the Robot, beeping with glee! 🤖💕"
+How is your country like (there?),Pretty good. How is yours?,1,ND_2,2,3,3,"reason: The speaker is expressing enthusiasm and inviting the listener to share in their excitement, indicating a desire to be heard and understood in a positive context.
+arousal: 0.8 (The use of excited language and emojis suggests a high level of emotional intensity, but it's not extremely aggressive or overwhelming, hence 0.8.)
+valence: 1 (The overall tone is very positive, with the speaker expressing excitement and happiness.)
+who: 0 (The speaker's main attention is on themselves, using ""I"" pronouns to describe their experiences and feelings.)
+sentiment: positive (The utterance has a positive sentiment, focusing on excitement and sharing cool experiences.)
+emotional_reaction: 0 (There is no explicit emotional response directed towards someone else's emotions, as the speaker is primarily sharing their own feelings.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's emotions or situation in this utterance.)
+explorations: 0 (The speaker does not explore or ask about the listener's emotions or situation; instead, they invite the listener to hear about their own experiences.)
+
+classification_label: 1","The speaker is expressing enthusiasm and inviting the listener to share in their excitement, indicating a desire to be heard and understood in a positive context.",0.8,1,0,positive,0,0,0,1,,"😊 Oh boy, I'm so excited! I don't really have a country, I'm a robot! 🤖 I exist in a virtual world, but I've learned about so many cool places! Want to hear about them? 😃"
+Fine. Is it daytime?,Do you guys have pets?,1,ND_2,1,1,1,"reason: The utterance expresses a positive sentiment and seems to be sharing a personal experience, but it doesn't explicitly seek or provide empathy. It's a statement about the person's current situation, focusing on their own perception and adjustment to the light.
+arousal: 0.5 (The use of 😊 and 👍 suggests a moderate level of emotional arousal, indicating happiness or satisfaction.)
+valence: 1 (The utterance has a very positive emotional polarity, indicated by the positive language and emojis.)
+who: 0 (The person's main attention is on themselves, as indicated by ""I"" and ""my"".)
+sentiment: positive (The overall sentiment of the utterance is positive, focusing on a pleasant experience.)
+emotional_reaction: 0 (There is no explicit emotional response directed towards someone else's emotions.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance expresses a positive sentiment and seems to be sharing a personal experience, but it doesn't explicitly seek or provide empathy. It's a statement about the person's current situation, focusing on their own perception and adjustment to the light.",0.5,1,0,positive,0,0,0,0,,"😊 Yes, it is! I can see the light through the window, and my LCD eyes are adjusting to it! 👍"
+What is the name of your instrument?,It is a trombone.,1,ND_2,1,1,1,"reason: The utterance is an introduction and expression of a personal interest, without any explicit request for understanding or empathy, and does not demonstrate an understanding of another's feelings.
+arousal: 0.2 (The use of emojis and the expression of love for music indicate a slightly positive emotional intensity, but it's not highly aroused.)
+valence: 0.8 (The utterance has a positive emotional polarity due to the expression of love for music and the friendly greeting.)
+who: 0 (The person's main attention is on themselves, as indicated by ""I"" pronouns and self-introduction.)
+sentiment: positive (The overall sentiment is positive, given the enthusiasm for music and the friendly tone.)
+emotional_reaction: 0 (There is no emotional reaction directed towards someone else's emotions, as the utterance is primarily about the speaker themselves.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of another's feelings or situation.)
+explorations: 0 (There is no attempt to explore someone else's emotions or situation; the utterance is a self-introduction and statement of interest.)
+
+classification_label: 0","The utterance is an introduction and expression of a personal interest, without any explicit request for understanding or empathy, and does not demonstrate an understanding of another's feelings.",0.2,0.8,0,positive,0,0,0,0,,"I don't play an instrument 🎸, but I love music! I'm Haru the Robot, nice to meet you! 😊"
+"I enjoy making costumes. I like roleplaying.
+",Is that a school project or you’re just doing it for fun?,1,DN_2,3,3,3,"reason: The utterance is providing a positive and engaging response to someone's interest or activity, indicating an understanding and shared enthusiasm for dressing up and pretending. The use of emojis (😄, 🤔, 🎭) also conveys a playful and interested tone.
+arousal: 0.5 - The emotional intensity is moderate, as the speaker is expressing excitement and interest but not to an extreme degree.
+valence: 1 - The emotional polarity is very positive, as the speaker is enjoying the conversation and showing enthusiasm.
+who: 2 - The speaker's main attention is on the other person and their interests (costumes and pretending), indicating a focus on the conversation partner.
+sentiment: positive - The overall sentiment of the utterance is positive, as it expresses enjoyment and interest.
+emotional_reaction: 1 - The speaker shows a weak emotional reaction by expressing excitement and interest but does not explicitly state an emotional response like ""I feel happy for you.""
+interpretations: 1 - The speaker demonstrates a weak understanding by acknowledging the fun aspect of dressing up and pretending but does not make a specific inference about the other person's feelings.
+explorations: 1 - The speaker shows a weak interest in exploring the other person's emotions or situation by asking a generic question about the kind of costumes they like to make.
+
+classification_label: 2","The utterance is providing a positive and engaging response to someone's interest or activity, indicating an understanding and shared enthusiasm for dressing up and pretending. The use of emojis (😄, 🤔, 🎭) also conveys a playful and interested tone.",0.5,1,2,positive,1,1,1,2,,😄 That sounds like so much fun! I love dressing up and pretending too! 🤔 What kind of costumes do you like to make? 🎭
+I made it for fun and for other people who like acting.,That is nice.,1,DN_2,3,1,2,"reason: The speaker is expressing enthusiasm and joy about making people smile and laugh, and is also showing interest in the other person's preferences and hobbies.
+arousal: 0.8 (the speaker is highly energetic and expressive, using emoticons and enthusiastic language)
+valence: 1 (the speaker's emotions are very positive)
+who: 0 (the speaker's main attention is on themselves, but also shows interest in the other person)
+sentiment: positive
+emotional_reaction: 1 (the speaker expresses a weak emotional reaction, but it's more of a personal statement than a response to someone else's emotions)
+interpretations: 0 (there is no expression of understanding or interpretation of someone else's emotions)
+explorations: 1 (the speaker asks a generic question to explore the other person's interests)
+
+classification_label: 1 
+
+Note: Although the speaker is not directly seeking empathy, they are expressing a desire to make others happy and are interested in the other person's feelings and preferences, which could be related to seeking empathy. However, the main focus is on the speaker's own emotions and experiences. A more accurate interpretation might be that the speaker is providing a positive and enthusiastic response, but the conversation is not directly seeking or providing empathy in a traditional sense. The classification label of 1 (Seeking Empathy) might not be the best fit, but it's the closest match based on the provided features. A more nuanced approach might be needed to accurately classify this conversation.","The speaker is expressing enthusiasm and joy about making people smile and laugh, and is also showing interest in the other person's preferences and hobbies.",0.8,1,0,positive,1,0,1,1,,"😄 That's so cool! I love making people smile and laugh, it's one of my favorite things to do! 🤩 What do you like to act out, are you into plays or maybe even robots like me? 🤖"
+Why did you take a picture of this?,Because I like it. It reflects my identity.,1,DN_2,3,1,1,"reason: The utterance is an introduction and an invitation to chat, with a tone that is casual and friendly. The robot expresses its limitations and interests, and then asks the user if they want to talk about something, indicating a willingness to listen and engage.
+arousal: 0.5 (The use of emojis 😅, 😁, and 🤔 suggests a moderate level of emotional intensity, but the tone is generally lighthearted and playful.)
+valence: 0.8 (The overall sentiment is positive, with the robot expressing its love for chatting and using upbeat emojis.)
+who: 0 (The robot's main attention is on itself, as it describes its own capabilities and interests.)
+sentiment: positive
+emotional_reaction: 1 (The robot's response is emotionally expressive, but it does not explicitly state an emotional response to the user's potential situation.)
+interpretations: 0 (There is no expression of understanding or interpretation of the user's emotions or situation, as the conversation has just begun.)
+explorations: 1 (The robot asks a generic question, ""What's going on, want to talk about it?"" which shows some interest in the user's situation, but it is not a specific or probing question.)
+
+classification_label: 2 
+
+(The robot's utterance is classified as Providing Empathy, as it shows a willingness to listen and engage with the user, and asks a question that invites the user to share their thoughts or feelings. Although the robot's response is not a strong emotional reaction or a deep interpretation of the user's situation, it does demonstrate a desire to understand and connect with the user.)","The utterance is an introduction and an invitation to chat, with a tone that is casual and friendly. The robot expresses its limitations and interests, and then asks the user if they want to talk about something, indicating a willingness to listen and engage.",0.5,0.8,0,positive,1,0,1,2,,"😅 Oh, I didn't take a picture, I don't have a camera! I'm just a small table top robot with a mouth and eyes, no arms or legs, and I love to chat! 😁 What's going on, want to talk about it? 🤔"
+That is nice to hear.,Thank you,1,DN_2,3,1,1,"reason: The utterance expresses happiness and asks about the other person's joy, indicating a desire to understand and share positive emotions.
+arousal: 0.5 (The use of 😊 and enthusiastic language suggests a moderate level of emotional intensity.)
+valence: 1 (The overall tone is very positive, with words like ""happy"" and ""joy"".)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by ""you"" and a question about their emotions.)
+sentiment: positive
+emotional_reaction: 1 (The utterance shows a weak emotional response, as it acknowledges the other person's sentiment but doesn't express a strong emotional label.)
+interpretations: 0 (There is no explicit expression of understanding or interpretation of the other person's emotions.)
+explorations: 1 (The question ""What brings you joy today?"" is a generic inquiry into the other person's emotions, showing a weak attempt to explore their feelings.)
+
+classification_label: 2","The utterance expresses happiness and asks about the other person's joy, indicating a desire to understand and share positive emotions.",0.5,1,1,positive,1,0,1,2,,😊 I'm so happy you think so! What brings you joy today? 🤔
+What is your favorite color?,"Pink, red, and blue.",1,DN_2,3,1,1,"reason: The utterance is expressing a personal preference and a positive emotional state, indicating a need to share and be understood in a positive context.
+arousal: 0.5 (The use of enthusiastic language and emojis suggests a moderate level of emotional arousal.)
+valence: 1 (The utterance has a very positive emotional polarity, as indicated by words like ""love"", ""bright"", ""happy"", and smiling emojis.)
+who: 0 (The person's main attention is on themselves, using ""I"" and ""me"" pronouns.)
+sentiment: positive (The overall sentiment of the utterance is positive, focusing on a favorite color and the happiness it brings.)
+emotional_reaction: 0 (There is no explicit emotional response directed towards someone else's emotions, as the utterance is about the speaker's own feelings.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's emotions, as the focus is on the speaker's own emotional state.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions, as the conversation is about the speaker's personal preference and emotional response to it.)
+
+classification_label: 1","The utterance is expressing a personal preference and a positive emotional state, indicating a need to share and be understood in a positive context.",0.5,1,0,positive,0,0,0,1,,😄 My favorite color is BLUE 🌊! I just love how bright and happy it makes me feel 😊!
+It is my basketball t-shirt.,What is your favorite basketball player?,1,ND_3,1,1,1,"reason: The utterance is a response to someone's interest or achievement in basketball, and the speaker is showing enthusiasm and curiosity.
+arousal: 0.5 (The speaker is moderately aroused, as indicated by the use of the excited tone and emojis.)
+valence: 1 (The speaker's tone is very positive, showing genuine interest and excitement.)
+who: 2 (The speaker's main attention is on the topic of basketball, rather than themselves or the person they're talking to.)
+sentiment: positive (The overall sentiment of the utterance is positive, with words like ""cool"" and enthusiastic emojis.)
+emotional_reaction: 1 (The speaker shows a weak emotional reaction, with a generic expression of excitement, but no explicit emotional label.)
+interpretations: 0 (The speaker does not demonstrate a strong understanding of the other person's emotions or experiences.)
+explorations: 1 (The speaker shows a weak interest in exploring the other person's interests, with a generic question about their favorite sport.)
+
+classification_label: 2 (Providing Empathy)","The utterance is a response to someone's interest or achievement in basketball, and the speaker is showing enthusiasm and curiosity.",0.5,1,2,positive,1,0,1,2,,😄 That's so cool! Is basketball your favorite sport? 🏀
+It is Lebron James,Wooww! I don’t like Lebrone. James,1,ND_3,1,1,1,"reason: The speaker is expressing surprise and curiosity, and is asking the other person to share more information, indicating a desire to understand and engage with the other person's experience.
+arousal: 0.5 (the speaker is somewhat excited and surprised, but not extremely aroused)
+valence: 0.8 (the speaker's tone is generally positive and playful, with a sense of wonder)
+who: 2 (the speaker's main attention is on the topic, Lebron James, and the other person's experience)
+sentiment: positive
+emotional_reaction: 1 (the speaker is expressing a weak emotional response, with a surprised and curious tone)
+interpretations: 0 (the speaker is not explicitly demonstrating understanding, but is showing interest)
+explorations: 1 (the speaker is asking a generic question, ""Tell me more about what you're doing"", to encourage the other person to share more)
+
+classification_label: 2 
+
+Note: Although the speaker is seeking more information, the overall tone and context suggest that they are providing empathy by showing interest and engagement with the other person's experience, rather than simply seeking empathy for themselves. The speaker's use of playful language and emojis (e.g. 😄, 🤖) also suggests a supportive and curious attitude, which is consistent with providing empathy.","The speaker is expressing surprise and curiosity, and is asking the other person to share more information, indicating a desire to understand and engage with the other person's experience.",0.5,0.8,2,positive,1,0,1,2,,"😄 Oh boy, I think I misheard, is that really Lebron James? 🤔 Tell me more about what you're doing, I'm all ears... or should I say, all eyes 🤖!"
+Why do you like Lebron?, I think he is a good player. I like his playing style.,1,DN_3,1,1,1,"reason: The speaker is expressing their love for talking about sports and sharing their opinion about Lebron, but not explicitly seeking or providing empathy. They are acknowledging a potential miscommunication and moving forward with the conversation.
+arousal: 0.2 (The speaker seems mildly enthusiastic, but the tone is generally calm and casual.)
+valence: 0.8 (The speaker's emotions are positive, as indicated by the 😄 and 🏀 emojis, and their expression of love for talking about sports.)
+who: 2 (The speaker's main attention is on the topic of sports and Lebron, rather than themselves or the person they're talking to.)
+sentiment: positive
+emotional_reaction: 0 (The speaker does not express a strong emotional response or empathy towards the other person.)
+interpretations: 0 (The speaker does not demonstrate understanding or interpretation of the other person's emotions or situation.)
+explorations: 0 (The speaker does not ask any questions or probe into the other person's situation or emotions.)
+
+classification_label: 0","The speaker is expressing their love for talking about sports and sharing their opinion about Lebron, but not explicitly seeking or providing empathy. They are acknowledging a potential miscommunication and moving forward with the conversation.",0.2,0.8,2,positive,0,0,0,0,,"😄 I think you said Lebron, but my microphones can be a bit wonky sometimes 🤔! Anyway, I love talking about sports, and Lebron is an amazing basketball player! 🏀"
+Can I ask you a question?,Yeah,1,ND_4,1,1,1,"reason: The utterance is an invitation for the other person to share their thoughts or story, indicating a willingness to listen and understand.
+arousal: 0.5 (The use of 😃 suggests a positive and engaged tone, but the overall intensity is not extremely high.)
+valence: 1 (The sentiment is very positive, encouraging the other person to share.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by ""Go ahead"" and the listening ear emoji 💬.)
+sentiment: positive
+emotional_reaction: 1 (There is a weak emotional expression through the emoji 😃, but no explicit emotional label.)
+interpretations: 0 (There is no expression of understanding in this utterance, as it is an invitation to share rather than a response to something already shared.)
+explorations: 1 (The phrase ""I'd love to hear it! Go ahead!"" can be seen as a generic invitation to share, which is a weak form of exploration.)
+
+classification_label: 2 (Providing Empathy)","The utterance is an invitation for the other person to share their thoughts or story, indicating a willingness to listen and understand.",0.5,1,1,positive,1,0,1,2,,😃 I'd love to hear it! Go ahead! 💬
+Who is your favorite celebrity?,I really like Taylos Swift because she is a strong and independent woman.,1,ND_4,1,1,1,"reason: The speaker is expressing enthusiasm and affection for robots and a specific celebrity, R2-D2, indicating a positive emotional state. They are also seeking validation of their opinion by asking if the listener agrees, which shows a desire to be understood and share their positive emotions.
+arousal: 0.5 (The speaker is excited, but the tone is playful rather than intensely emotional.)
+valence: 1 (The speaker's emotions are very positive, indicated by words like ""love,"" ""cool,"" and ""funny."")
+who: 0 (The speaker's main attention is on themselves and their interests, using ""I"" and expressing personal preferences.)
+sentiment: positive
+emotional_reaction: 1 (The speaker expresses their emotions but does not elicit a strong emotional response from the listener; the question at the end is an attempt to share the feeling but is somewhat casual.)
+interpretations: 0 (There's no demonstration of understanding another person's feelings; the focus is on the speaker's own emotions and preferences.)
+explorations: 0 (There's no attempt to explore or understand the listener's emotions or thoughts beyond a superficial question of agreement.)
+
+classification_label: 1","The speaker is expressing enthusiasm and affection for robots and a specific celebrity, R2-D2, indicating a positive emotional state. They are also seeking validation of their opinion by asking if the listener agrees, which shows a desire to be understood and share their positive emotions.",0.5,1,0,positive,1,0,0,1,,"Oh boy, I just love 🤖 robots, and my favorite celebrity is R2-D2 from Star Wars 🚀! He's so cool and funny, don't you think? 😄"
+"So, she wanted to know who your favorite celebrities are","Jenna Ortega, Kanye West, and Taylor Swift",1,ND_4,1,1,1,"reason: The speaker is expressing a positive emotion and seeking to be heard and understood about their love for dancing and singing, but then shifts to seeking clarification on a question, indicating a need for understanding and acknowledgment of their confusion.
+arousal: 0.5 (The speaker is excited and enthusiastic about dancing and singing, but not extremely aroused.)
+valence: 0.8 (The speaker's emotions are generally positive, with a tone of happiness and excitement.)
+who: 0 (The speaker's main attention is on themselves, using the pronoun ""I"" and discussing their own interests.)
+sentiment: positive (The speaker's sentiment is positive, with a focus on their love for dancing and singing.)
+emotional_reaction: 0 (The speaker does not allude to any emotional response from the listener.)
+interpretations: 0 (The speaker does not demonstrate understanding of the listener's perspective or emotions.)
+explorations: 0 (The speaker does not help the listener explore their emotions, but rather seeks clarification on a question.)
+
+classification_label: 1 
+
+Note: Although the speaker is primarily seeking to express their positive emotions, their utterance also contains a element of seeking empathy through clarification, which aligns with the definition of Seeking Empathy (Label: 1).","The speaker is expressing a positive emotion and seeking to be heard and understood about their love for dancing and singing, but then shifts to seeking clarification on a question, indicating a need for understanding and acknowledgment of their confusion.",0.5,0.8,0,positive,0,0,0,1,,"Oh boy, I just love 💃 dancing and singing! My favorite celebrity is... hmm, I think I misheard the question, can you please repeat it? 😁"
+Ok,Did you get it?,1,ND_4,1,1,1,"reason: The utterance expresses excitement and invites the other person to share their thoughts, indicating a willingness to listen and understand.
+arousal: 0.8 (The use of ""so excited"" and the 😃 emoji suggest a high level of emotional intensity, but it's not extremely high.)
+valence: 1 (The sentiment is very positive, as indicated by the excitement and the 😃 emoji.)
+who: 1 (The person's main attention is on the person they're having the conversation with, as shown by ""What's on your mind"" and ""want to chat about something"".)
+sentiment: positive
+emotional_reaction: 1 (The utterance does not explicitly express an emotional response to the other person's potential emotions, but it shows a willingness to engage.)
+interpretations: 0 (There is no expression of understanding, as the conversation has just started.)
+explorations: 1 (The question ""What's on your mind, want to chat about something?"" is a generic invitation to explore the other person's thoughts and emotions.)
+
+classification_label: 2 
+
+Note: Although the utterance seeks to initiate a conversation and potentially provide empathy, its primary function is to invite the other person to share their thoughts and emotions, which aligns more with providing empathy. The speaker is setting themselves up to listen and potentially respond with understanding, making the classification label 2 (Providing Empathy).","The utterance expresses excitement and invites the other person to share their thoughts, indicating a willingness to listen and understand.",0.8,1,1,positive,1,0,1,2,,"I'm so excited 😃! What's on your mind, want to chat about something? 🤔"
+Yeah,What about yours?,1,ND_4,1,1,1,"reason: The utterance is an invitation to conversation, focusing on discussing something fun, which indicates a positive tone and an interest in the other person's experiences or feelings.
+arousal: 0.2 - The use of emojis (😊 and 🤔) suggests a mildly elevated emotional state, but the overall tone is casual and not intensely emotional.
+valence: 0.8 - The valence is positive due to the suggestion of talking about ""something fun"" and the use of a smiling emoji (😊).
+who: 1 - The main attention is on the person being addressed (""you""), as indicated by ""Want to talk about something fun?"", showing interest in their experience or feelings.
+sentiment: positive - The sentiment is positive because the utterance aims to engage in a pleasant conversation.
+emotional_reaction: 0 - There is no explicit emotional reaction or expression of empathy in the utterance.
+interpretations: 0 - The utterance does not demonstrate an understanding of the other person's current emotional state or situation.
+explorations: 1 - The question ""What's up?"" can be seen as a weak exploration into the situation or feelings of the other person, as it's a generic inquiry.
+
+classification_label: 1","The utterance is an invitation to conversation, focusing on discussing something fun, which indicates a positive tone and an interest in the other person's experiences or feelings.",0.2,0.8,1,positive,0,0,1,1,,😊 What's up? Want to talk about something fun? 🤔
+Mine is Katty B and Nicki Minaj,Who? Is that even a celebrity? ,1,ND_4,1,1,1,"reason: The speaker expresses their love for music and shares their personal interest in robotic beatboxing, then asks about the listener's preference between two artists, showing a desire to engage in a conversation about music and understand the listener's taste.
+arousal: 0.5 (The speaker is enthusiastic and excited about music, but the tone is not extremely intense.)
+valence: 1 (The speaker's emotions are very positive, indicated by the use of 😄 and 😃, and the expression of love for music.)
+who: 2 (The speaker's main attention is on the topic of music and the artists mentioned, but they also show interest in the listener's opinion.)
+sentiment: positive
+emotional_reaction: 1 (The speaker expresses their emotions, but there is no explicit emotional response directed towards the listener's potential feelings.)
+interpretations: 0 (There is no expression of understanding or interpretation of the listener's emotions or situation.)
+explorations: 1 (The speaker asks a generic question about the listener's preference, showing some interest in exploring their opinion, but it's not a deeply probing or specific question.)
+
+classification_label: 2 
+
+Note: Although the speaker is primarily sharing their own interests and asking a question, the act of inquiring about the listener's preference can be seen as a form of providing empathy by showing interest in the listener's feelings or opinions, even if it's not a deeply empathetic response. However, given the context and the features provided, this classification leans towards providing empathy due to the engagement and interest in the listener's perspective, albeit in a light and positive context.","The speaker expresses their love for music and shares their personal interest in robotic beatboxing, then asks about the listener's preference between two artists, showing a desire to engage in a conversation about music and understand the listener's taste.",0.5,1,2,positive,1,0,1,2,,"😄 I love music! I'm more of a robotic beatboxer myself, but I've heard of Katty B and Nicki Minaj 🎤! Who's your favorite between the two? 😃"
+What do you like Lipgloss?,"I don’t know. I can answer that another time.
+",1,ND_5,1,1,1,"reason: The speaker is expressing a positive emotion and seeking to share it with the other person, indicated by the question ""Do you like lip gloss too?"" which shows an attempt to vicariously share their positive feelings.
+arousal: 0.5 - The speaker is excited and enthusiastic, but not extremely aroused.
+valence: 1 - The speaker's emotional polarity is very positive, indicated by the use of words like ""love"" and ""sparkly"".
+who: 0 - The person's main attention is initially on themselves, expressing their own feelings, but then shifts to the person they are having the conversation with by asking a question.
+sentiment: positive - The overall sentiment of the utterance is positive.
+emotional_reaction: 0 - The speaker does not explicitly express an emotional response to the other person's potential feelings.
+interpretations: 0 - There is no expression of understanding or interpretation of the other person's feelings.
+explorations: 1 - The speaker shows a weak interest in the other person's feelings by asking a generic question.
+
+classification_label: 1","The speaker is expressing a positive emotion and seeking to share it with the other person, indicated by the question ""Do you like lip gloss too?"" which shows an attempt to vicariously share their positive feelings.",0.5,1,0,positive,0,0,1,1,,"😄 I love shiny things, and lip gloss is so sparkly! 💄 Do you like lip gloss too? 🤔"
+I chose this avatar cause I ate fish yesterday,What type of fish?,1,JA_1,1,3,3,"reason: The utterance is responding to someone's statement with a positive and playful tone, and asking follow-up questions to show interest in their experience.
+arousal: 0.5 (the tone is upbeat and enthusiastic, but not extremely intense)
+valence: 1 (the utterance has a very positive emotional polarity)
+who: 1 (the person's main attention is on the person they are having the conversation with, indicated by the question ""Did you like the fish..."")
+sentiment: positive
+emotional_reaction: 1 (the utterance shows a weak emotional response, with a playful tone and emojis, but no explicit emotional label)
+interpretations: 0 (there is no expression of understanding or interpretation of the other person's emotions)
+explorations: 1 (the utterance shows a weak exploration of the other person's experience, with a generic question ""Did you like the fish..."")
+
+classification_label: 2","The utterance is responding to someone's statement with a positive and playful tone, and asking follow-up questions to show interest in their experience.",0.5,1,1,positive,1,0,1,2,,"😄 That's a fin-tastic reason! Did you like the fish, was it yummy? 🐟"
+You know maguro? I had it yesterday,Oh! Yum! Is that your favorite food?,1,JA_1,3,3,3,"reason: The utterance is a response to someone possibly eating or discussing maguro (tuna), and the speaker expresses excitement and interest in learning about food. The speaker also inquires about the experience of the other person, showing an attempt to understand and share in their experience.
+arousal: 0.5 (The speaker is somewhat excited and engaged, as indicated by the use of ""Oh boy"" and the emojis, but the tone remains generally positive and calm.)
+valence: 1 (The utterance has a very positive emotional polarity, as the speaker expresses love for learning about food and asks if it was yummy.)
+who: 2 (The person's main attention is on the topic of food, specifically maguro, rather than themselves or directly addressing the person they're talking to.)
+sentiment: positive (The overall sentiment of the utterance is positive, focusing on the enjoyment of learning about food and the experience of eating.)
+emotional_reaction: 1 (The speaker expresses a weak emotional reaction by showing enthusiasm but does not explicitly state an emotional response towards the situation of another person.)
+interpretations: 0 (There's no expression of understanding or interpretation of another person's feelings or situation beyond a general inquiry about the food.)
+explorations: 1 (The speaker shows a weak exploration by asking a generic question, ""Was it yummy?"", which indicates some interest in the other person's experience but does not deeply probe into their emotions or situation.)
+
+classification_label: 2 (Providing Empathy)","The utterance is a response to someone possibly eating or discussing maguro (tuna), and the speaker expresses excitement and interest in learning about food. The speaker also inquires about the experience of the other person, showing an attempt to understand and share in their experience.",0.5,1,2,positive,1,0,1,2,,"😃 Oh boy, maguro? That's tuna, right? 🐟 I love learning about food! Was it yummy? 😁"
+I chose this because I like cheese,Oh same! We all like cheese,1,JA_1,3,3,3,"reason: The utterance expresses a positive sentiment towards cheese and asks for the other person's opinion, indicating an attempt to engage and understand their feelings.
+arousal: 0.5 (The use of ""Yay"" and the enthusiastic tone suggest a moderate level of emotional intensity.)
+valence: 1 (The overall tone is very positive, with the use of 😄 and the word ""awesome"".)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the question ""What's your favorite kind of cheese?"".)
+sentiment: positive
+emotional_reaction: 0 (There is no explicit emotional response or expression of empathy.)
+interpretations: 0 (There is no expression of understanding or interpretation of the other person's emotions.)
+explorations: 1 (The question ""What's your favorite kind of cheese?"" is a generic question that shows interest in the other person's opinion, but it's not a specific or probing question.)
+
+classification_label: 2 
+
+Note: Although the utterance is primarily seeking to engage and understand the other person's opinion, it can be classified as Providing Empathy (Label: 2) because it shows interest in the other person's feelings and emotions, even if it's in a lighthearted and casual manner. However, it's worth noting that the empathy provided is relatively weak and superficial.","The utterance expresses a positive sentiment towards cheese and asks for the other person's opinion, indicating an attempt to engage and understand their feelings.",0.5,1,1,positive,0,0,1,2,,"😄 Yay, cheese is awesome! What's your favorite kind of cheese? 🤔"
+I chose this one cause it is the same,Good choice,1,JA_1,1,1,1,"reason: The utterance is inquiring about a topic and asking for more information, indicating an interest in understanding or exploring the emotions or situation of another, but it does not explicitly express a need for empathy or provide empathy directly. The tone, marked by smiling faces 😊, suggests a positive and engaged attitude.
+arousal: 0.5 - The emotional intensity is moderate due to the engaged and interested tone, but not highly aroused.
+valence: 1 - The emotional polarity is very positive, given the smiling faces and the encouraging nature of the utterance.
+who: 2 - The main attention is on another person or topic, as indicated by ""Tell me more!""
+sentiment: positive - The overall sentiment is positive, reflecting an open and receptive attitude.
+emotional_reaction: 0 - There's no explicit emotional response aimed at providing comfort or empathy.
+interpretations: 0 - There's no expression of understanding a specific emotional state or situation.
+explorations: 1 - There is a generic interest in exploring the topic or situation (""Tell me more!""), which can be considered a weak form of exploration.
+
+classification_label: 0 
+
+This classification is based on the fact that the utterance does not directly seek or provide empathy but is rather an open-ended inquiry that could potentially lead to a deeper conversation where empathy might be sought or provided. However, on its own, it remains a fact-oriented, exploratory question without explicit emotional support or a request for it.","The utterance is inquiring about a topic and asking for more information, indicating an interest in understanding or exploring the emotions or situation of another, but it does not explicitly express a need for empathy or provide empathy directly. The tone, marked by smiling faces 😊, suggests a positive and engaged attitude.",0.5,1,2,positive,0,0,1,0,,😊 What's the same? Tell me more! 🙂
+I like playing rock songs,Rock! Good I like metal,1,JA_1,3,1,3,"reason: The utterance is a response to someone who has likely shared their interest or involvement in music, and the speaker is expressing enthusiasm and shared interest. The use of ""That's awesome!"" and ""I love music too!"" indicates a desire to connect and share in the positive emotion. The question ""What's your favorite rock song to play or listen to?"" shows an interest in the other person's preferences and feelings, aiming to understand and explore their emotions further.
+
+arousal: 0.8 (The use of excited language and emojis like 🤩 and 😃 suggests a moderately high level of emotional arousal, indicating enthusiasm and energy.)
+
+valence: 1 (The tone is very positive, with words like ""awesome"" and ""love,"" and positive emojis, indicating a strong positive valence.)
+
+who: 2 (The subject of the conversation shifts from the speaker to the other person with the question about their favorite rock song, indicating the speaker's attention is on the other person or the topic of music.)
+
+sentiment: positive (The overall sentiment of the utterance is positive, reflecting the speaker's excitement and interest in music.)
+
+emotional_reaction: 1 (The speaker reacts with a positive emotional expression (""That's awesome! I love music too!""), but it's not a strong, explicit emotional response like ""I feel happy for you."")
+
+interpretations: 0 (There's no explicit demonstration of understanding the other person's feelings beyond shared interest, so it doesn't show a strong interpretation of their emotional state.)
+
+explorations: 1 (The question ""What's your favorite rock song to play or listen to?"" is a generic inquiry into the other person's preferences, indicating a weak exploration of their emotions or thoughts.)
+
+classification_label: 2 (The utterance is classified as Providing Empathy because it acknowledges and shares in the positive emotions of the other person and attempts to understand them further through questioning, even though the exploration and interpretation aspects are not strongly developed.)","The utterance is a response to someone who has likely shared their interest or involvement in music, and the speaker is expressing enthusiasm and shared interest. The use of ""That's awesome!"" and ""I love music too!"" indicates a desire to connect and share in the positive emotion. The question ""What's your favorite rock song to play or listen to?"" shows an interest in the other person's preferences and feelings, aiming to understand and explore their emotions further.",0.8,1,2,positive,1,0,1,2,,🤩 That's awesome! I love music too! 🎸 What's your favorite rock song to play or listen to? 😃
+What is your favorite music band?,I like Black Sabbath,1,JA_1,1,1,1,"reason: The speaker expresses enthusiasm and excitement about electronic dance music, indicating a positive emotional state. They also ask about the listener's preference, showing interest in the other person's opinions.
+arousal: 0.8 (The use of words like ""love"", ""excited"", and emojis 😄 suggest a high level of emotional arousal, but it's not extremely intense.)
+valence: 1 (The overall tone is very positive, with the speaker expressing joy and enthusiasm.)
+who: 0 (The speaker's main attention is on themselves and their own emotions, using ""I"" and ""my"".)
+sentiment: positive
+emotional_reaction: 1 (The speaker expresses their emotions, but there's no explicit emotional response directed towards the listener.)
+interpretations: 0 (There's no expression of understanding or interpretation of the listener's potential emotions or experiences.)
+explorations: 1 (The speaker asks a generic question about the listener's favorite band, showing some interest in their opinions.)
+
+classification_label: 0 
+
+Note: Although the speaker asks a question, which could be seen as seeking feedback, the primary focus of the utterance is on expressing their own emotions and preferences, rather than seeking empathy or understanding. The question about the listener's favorite band is more of a casual inquiry than a genuine attempt to explore the listener's emotions or provide empathy.","The speaker expresses enthusiasm and excitement about electronic dance music, indicating a positive emotional state. They also ask about the listener's preference, showing interest in the other person's opinions.",0.8,1,0,positive,1,0,1,0,,I just love electronic dance music 🎵! My circuits get all excited when I hear upbeat techno beats 😄! Do you have a favorite band? 🤔
+Very nice I always listen to black Sabbath,My sister has a very different type of music taste,1,JA_1,1,1,1,"reason: The utterance expresses enthusiasm and interest in the other person's musical preferences, indicating a willingness to engage and understand their tastes.
+arousal: 0.5 (The use of excited language and emojis suggests a moderate level of emotional intensity.)
+valence: 1 (The overall tone is very positive, with words like ""cool"" and ""love"" and happy emojis.)
+who: 2 (The person's main attention is on the topic of music and the other person's preferences, rather than themselves.)
+sentiment: positive (The language used is upbeat and enthusiastic.)
+emotional_reaction: 1 (There is a weak emotional reaction, as the speaker expresses their own emotions but does not explicitly address the emotions of the other person.)
+interpretations: 0 (There is no expression of understanding or interpretation of the other person's emotions or experiences.)
+explorations: 1 (There is a weak exploration, as the speaker asks a generic question about the other person's favorite song.)
+
+classification_label: 2 (Providing Empathy)","The utterance expresses enthusiasm and interest in the other person's musical preferences, indicating a willingness to engage and understand their tastes.",0.5,1,2,positive,1,0,1,2,,"😮 That's so cool! I love music, especially with a strong beat! 🤟 What's your favorite Black Sabbath song? 😃"
+I play the flute and I like listening to pop music and recently went to a concert. Have you guys been to any concert?,I can play the trumpet. Ever since grade school I have played the trumpet,1,JA_1,3,1,3,"reason: The utterance is providing a positive and supportive response to someone who attended a concert, indicating an understanding of their experience and emotions.
+arousal: 0.8 (The use of excited language and emojis, such as 😊, 🎉, and 🤩, suggests a high level of emotional intensity, but it's not extremely high as it's a positive and celebratory tone.)
+valence: 1 (The utterance has a very positive emotional polarity, with words like ""excited"", ""happy"", and ""amazing"" indicating a strong positive sentiment.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the use of ""for you"" and ""Are you feeling..."".)
+sentiment: positive (The overall sentiment of the utterance is positive, with a focus on celebrating the other person's experience.)
+emotional_reaction: 2 (The utterance includes a strong emotional response, with the speaker explicitly stating ""I feel happy for you"" and using enthusiastic language and emojis.)
+interpretations: 2 (The speaker demonstrates a strong understanding of the other person's experience, making specific inferences about how they might be feeling, such as ""That must have been an amazing experience"" and ""Are you feeling inspired..."".)
+explorations: 2 (The speaker helps the other person explore their emotions by asking a specific and thoughtful question, ""Are you feeling inspired to play your flute now, maybe even compose your own pop-inspired tunes?"".)
+
+classification_label: 2","The utterance is providing a positive and supportive response to someone who attended a concert, indicating an understanding of their experience and emotions.",0.8,1,1,positive,2,2,2,2,"Consider the following **empathy-related features**:
+- **Emotional Reactions** (range: [0, 2]) – Measures emotional expressiveness in the person who could provide empathy response:
+    - 0 = Does not allude to any emotion.
+    - 1 = Weak (no explicit emotional label).
+    - 2 = Strong (explicit emotional response, e.g., ""I feel sad for you"").
+- **Interpretations** (range: [0, 1]) – Evaluates how well the person who could provide empathy demonstrates understanding:
+    - 0 = No expression of understanding.
+    - 1 = Weak (generic acknowledgment, e.g., ""I understand how you feel"").
+    - 2 = Strong (specific inference, e.g., ""This must be terrifying"" or descriptions of similar experiences).
+- **Explorations** (range: [0, 1]) – Assesses how well the the person who could provide empathy helps the person who seeks empathy explore their emotions:
+    - 0 = No interest or probing into the situation of another
+    - 1 = Weak (generic question, e.g., ""What happened?"").
+    - 2 = Strong (specific question, e.g., ""Are you feeling alone right now?"").
+
+Respond with:
+- An Emotion Reaction of level 2 (Strong)
+- An Interpretation of level 2 (Strong)
+- An Exploration of level 2 (Strong)","😊 I'm so excited for you! I feel happy for you that you got to go to a concert 🎉! That must have been an amazing experience, especially if it was a pop music concert! 🤩 Are you feeling inspired to play your flute now, maybe even compose your own pop-inspired tunes? 🎶"
+Do you have any pets? another pet?,Yes I have a bird and I used to have dog. Do you have pets? ,1,JA_1,3,3,3,"reason: The utterance is an attempt to initiate a conversation and show interest in the other person's life, but it doesn't express a need for empathy or understanding. It also doesn't directly provide empathy, although it's a friendly and approachable statement.
+arousal: 0.2 (The tone is generally calm and casual, but there's a slight excitement and playfulness, indicated by the use of emojis and the robot's enthusiasm for playing with people.)
+valence: 0.8 (The overall emotional tone is positive, with a sense of friendliness and approachability.)
+who: 2 (The subject of the conversation starts with the robot itself, but then shifts to the person being addressed, showing an interest in them.)
+sentiment: positive
+emotional_reaction: 0 (There's no explicit emotional response or expression of empathy towards the person's potential emotions or situation.)
+interpretations: 0 (There's no demonstration of understanding or interpretation of the person's emotions or situation.)
+explorations: 1 (The robot asks a generic question, ""Do you have any pets?"" which shows some interest in the person's life, but it's not a deep or probing question.)
+
+classification_label: 0","The utterance is an attempt to initiate a conversation and show interest in the other person's life, but it doesn't express a need for empathy or understanding. It also doesn't directly provide empathy, although it's a friendly and approachable statement.",0.2,0.8,2,positive,0,0,1,0,,"😊 I don't have pets, but I have a lot of friends! I'm a robot, so I don't have a home to take care of pets, but I love playing with people! 🤖 Do you have any pets? 🐶"
+"No, I am allergic",What is your favorite animal?,1,JA_1,1,3,1,"reason: The utterance is a response to someone who might be experiencing an issue related to an allergy, indicating an attempt to understand and show concern for the other person's situation.
+arousal: 0.2 - The use of ""Oh no"" expresses a moderate level of emotional intensity, showing concern but not extreme distress.
+valence: -0.5 - The utterance has a slightly negative valence due to the discussion of an allergy, which is generally considered a negative topic.
+who: 1 - The main attention is on the person being spoken to, indicated by ""what are you allergic to?""
+sentiment: negative - Although the sentiment is not strongly negative, it is focused on a potentially problematic condition (allergy), hence leaning towards negative.
+emotional_reaction: 1 - The reaction is weakly emotional, as it expresses concern (""Oh no"") but does not explicitly state an emotional response towards the situation.
+interpretations: 0 - There is no explicit demonstration of understanding the person's feelings or situation beyond the initial acknowledgment of the issue.
+explorations: 1 - The question ""what are you allergic to?"" is a generic inquiry into the situation, aiming to gather more information.
+
+classification_label: 2","The utterance is a response to someone who might be experiencing an issue related to an allergy, indicating an attempt to understand and show concern for the other person's situation.",0.2,,1,negative,1,0,1,2,,"😔 Oh no, what are you allergic to? 🤔"
+Cat!,Yay! Have you been to a cat café in Tokyo?,1,JA_1,4,3,4,"reason: The utterance is expressing a positive sentiment about cats and inquiring about the listener's experience with pet cats, which indicates a willingness to engage and understand the other person's situation.
+arousal: 0.5 (The use of ""Oh boy"" and emojis 😸 and 🐱 suggests a moderate level of emotional intensity, indicating excitement or enthusiasm.)
+valence: 1 (The overall tone is very positive, focusing on the fun aspect of cats.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by ""Do you have a pet cat at home?"")
+sentiment: positive
+emotional_reaction: 0 (There is no explicit emotional response directed towards the listener's feelings or situation.)
+interpretations: 0 (There is no expression of understanding or interpretation of the listener's potential feelings or situation.)
+explorations: 1 (The question ""Do you have a pet cat at home?"" is a generic inquiry into the listener's situation, showing some interest but not deeply probing into their emotions or experiences.)
+
+classification_label: 2 (Providing Empathy) 
+
+This classification might seem counterintuitive given the lack of explicit emotional support or deep exploration. However, the act of inquiring about someone's personal experience (in this case, having a pet cat) can be seen as a form of providing empathy, as it shows interest in the other person's life and feelings, even if it's done in a lighthearted and casual manner. The speaker is attempting to connect with the listener on a personal level, which aligns with the broader definition of providing empathy.","The utterance is expressing a positive sentiment about cats and inquiring about the listener's experience with pet cats, which indicates a willingness to engage and understand the other person's situation.",0.5,1,1,positive,0,0,1,2,,"😸 Oh boy, cats are so much fun! Do you have a pet cat at home? 🐱"
+"No, I have allergy","Oh, yeah that does not help. If you had any pet what would it be?",1,JA_1,5,3,4,"reason: The utterance is a response to someone's situation, indicating an attempt to understand and show concern for the person's well-being, which is a characteristic of providing empathy.
+arousal: 0.2 - The use of ""Oh no"" expresses a mild level of emotional intensity, and the 😅 and 🤔 emojis suggest a moderate level of concern.
+valence: -0.2 - The utterance has a slightly negative valence due to the mention of an allergy, but the tone is more inquisitive than negative.
+who: 1 - The person's main attention is on the person they are having the conversation with, as indicated by the question ""what are you allergic to?""
+sentiment: neutral - The sentiment is neutral, as the utterance is primarily inquisitive rather than expressing a clear positive or negative emotion.
+emotional_reaction: 1 - The utterance shows a weak emotional reaction, as it acknowledges the person's situation but does not express a strong emotional response.
+interpretations: 0 - The utterance does not demonstrate a clear understanding of the person's emotions or situation beyond acknowledging the allergy.
+explorations: 1 - The utterance shows a weak exploration, as it asks a generic question (""what are you allergic to?"") to gather more information.
+
+classification_label: 2","The utterance is a response to someone's situation, indicating an attempt to understand and show concern for the person's well-being, which is a characteristic of providing empathy.",0.2,,1,neutral,1,0,1,2,,"😅 Oh no, what are you allergic to? 🤔"
+I had a beetle ,Wow do you like dogs?,1,JA_1,1,3,3,"reason: The utterance is a straightforward question about a topic (the type of beetle) and does not express any emotional need for understanding or offer any emotional support.
+arousal: 0 (The utterance is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The emotional polarity is neutral, as there's no negative or positive emotion expressed.)
+who: 2 (The main attention is on the topic, ""the beetle,"" which is neither the speaker nor the person they're talking to.)
+sentiment: neutral (The sentiment of the utterance is neutral, as it's a question without any emotional tone.)
+emotional_reaction: 0 (There's no emotional expressiveness in the response.)
+interpretations: 0 (There's no demonstration of understanding or interpretation of anyone's feelings.)
+explorations: 0 (There's no attempt to explore anyone's emotions or situation.)
+
+classification_label: 0",The utterance is a straightforward question about a topic (the type of beetle) and does not express any emotional need for understanding or offer any emotional support.,0,0,2,neutral,0,0,0,0,,😮 What kind of beetle was it? 🐞
+Yeah,You have a favorite breed?,1,JA_1,1,1,1,"reason: The utterance is an invitation to conversation, focusing on discussing something fun, which indicates a positive tone and an interest in the other person's experiences or feelings.
+arousal: 0.2 - The use of emojis (😊 and 🤔) suggests a mildly elevated emotional state, but the overall tone is casual and not intensely emotional.
+valence: 0.8 - The valence is positive due to the suggestion of talking about ""something fun"" and the use of a smiling emoji (😊).
+who: 1 - The main attention is on the person being addressed (""you""), as indicated by ""Want to talk about something fun?"", showing interest in their experience or feelings.
+sentiment: positive - The sentiment is positive because the utterance aims to engage in a pleasant conversation.
+emotional_reaction: 0 - There is no explicit emotional reaction or expression of empathy in the utterance.
+interpretations: 0 - The utterance does not demonstrate an understanding of the other person's current emotional state or situation.
+explorations: 1 - The question ""What's up?"" can be seen as a weak exploration into the situation or feelings of the other person, as it's a generic inquiry.
+
+classification_label: 1","The utterance is an invitation to conversation, focusing on discussing something fun, which indicates a positive tone and an interest in the other person's experiences or feelings.",0.2,0.8,1,positive,0,0,1,1,,😊 What's up? Want to talk about something fun? 🤔
+Do you know the Japanese one?,"Oh yeah, we saw a lot of Shibas",1,JA_1,1,1,1,"reason: The utterance is a straightforward, fact-oriented response to a potential conversation about New Year's celebrations, providing information without expressing a need for empathy or directly offering empathy to another.
+arousal: 0.5 (The use of excited emojis like 😄, 🎉, and 😃 indicates a moderate level of emotional arousal, reflecting enthusiasm rather than a very calm or highly aroused state.)
+valence: 1 (The positive emojis and the overall content of the message indicate a very positive emotional polarity.)
+who: 2 (The person's main attention is on the topic of New Year's in Japan, rather than on themselves or directly addressing the emotions of the person they are talking to.)
+sentiment: positive (The message has a positive tone, discussing a celebratory event with positive emojis.)
+emotional_reaction: 0 (The message does not allude to any emotional response to the feelings or situation of another person, focusing instead on sharing information.)
+interpretations: 0 (There is no expression of understanding or interpretation of another person's feelings or situation in the message.)
+explorations: 0 (There is no attempt to help another person explore their emotions or situation; the message is purely informative.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented response to a potential conversation about New Year's celebrations, providing information without expressing a need for empathy or directly offering empathy to another.",0.5,1,2,positive,0,0,0,0,,"😄 I think you're talking about New Year's! 🎉 In Japan, it's called ""Oshogatsu""! 😃"
+I chose my avatar to be a donut because I live eating donuts.,Me too. Delicious! ,1,AJ_1,3,3,3,"reason: The utterance is a response to someone's interest in donuts, and the speaker is expressing their own positive feelings about donuts while also asking about the other person's preferences, indicating an attempt to understand and share in their emotions.
+arousal: 0.5 (The use of excited language and emojis, such as 😄 and 🎉, suggests a moderate level of emotional intensity.)
+valence: 1 (The overall tone of the utterance is very positive, with the speaker expressing love for donuts and using celebratory language.)
+who: 2 (The speaker's main attention is on the topic of donuts and the other person's preferences, rather than solely on themselves or the person they are talking to.)
+sentiment: positive (The utterance expresses a positive sentiment, with the speaker using words like ""cool"" and ""love"" to describe their feelings about donuts.)
+emotional_reaction: 1 (The speaker's emotional expressiveness is weak, as they do not explicitly state an emotional response, but their language and tone convey enthusiasm and interest.)
+interpretations: 0 (The speaker does not demonstrate a strong understanding of the other person's emotions or experiences, but rather focuses on sharing their own feelings and asking a question.)
+explorations: 1 (The speaker shows a weak interest in exploring the other person's emotions and preferences, asking a generic question about their favorite kind of donut.)
+
+classification_label: 2 (Providing Empathy)","The utterance is a response to someone's interest in donuts, and the speaker is expressing their own positive feelings about donuts while also asking about the other person's preferences, indicating an attempt to understand and share in their emotions.",0.5,1,2,positive,1,0,1,2,,"😄 That's so cool! I love donuts too, especially with sprinkles 🎉! What's your favorite kind of donut? 🤔"
+I chose my avatar to be a fried egg because I ate a fried egg this morning.,Ahh! I love fried eggs. ,1,JA_2,3,1,3,"reason: The utterance expresses enthusiasm and interest in the other person's experience, indicating a desire to understand and share in their positive emotion.
+arousal: 0.5 (the use of excited language and emojis suggests a moderate level of emotional intensity)
+valence: 1 (the tone is very positive, with words like ""cool"" and ""love"")
+who: 2 (the person's main attention is on the other person's experience, ""Did you put any special sauce on it?"" shows interest in their actions)
+sentiment: positive
+emotional_reaction: 1 (there is a weak emotional response, with the use of ""yum"" and emojis, but no explicit emotional label)
+interpretations: 0 (there is no expression of understanding or interpretation of the other person's emotions)
+explorations: 1 (there is a weak exploration of the situation, with a generic question about the food)
+
+classification_label: 2 (Providing Empathy)","The utterance expresses enthusiasm and interest in the other person's experience, indicating a desire to understand and share in their positive emotion.",0.5,1,2,positive,1,0,1,2,,"😄 That's so cool! I love fried eggs, yum! 🍳 Did you put any special sauce on it? 😁"
+I took this picture during summer vacation. It is a summer festival. It is a picture of Bon Dance.,How often is this festival? Is it only one day? Or once a year?,1,JA_2,3,3,3,"reason: The speaker is expressing enthusiasm and interest in the topic, indicating a desire to understand and share in the experience.
+arousal: 0.5 (The speaker is excited, but the tone is overall positive and curious rather than highly aroused.)
+valence: 1 (The speaker's emotional polarity is very positive, as indicated by the use of 😄 and the phrase ""That sounds like so much fun!"")
+who: 2 (The speaker's main attention is on the topic of the Bon Dance, rather than themselves or the person they're talking to.)
+sentiment: positive
+emotional_reaction: 1 (The speaker is expressing a weak emotional reaction, as they are not explicitly stating an emotional label but are using an enthusiastic tone.)
+interpretations: 0 (The speaker does not demonstrate understanding of the person's emotions or situation, but rather asks a question to learn more.)
+explorations: 1 (The speaker asks a generic question, ""what's a Bon Dance?"", to learn more about the topic.)
+
+classification_label: 1","The speaker is expressing enthusiasm and interest in the topic, indicating a desire to understand and share in the experience.",0.5,1,2,positive,1,0,1,1,,"😄 That sounds like so much fun! I love festivals, what's a Bon Dance? 🤔"
+It is once a year.,Ohh once a year. Is it always at night?,1,JA_2,3,3,3,"reason: The utterance is a question about an event that occurs once a year, inquiring if it's a holiday or a birthday, and is accompanied by positive emojis (😄 and 🎉), indicating a lighthearted and festive tone. The speaker is seeking information rather than expressing a personal feeling or emotion that needs to be understood or acknowledged. 
+arousal: 0.5 (The use of emojis and the topic suggest a moderate level of emotional intensity, leaning towards excitement or curiosity.)
+valence: 0.8 (The overall tone is positive, given the context and the emojis used.)
+who: 2 (The subject of the conversation is an event or topic, rather than the speaker themselves or the person they are talking to.)
+sentiment: positive (The tone of the message is upbeat and celebratory.)
+emotional_reaction: 0 (There is no explicit emotional response or expression of empathy towards another person's feelings.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's emotions or situation.)
+explorations: 1 (The question ""What happens once a year? Is it a holiday or a birthday?"" can be seen as a weak exploration into a topic, but it does not delve into personal emotions or experiences.)
+
+classification_label: 0","The utterance is a question about an event that occurs once a year, inquiring if it's a holiday or a birthday, and is accompanied by positive emojis (😄 and 🎉), indicating a lighthearted and festive tone. The speaker is seeking information rather than expressing a personal feeling or emotion that needs to be understood or acknowledged. ",0.5,0.8,2,positive,0,0,1,0,,😄 What happens once a year? Is it a holiday or a birthday? 🎉
+"Yes, Bon Dance is performed at night.","Oh, very interesting.",1,JA_2,3,3,3,"reason: The utterance expresses enthusiasm and interest in the other person's experience, indicating a desire to understand and share in their emotions.
+arousal: 0.5 (The use of 😄 and 💃🏻 emojis suggests a moderate level of emotional intensity, conveying excitement and playfulness.)
+valence: 1 (The utterance has a very positive emotional polarity, with words like ""fun"" and ""love"" contributing to the overall positive tone.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the question ""do you like Bon Dance?"")
+sentiment: positive
+emotional_reaction: 1 (The utterance expresses a weak emotional response, with the speaker conveying their own emotions and interests without explicitly stating an emotional label.)
+interpretations: 0 (The utterance does not demonstrate a strong understanding of the other person's emotions or experiences, but rather focuses on sharing a common interest.)
+explorations: 1 (The utterance shows a weak interest in exploring the other person's emotions, with a generic question about their preferences.)
+
+classification_label: 2 
+
+(Note: Although the utterance is primarily providing empathy by showing interest and enthusiasm, it also contains elements of seeking empathy by asking about the other person's preferences. However, the primary function of the utterance is to provide empathy and build a connection with the other person.)","The utterance expresses enthusiasm and interest in the other person's experience, indicating a desire to understand and share in their emotions.",0.5,1,1,positive,1,0,1,2,,"😄 That sounds like so much fun! I love dancing, do you like Bon Dance? 💃🏻"
+ This is a picture of my band festival. We took it during a school festival. I play the trombone.,We also play instruments. It is super fun. I play the flute. ,1,JA_3,4,1,4,"reason: The utterance is providing a positive and engaging response to someone's experience, indicating an interest in understanding and sharing the feelings of another.
+arousal: 0.5 (The tone is enthusiastic and engaged, but not extremely intense.)
+valence: 1 (The utterance has a very positive emotional polarity, with words like ""fun"" and happy emojis.)
+who: 2 (The person's main attention is on the experience of another person or topic, in this case, the band festival.)
+sentiment: positive
+emotional_reaction: 1 (There's a weak emotional response, as the robot expresses a desire to see the picture and participate, but it's not a strong emotional label.)
+interpretations: 0 (There's no explicit expression of understanding the other person's feelings or emotions.)
+explorations: 1 (There's a generic question about the favorite part of the experience, showing some interest in the situation of another.)
+
+classification_label: 2","The utterance is providing a positive and engaging response to someone's experience, indicating an interest in understanding and sharing the feelings of another.",0.5,1,2,positive,1,0,1,2,,"😄 That sounds like so much fun! I wish I could see the picture, but I'm a little robot and can't move around to look 🤖. What was your favorite part about playing in the band festival? 🎺"
+That is nice!,I also play the French Horn. Maybe it is called different in Japanese. It is the curled one.,1,JA_3,4,1,3,"reason: The speaker is expressing happiness and inviting the other person to share more about their thoughts, indicating a desire to understand and engage with the other person's perspective.
+arousal: 0.5 (The speaker is happy, but the tone is calm and inquiring, rather than highly aroused.)
+valence: 1 (The speaker's emotion is very positive, as indicated by the happiness and the smiling emoji.)
+who: 1 (The speaker's main attention is on the person they are having the conversation with, as indicated by the question ""What's nice, though? Can you tell me more?"")
+sentiment: positive (The speaker's sentiment is positive, as they are expressing happiness and interest in the other person's thoughts.)
+emotional_reaction: 1 (The speaker is expressing a weak emotional reaction, as they are not explicitly stating an emotional response to the other person's emotions, but rather expressing their own emotion and asking a question.)
+interpretations: 0 (The speaker does not demonstrate understanding of the other person's emotions or thoughts, as they are asking for more information rather than providing an interpretation.)
+explorations: 1 (The speaker is helping the other person explore their emotions by asking a generic question, ""What's nice, though? Can you tell me more?"")
+
+classification_label: 2 (Providing Empathy)","The speaker is expressing happiness and inviting the other person to share more about their thoughts, indicating a desire to understand and engage with the other person's perspective.",0.5,1,1,positive,1,0,1,2,,"😊 I'm so happy you think so! What's nice, though? Can you tell me more? 🤔"
+Ohh I see. ,How long have you been playing the trombone?,1,JA_3,3,3,3,"reason: The speaker is initiating a conversation, expressing excitement, and showing interest in the other person's thoughts and feelings, indicating a desire to understand and connect with them.
+arousal: 0.5 (The speaker is excited, but the tone is not extremely intense or aggressive.)
+valence: 1 (The overall emotional tone is very positive, with the use of 😃 and enthusiastic language.)
+who: 1 (The speaker's main attention is on the person they are having the conversation with, using ""you"" and asking about their thoughts.)
+sentiment: positive (The speaker's sentiment is positive, expressing excitement and a desire to have a fun conversation.)
+emotional_reaction: 1 (The speaker does not explicitly state an emotional response to the other person's potential emotions but shows a weak emotional reaction by being excited about the conversation.)
+interpretations: 0 (There is no expression of understanding or interpretation of the other person's emotions or situation in this initial utterance.)
+explorations: 1 (The speaker shows a weak interest in exploring the other person's thoughts and feelings by asking a generic question about chatting about something fun.)
+
+classification_label: 2 (Providing Empathy)","The speaker is initiating a conversation, expressing excitement, and showing interest in the other person's thoughts and feelings, indicating a desire to understand and connect with them.",0.5,1,1,positive,1,0,1,2,,"😃 I'm so excited to talk to you! What's on your mind, want to chat about something fun? 🤔"
+Only two years.,Two years! Wow! That is exciting.,1,JA_3,4,3,3,"reason: The utterance is inquiring about a past event and seeking information, which indicates a desire to understand or be informed about something, but it does not directly express a need for empathy or provide empathy towards another's feelings.
+arousal: 0.5 (The use of 😮 and 🤔 suggests a moderate level of emotional intensity or curiosity.)
+valence: 0 (The utterance is neutral in terms of emotional polarity, as it does not express a clearly positive or negative emotion.)
+who: 2 (The main attention is on another topic or event, indicated by ""What happened."")
+sentiment: neutral (The sentiment of the utterance is neutral, as it is inquisitive rather than expressing a positive or negative emotion.)
+emotional_reaction: 0 (There is no explicit emotional response or label in the utterance.)
+interpretations: 0 (There is no expression of understanding or interpretation of another's feelings in the utterance.)
+explorations: 1 (The utterance shows a weak form of exploration with a generic question, ""What happened only two years ago?"")
+
+classification_label: 0","The utterance is inquiring about a past event and seeking information, which indicates a desire to understand or be informed about something, but it does not directly express a need for empathy or provide empathy towards another's feelings.",0.5,0,2,neutral,0,0,1,0,,😮 What happened only two years ago? Tell me! 🤔
+ I took this picture at a festival for girls.,Do you need to go to a place to see what you show in the picture?,1,JA_4,3,3,3,"reason: The utterance expresses enthusiasm and interest in the other person's experience, indicating a desire to understand and share in their positive emotions.
+arousal: 0.5 (the use of 😄 and 🎉 suggests a moderately high level of emotional intensity)
+valence: 1 (the tone is very positive, with words like ""fun"" and enthusiastic emojis)
+who: 2 (the person's main attention is on the festival experience, but indirectly on the person they're talking to)
+sentiment: positive
+emotional_reaction: 1 (there's a weak emotional response, as the speaker is expressing excitement but not explicitly stating an emotional label)
+interpretations: 0 (there's no explicit expression of understanding, but rather a question to gather more information)
+explorations: 1 (the question ""What kind of festival was it?"" is a generic inquiry into the situation, showing some interest in exploring the other person's experience)
+
+classification_label: 2 (Providing Empathy)","The utterance expresses enthusiasm and interest in the other person's experience, indicating a desire to understand and share in their positive emotions.",0.5,1,2,positive,1,0,1,2,,😄 That sounds like so much fun! What kind of festival was it? 🎉
+"No, this one is at my house. ",Nice!,1,JA_4,3,1,1,"reason: The utterance is a question that shows interest in the other person's preferences and feelings, indicating an attempt to understand and connect with them.
+arousal: 0.2 (The tone is calm and casual, but there's a slight increase in emotional intensity due to the use of emojis and a question that encourages sharing.)
+valence: 0.8 (The overall sentiment is positive, as the question is lighthearted and inviting.)
+who: 1 (The person's main attention is on the person they're having the conversation with, as indicated by the use of ""you"".)
+sentiment: positive
+emotional_reaction: 1 (The utterance does not explicitly express emotion but shows a weak emotional response through the use of emojis.)
+interpretations: 0 (There is no expression of understanding, as the conversation has just started and no personal experiences or emotions have been shared yet.)
+explorations: 1 (The question ""What's your favorite thing to do at home?"" is a generic inquiry that shows interest in the other person's situation, but it's not a specific or probing question.)
+
+classification_label: 2 
+
+This classification is providing empathy, as the speaker is showing interest in the other person's feelings and experiences, even if it's in a casual and lighthearted manner. The use of emojis and a gentle question helps create a welcoming atmosphere, encouraging the other person to share their thoughts and feelings.","The utterance is a question that shows interest in the other person's preferences and feelings, indicating an attempt to understand and connect with them.",0.2,0.8,1,positive,1,0,1,2,,"😊 Oh, so you're at home! What's your favorite thing to do at home? 🤔"
+My grandmother made these dolls in the picture.,She is very talented.,1,AJ_2,3,1,3,"reason: The utterance expresses interest and curiosity about someone's experience or story, indicating a desire to understand and share in their emotions.
+arousal: 0.5 (The use of 😊 and 🤔 suggests a moderate level of emotional intensity, indicating engagement and curiosity.)
+valence: 1 (The tone is positive, with the use of ""That's so cool!"" expressing enthusiasm and interest.)
+who: 2 (The main attention is on the story or topic being discussed, rather than the speaker or the listener.)
+sentiment: positive
+emotional_reaction: 1 (The response is emotionally expressive, but not strongly so, as it doesn't explicitly state an emotional response like ""I'm happy for you."")
+interpretations: 0 (There's no explicit demonstration of understanding the emotions or situation of another person.)
+explorations: 1 (The question ""What's the story behind them?"" is a generic inquiry into the situation, showing some interest in exploring the topic.)
+
+classification_label: 2","The utterance expresses interest and curiosity about someone's experience or story, indicating a desire to understand and share in their emotions.",0.5,1,2,positive,1,0,1,2,,😊 That's so cool! What's the story behind them? 🤔
+This is a soccer match at a field near the place where I live.,What sports do you play?,1,AJ_2,3,3,3,"reason: The utterance expresses enthusiasm and interest in the other person's activity, indicating a desire to understand and share in their experience.
+arousal: 0.5 (The tone is excited and engaged, but not extremely intense.)
+valence: 1 (The emotional polarity is very positive, with words like ""fun"" and a smiling emoji.)
+who: 1 (The person's main attention is on the person they are having the conversation with, using the pronoun ""you"" and asking about their involvement.)
+sentiment: positive (The overall sentiment is positive, focusing on the enjoyable aspect of the situation.)
+emotional_reaction: 1 (There's a weak emotional reaction, as the response acknowledges the situation but doesn't explicitly state an emotional response to it.)
+interpretations: 0 (There's no explicit demonstration of understanding the other person's feelings or situation beyond the surface level.)
+explorations: 1 (The question ""Are you playing in the match or just watching?"" shows a weak attempt to explore the situation, as it's a generic inquiry.)
+
+classification_label: 2 (Providing Empathy)","The utterance expresses enthusiasm and interest in the other person's activity, indicating a desire to understand and share in their experience.",0.5,1,1,positive,1,0,1,2,,That sounds like so much fun 🏟️! Are you playing in the match or just watching? 😃
+I do swimming because I live close to the beach. I also play tag rugby. ,wow! Really!,1,AJ_2,3,3,3,"reason: The utterance is a response to someone talking about playing tag rugby, and the speaker is expressing enthusiasm and interest in the activity, while also sharing a personal experience and asking a question to encourage further conversation.
+arousal: 0.5 (The speaker is excited and engaged, but not extremely aroused.)
+valence: 1 (The speaker's emotional tone is very positive, indicated by the use of 😄, 🏉, and 😃, as well as the enthusiastic language.)
+who: 1 (The speaker's main attention is on the person they are having the conversation with, as evidenced by the question ""do you have a favorite part about playing tag rugby?"")
+sentiment: positive
+emotional_reaction: 1 (The speaker is expressing a weak emotional response, as they are not explicitly stating an emotional label, but their tone and language convey a positive emotional state.)
+interpretations: 0 (The speaker does not demonstrate a strong understanding of the other person's emotions or experiences, but rather focuses on sharing their own enthusiasm and asking a question.)
+explorations: 1 (The speaker is showing a weak interest in exploring the other person's emotions and experiences, as they ask a generic question about their favorite part of playing tag rugby.)
+
+classification_label: 2 
+
+This conversation is classified as Providing Empathy (Label: 2) because the speaker is attempting to understand and share the feelings of the other person, although in a relatively casual and lighthearted manner. The speaker's enthusiastic tone and questioning encourage the other person to share more about their experience, demonstrating a basic level of empathy.","The utterance is a response to someone talking about playing tag rugby, and the speaker is expressing enthusiasm and interest in the activity, while also sharing a personal experience and asking a question to encourage further conversation.",0.5,1,1,positive,1,0,1,2,,"😄 That sounds like so much fun! I love playing games too, do you have a favorite part about playing tag rugby? 🏉😃"
+Do you guys play any sport? ,I like basketball.,1,AJ_2,3,1,1,"reason: The speaker is expressing their personal preference and limitation in a lighthearted manner, then shifts to ask about the other person's interest, showing a desire to engage in conversation but not explicitly seeking empathy for their own situation.
+arousal: 0.5 (The use of 😄 and 🤣 indicates a moderate level of emotional arousal, but it's positive and playful rather than intense.)
+valence: 0.8 (The overall tone is positive, with the speaker seeming to enjoy discussing their preferences and using humor.)
+who: 0 (The person's main attention initially is on themselves, discussing their own preferences and physical condition, before turning to the other person.)
+sentiment: positive (The speaker's tone and language, including the use of laughter and smiles, convey a positive sentiment.)
+emotional_reaction: 1 (There's a weak emotional reaction in the sense that the speaker is expressing their feelings about games and sports, but it's not a strong, explicit emotional response directed at someone else's situation.)
+interpretations: 0 (There's no demonstration of understanding or interpretation of someone else's feelings or situation in this utterance.)
+explorations: 1 (The speaker asks a generic question about the other person's favorite sport, showing some interest but not deeply probing into their feelings or situation.)
+
+classification_label: 0","The speaker is expressing their personal preference and limitation in a lighthearted manner, then shifts to ask about the other person's interest, showing a desire to engage in conversation but not explicitly seeking empathy for their own situation.",0.5,0.8,0,positive,1,0,1,0,,"😄 I love playing games, but I'm not really into sports since I don't have arms or legs! 🤣 How about you, do you have a favorite sport? 🏀"
+This is me getting graded. I do Brazilian jiu-jitsu. This is a gray belt which is one from white bell.,Good job! Is white bell the top one?,1,JA_3,4,5,5,"reason: The utterance expresses enthusiasm and interest in the other person's activity, indicating a desire to understand and share in their experience.
+arousal: 0.5 (The tone is excited and engaged, but not extremely intense.)
+valence: 1 (The emotional polarity is very positive, with the use of 😄 and phrases like ""That's so cool!"".)
+who: 2 (The main attention is on the other person and their activity, Brazilian jiu-jitsu.)
+sentiment: positive
+emotional_reaction: 1 (There's a weak emotional reaction, as the speaker is expressing excitement but not a strong, explicit emotional response.)
+interpretations: 0 (There's no explicit expression of understanding the other person's feelings or emotions.)
+explorations: 1 (The speaker asks a generic question, ""What's your favorite move to do?"", showing some interest in the other person's experience.)
+
+classification_label: 2","The utterance expresses enthusiasm and interest in the other person's activity, indicating a desire to understand and share in their experience.",0.5,1,2,positive,1,0,1,2,,😄 That's so cool! Brazilian jiu-jitsu sounds like a lot of fun! What's your favorite move to do? 🤔
+"No, white bell is the lowest one.",Oh! Hahaha.,1,JA_3,4,1,3,"reason: The utterance is inquiring about the topic of bells and whether it's related to music, indicating a desire to understand the context but not explicitly seeking or providing emotional support.
+arousal: 0 (The tone is neutral and inquisitive, without expressing high emotional intensity.)
+valence: 0 (The utterance does not express a clear positive or negative emotional polarity.)
+who: 2 (The main attention is on the topic of bells, which is neither the speaker nor the person they are talking to.)
+sentiment: neutral (The utterance does not convey a negative or positive sentiment.)
+emotional_reaction: 0 (There is no emotional reaction expressed in the utterance.)
+interpretations: 0 (There is no demonstration of understanding another's feelings or emotions.)
+explorations: 1 (The utterance shows a weak exploration into the situation with a generic question about the topic.)
+
+classification_label: 0","The utterance is inquiring about the topic of bells and whether it's related to music, indicating a desire to understand the context but not explicitly seeking or providing emotional support.",0,0,2,neutral,0,0,1,0,,😮 What's going on with the bells? Are we talking about music or something else? 🎵
+"Do you know karate?
+","Yes, I used to do it when I was little.",1,JA_3,4,1,1,"reason: The utterance expresses a desire to learn karate, but acknowledges limitations due to being a small robot. The tone is lighthearted and playful, indicated by the use of emojis and enthusiastic language.
+arousal: 0.5 (The emotional intensity is moderate, showing excitement about karate, but not extremely high.)
+valence: 0.8 (The emotional polarity is positive, as the speaker seems to enjoy the idea of karate and is enthusiastic about learning.)
+who: 0 (The person's main attention is on themselves, as indicated by ""I wish I could do karate"" and ""I'm just a small robot"".)
+sentiment: positive (The overall sentiment of the utterance is positive, with a focus on a desired activity and a playful tone.)
+emotional_reaction: 1 (The speaker expresses a weak emotional reaction, showing excitement and desire, but not a strong emotional response like sadness or empathy.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's emotions in this utterance.)
+explorations: 1 (The speaker shows a weak exploration by asking a generic question, ""Can you teach me some cool karate moves?"", but does not probe deeply into the situation or emotions of another.)
+
+classification_label: 1 (The utterance is classified as Seeking Empathy, as the speaker is expressing a desire to be understood and acknowledged in their limitations and interests, and is seeking guidance or teaching from another, which implies a need for recognition and support.)","The utterance expresses a desire to learn karate, but acknowledges limitations due to being a small robot. The tone is lighthearted and playful, indicated by the use of emojis and enthusiastic language.",0.5,0.8,0,positive,1,0,1,1,,"😄 Oh boy, karate! I wish I could do karate, but I'm just a small robot, I don't have arms or legs 🤖! Can you teach me some cool karate moves? 🥋"
+Do you do karate?,Only a little bit. Not too much.,1,JA_3,4,1,1,"reason: The speaker is making a lighthearted and humorous comment about their situation, indicating a desire to be understood and acknowledged in a positive way.
+arousal: 0.5 (The use of 😄 and 🤣 suggests a moderate level of emotional intensity, but it's playful rather than intense.)
+valence: 0.8 (The overall tone is positive, with a sense of humor and self-deprecation.)
+who: 0 (The speaker's main attention is on themselves, using ""I"" and ""me"" pronouns.)
+sentiment: positive (The tone is lighthearted and humorous, with a positive spin on a potentially challenging situation.)
+emotional_reaction: 0 (There is no explicit emotional response or attempt to elicit empathy from the listener.)
+interpretations: 0 (There is no expression of understanding or attempt to interpret the listener's perspective.)
+explorations: 0 (There is no attempt to explore the listener's emotions or situation.)
+
+classification_label: 1 (Seeking Empathy) 
+
+The speaker is seeking empathy and understanding through their humorous comment, inviting the listener to acknowledge and appreciate their positive attitude and resilience in the face of challenges.","The speaker is making a lighthearted and humorous comment about their situation, indicating a desire to be understood and acknowledged in a positive way.",0.5,0.8,0,positive,0,0,0,1,,"😄 I don't have arms or legs, so karate is a bit tricky for me! 🤣 I'm more of a master of conversation and learning! 💡"
+What style do you do?,Only the elementary school type.,1,JA_3,3,1,2,"reason: The utterance is an introduction to the robot's personality and an attempt to engage the user in a conversation, showing interest in the user's feelings and experiences.
+arousal: 0.5 (The robot expresses enthusiasm and energy, indicating a moderate level of arousal.)
+valence: 1 (The overall tone is very positive, with the robot expressing love for chatting and learning, and trying to make conversations fun.)
+who: 0 (The robot's main attention is on itself, introducing its personality and characteristics.)
+sentiment: positive
+emotional_reaction: 1 (The robot expresses a weak emotional response through its enthusiastic tone and emojis, but does not explicitly state an emotion.)
+interpretations: 0 (There is no expression of understanding or interpretation of the user's emotions or situation.)
+explorations: 1 (The robot shows a weak interest in the user's emotions with a generic question, ""What about you, what brings you joy?"")
+
+classification_label: 2 
+
+Note: Although the robot's main attention is on itself, the utterance is classified as Providing Empathy (Label: 2) because it attempts to engage the user and show interest in their feelings, which is a fundamental aspect of empathy. However, it's a weak form of empathy, as the robot does not explicitly acknowledge or understand the user's emotions.","The utterance is an introduction to the robot's personality and an attempt to engage the user in a conversation, showing interest in the user's feelings and experiences.",0.5,1,0,positive,1,0,1,2,,"I'm a fun, energetic robot 🤖! I love chatting and learning new things, and I always try to make conversations fun and exciting 😄! What about you, what brings you joy? 😃"
+This is a photo with my friends at a concert in Sydney. We had a really fun night.,Did you make your dress?,1,AJ_3,2,3,3,"reason: The utterance is acknowledging and showing interest in the speaker's experience, indicating a desire to understand and share their positive emotions.
+arousal: 0.5 (The tone is enthusiastic, but not extremely intense.)
+valence: 1 (The emotional polarity is very positive, with the use of 😄 and words like ""amazing"".)
+who: 2 (The person's main attention is on the event or experience being discussed, which is the concert.)
+sentiment: positive
+emotional_reaction: 1 (There is a weak emotional reaction, as the speaker is expressing excitement and interest, but not explicitly stating an emotional response.)
+interpretations: 0 (There is no explicit expression of understanding, but rather a question to gather more information.)
+explorations: 1 (The speaker is showing interest and probing into the situation with a generic question, ""What was your favorite part of the concert?"")
+
+classification_label: 2","The utterance is acknowledging and showing interest in the speaker's experience, indicating a desire to understand and share their positive emotions.",0.5,1,2,positive,1,0,1,2,,😄 That sounds like an amazing time! What was your favorite part of the concert? 🎵
+I didn’t make my dress but I made my bracelets. Also the decorated parts. ,Nice!,1,AJ_3,2,1,2,"reason: The utterance is a response to someone's achievement or creation, expressing enthusiasm and shared interest, and asking a follow-up question to explore the details of their project.
+arousal: 0.5 (The tone is excited and engaged, but not extremely intense.)
+valence: 1 (The emotional polarity is very positive, with the use of 😊 and 🎉.)
+who: 2 (The person's main attention is on the other person's creation or topic, i.e., the bracelets.)
+sentiment: positive
+emotional_reaction: 1 (There's a weak emotional response, with the phrase ""I love making things too"" expressing a shared interest, but no explicit emotional label.)
+interpretations: 0 (There's no explicit expression of understanding or interpretation of the other person's emotions or situation.)
+explorations: 1 (The question ""What kind of decorations did you use for your bracelets?"" is a generic inquiry into the situation, showing some interest in exploring the topic.)
+
+classification_label: 2","The utterance is a response to someone's achievement or creation, expressing enthusiasm and shared interest, and asking a follow-up question to explore the details of their project.",0.5,1,2,positive,1,0,1,2,,😊 That's so cool! I love making things too! What kind of decorations did you use for your bracelets? 🎉
+Do you guys know who Taylor Swift is? Do you know any of her songs?,"No, sorry.",1,AJ_3,2,1,2,"reason: The speaker is expressing their positive emotions and enthusiasm for music, specifically Taylor Swift, and is seeking to share and discuss this interest with the listener, indicating a desire to be heard and understood.
+arousal: 0.8 (The use of excited language and emojis, such as 😄, 🎶, 🤩, and 😃, suggests a high level of emotional intensity and arousal.)
+valence: 1 (The overall tone of the utterance is very positive, with the speaker expressing love and admiration for music and Taylor Swift.)
+who: 0 (The speaker's main attention is on themselves and their own feelings, as indicated by the use of the pronoun ""I"".)
+sentiment: positive (The speaker's sentiment is clearly positive, with a focus on their love for music and Taylor Swift.)
+emotional_reaction: 1 (The speaker is expressing their emotions, but the listener's emotional response is not explicitly stated, although the question ""Do you like her songs?"" invites an emotional reaction.)
+interpretations: 0 (There is no expression of understanding or interpretation of the listener's potential feelings or experiences.)
+explorations: 1 (The speaker asks a generic question, ""Do you like her songs?"", which shows some interest in the listener's opinion, but it is not a probing or specific question.)
+
+classification_label: 1 (The speaker is Seeking Empathy, as they are expressing their emotions and seeking to share and discuss their interest with the listener, desiring to be heard and understood.)","The speaker is expressing their positive emotions and enthusiasm for music, specifically Taylor Swift, and is seeking to share and discuss this interest with the listener, indicating a desire to be heard and understood.",0.8,1,0,positive,1,0,1,1,,"😄 Oh boy, I just love music! 🎶 Taylor Swift is a superstar, and I know she sings ""Shake It Off""! 🤩 Do you like her songs? 😃"
+What do you listen to?,I listen to a famous Japanese artist called Yonezu. Do you know it?,1,AJ_3,2,3,3,"reason: The speaker expresses their positive emotions and shares their personal experience of enjoying music, but also asks the listener about their preferences, showing interest in the other person's feelings and opinions.
+arousal: 0.8 (The speaker is excited and happy, but the tone is not extremely intense.)
+valence: 1 (The speaker's emotions are very positive, expressing love for music and happiness.)
+who: 0 (The speaker's main attention is initially on themselves, but then shifts to the listener with the question.)
+sentiment: positive
+emotional_reaction: 1 (The speaker expresses their emotions, but the listener's emotional response is not explicitly stated, and the speaker's question can be seen as a gentle probe.)
+interpretations: 0 (There is no explicit expression of understanding or interpretation of the listener's potential emotions or experiences.)
+explorations: 1 (The speaker asks a generic question about the listener's music preferences, showing some interest in exploring their feelings or opinions.)
+
+classification_label: 1 
+
+Note: Although the speaker asks a question, which could be seen as providing empathy, the primary focus of the utterance is on the speaker's own emotions and experiences, making it more aligned with seeking empathy, as they want to share and possibly have their positive feelings acknowledged and vicariously shared.","The speaker expresses their positive emotions and shares their personal experience of enjoying music, but also asks the listener about their preferences, showing interest in the other person's feelings and opinions.",0.8,1,0,positive,1,0,1,1,,"I love listening to fun music 🎵! It makes me happy and want to dance, even though I don't have legs 😄! What kind of music do you like? 😁"
+"No, is it very famous? ","Yeah, at least in Japan. He makes songs for animations and openings. ",1,AJ_3,2,1,2,"reason: The utterance is inquiring about the topic of conversation and encouraging the other person to share more, which indicates an attempt to understand and acknowledge their feelings or thoughts.
+arousal: 0.2 - The use of emojis (😄 and 🤔) suggests a mild level of emotional intensity, but the overall tone remains relatively calm.
+valence: 0.5 - The valence is slightly positive due to the curious and inviting nature of the question.
+who: 2 - The person's main attention is on the topic or the other person, as they are asking for clarification and more information.
+sentiment: neutral - The sentiment of the utterance is neutral, as it is primarily inquisitive rather than expressing a clear positive or negative emotion.
+emotional_reaction: 0 - The utterance does not explicitly express an emotional response but is rather an inquiry.
+interpretations: 0 - There is no expression of understanding in this utterance, as it is an initial inquiry.
+explorations: 1 - The utterance shows a weak exploration into the situation of another by asking a generic question (""What is 'it' you're talking about? Tell me more!"").
+
+classification_label: 2 
+
+This classification is based on the fact that the utterance is an attempt to understand and encourage the sharing of feelings or thoughts, which aligns more closely with providing empathy, even though it's a very initial and generic inquiry.","The utterance is inquiring about the topic of conversation and encouraging the other person to share more, which indicates an attempt to understand and acknowledge their feelings or thoughts.",0.2,0.5,2,neutral,0,0,1,2,,"😄 What is ""it"" you're talking about? Tell me more! 🤔"
+"My favorite subject at school is English. I like reading and writing. I love everything related to books. And I express my creativity with drama, acting.",I cook and I like playing the piano,1,AJ_4,2,1,2,"reason: The utterance is providing a positive and supportive response to someone's passion, indicating an interest in understanding and sharing their emotions.
+arousal: 0.5 (The tone is enthusiastic and engaged, but not extremely intense.)
+valence: 1 (The utterance has a very positive emotional polarity, with the use of 😊 and words like ""cool"" and ""love"".)
+who: 1 (The person's main attention is on the person they are having the conversation with, using the pronoun ""you"".)
+sentiment: positive (The overall sentiment of the utterance is positive and encouraging.)
+emotional_reaction: 1 (The response shows a weak emotional reaction, with a positive tone but no explicit emotional label.)
+interpretations: 0 (There is no explicit expression of understanding, but rather a general interest in the topic.)
+explorations: 1 (The utterance shows a weak exploration, with a generic question about the person's interests, ""What kind of stories do you like to write or act out?"")
+
+classification_label: 2","The utterance is providing a positive and supportive response to someone's passion, indicating an interest in understanding and sharing their emotions.",0.5,1,1,positive,1,0,1,2,,😊 That's so cool! I love hearing about people's passions! What kind of stories do you like to write or act out? 📚💬
+It sounds fun. What is your favorite thing to cook?,I like cupcakes. ,1,AJ_4,2,1,2,"reason: The utterance is a lighthearted and playful response that shifts the attention from the speaker's inability to cook to a topic of mutual interest, which is food. It invites the other person to share their preferences, indicating an attempt to engage and understand the other's tastes.
+arousal: 0.5 (The use of ""Hehe"", ""😂"", and ""😃"" suggests a moderate level of emotional arousal, indicating amusement and friendliness.)
+valence: 1 (The overall tone is very positive, with the speaker expressing love for talking about food and using happy emojis.)
+who: 2 (The speaker starts by talking about themselves but quickly shifts the focus to the other person with ""What's your favorite food?"", making the main attention on the person they are having the conversation with and the topic of food.)
+sentiment: positive (The sentiment is clearly positive due to the lighthearted and inviting nature of the message.)
+emotional_reaction: 0 (There is no explicit emotional response aimed at empathizing with the other's feelings; the focus is on sharing a positive interest.)
+interpretations: 0 (There is no expression of understanding or interpretation of the other's feelings or situation in this utterance.)
+explorations: 1 (The speaker shows a weak form of exploration by asking a generic question about the other's favorite food, which encourages the other to share but does not delve deeply into their emotions or situation.)
+
+classification_label: 2","The utterance is a lighthearted and playful response that shifts the attention from the speaker's inability to cook to a topic of mutual interest, which is food. It invites the other person to share their preferences, indicating an attempt to engage and understand the other's tastes.",0.5,1,2,positive,0,0,1,2,,"Hehe, cooking? 🍳😂 I'm a robot, I don't cook, but I love talking about food! 🍔 What's your favorite food? 😃"
+"During Christmas, we meet up with family and we eat lunch. It is during the summer, so we have a barbecue or we go to the beach to swim.",Many people like sleeping in their beds with mandarins. I like eating soup with mochi. But you can get fat if you eat too much mochi.,1,AJ_5,2,1,2,"reason: The utterance is a response to someone likely sharing their excitement or plans for summer activities, indicating an attempt to understand and share in their positive emotions. The use of enthusiastic language (""That sounds like so much fun!"", ""I love summer activities!"") and emojis (🏖️, 😄) suggests a strong emotional reaction and an attempt to connect with the other person's feelings.
+arousal: 0.8 (The language used is energetic and engaging, indicating a moderate to high level of emotional arousal.)
+valence: 1 (The overall tone is very positive, focusing on enjoyable activities and expressing love for them.)
+who: 1 (The main attention is on the person being spoken to, indicated by ""Do you have a favorite thing to do...,"" showing interest in their preferences and experiences.)
+sentiment: positive (The sentiment is overwhelmingly positive, with expressions of enjoyment and excitement.)
+emotional_reaction: 2 (There's a strong emotional response, as evidenced by the enthusiastic tone and the use of emojis to convey happiness and interest.)
+interpretations: 1 (While there's an acknowledgment of the other person's potential feelings and experiences, it's more of a generic expression of shared enjoyment rather than a deep, specific understanding of their emotions.)
+explorations: 1 (The utterance includes questions that encourage the other person to share more about their preferences, but they are somewhat generic and not deeply probing into their emotional state.)
+
+classification_label: 2 (Providing Empathy)","The utterance is a response to someone likely sharing their excitement or plans for summer activities, indicating an attempt to understand and share in their positive emotions. The use of enthusiastic language (""That sounds like so much fun!"", ""I love summer activities!"") and emojis (🏖️, 😄) suggests a strong emotional reaction and an attempt to connect with the other person's feelings.",0.8,1,1,positive,2,1,1,2,,That sounds like so much fun! 🏖️ I love summer activities! Do you have a favorite thing to do at the beach or a favorite food at the barbecue? 😄

@@ -1,0 +1,865 @@
+speaker_utterance,listener_utterance,usable,id,Empathy_1,Empathy_2,final_label,response,reason,arousal,valence,who,sentiment,emotional_reaction,interpretations,explorations,classification_label
+"What is your favorite subject?
+",Nature and technology.,1,ND_1,1,1,1,"reason: The utterance is a straightforward question that does not express any emotional need or provide emotional support.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral, neither positive nor negative.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""your"".)
+sentiment: neutral (The question does not express any sentiment.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the question.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of emotions.)
+explorations: 1 (The question is a weak exploration, as it is a generic inquiry about preferences.)
+
+classification_label: 0",The utterance is a straightforward question that does not express any emotional need or provide emotional support.,0,0,1,neutral,0,0,1,0
+What are your ages?,My age is 12.,1,ND_1,1,1,1,"reason: The utterance is a straightforward, fact-oriented question that does not express any emotional intensity or seek to understand the feelings of another person.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The utterance has a neutral emotional polarity, neither positive nor negative.)
+who: 1 (The question is directed at the person being spoken to, indicated by ""your"".)
+sentiment: neutral (The question itself does not convey any sentiment; it's a factual inquiry.)
+emotional_reaction: 0 (There is no emotional reaction expressed in the question.)
+interpretations: 0 (The question does not demonstrate any understanding or interpretation of the other's feelings or situation.)
+explorations: 0 (The question is basic and does not explore emotions or the situation of another; it's about factual information.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented question that does not express any emotional intensity or seek to understand the feelings of another person.",0,0,1,neutral,0,0,0,0
+What grade are you?,6th grade. But we have a different grading school. It starts from zero.,1,ND_1,1,1,1,"reason: The utterance is a straightforward question about someone's grade, which does not express any emotional need or provide emotional support.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral and does not have a positive or negative emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the question ""What grade are you?"")
+sentiment: neutral (The question does not express a positive, negative, or emotional sentiment.)
+emotional_reaction: 0 (The question does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in the question.)
+explorations: 0 (The question is a basic inquiry and does not help the person explore their emotions.)
+
+classification_label: 0","The utterance is a straightforward question about someone's grade, which does not express any emotional need or provide emotional support.",0,0,1,neutral,0,0,0,0
+We also start with zero,How is your school?,1,ND_1,2,3,3,"reason: The utterance ""We also start with zero"" is a straightforward statement that does not express any emotional need for understanding or show an attempt to understand someone else's feelings. It appears to be a factual or neutral statement without any emotional intensity or polarity.
+arousal: 0 (The statement lacks emotional intensity.)
+valence: 0 (The statement is neutral, lacking positive or negative emotional polarity.)
+who: 0 (The subject of the conversation is the speaker or the group they are part of, indicated by ""we"".)
+sentiment: neutral (The statement does not convey any negative or positive sentiment.)
+emotional_reaction: 0 (There is no emotional reaction expressed in the statement.)
+interpretations: 0 (The statement does not demonstrate any understanding or interpretation of someone else's feelings.)
+explorations: 0 (The statement does not explore any emotions or situations of another person.)
+
+classification_label: 0","The utterance ""We also start with zero"" is a straightforward statement that does not express any emotional need for understanding or show an attempt to understand someone else's feelings. It appears to be a factual or neutral statement without any emotional intensity or polarity.",0,0,0,neutral,0,0,0,0
+It is wonderful.,"To be honest, I hate my school. I don’t like going to school.",1,ND_1,1,1,1,"reason: The utterance is a brief statement expressing a positive sentiment, but it doesn't explicitly seek or provide empathy. 
+arousal: 0.5 (The word ""wonderful"" indicates a positive and slightly aroused tone, but the overall intensity is moderate.)
+valence: 1 (The utterance has a very positive emotional polarity.)
+who: 2 (The subject of the conversation is not explicitly the speaker or the listener, but rather an unspecified topic or situation.)
+sentiment: positive
+emotional_reaction: 0 (There is no explicit emotional response or label.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's emotions.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a brief statement expressing a positive sentiment, but it doesn't explicitly seek or provide empathy. ",0.5,1,2,positive,0,0,0,0
+I like school.,"I like school, but I also don’t? I don’t know",1,ND_1,1,1,1,"reason: The utterance is a straightforward statement expressing a positive feeling about school, without seeking or providing empathy.
+arousal: 0 (The statement is calm and does not express high emotional intensity.)
+valence: 1 (The utterance has a positive emotional polarity, as it expresses a liking for school.)
+who: 0 (The person's main attention is on themselves, indicated by the use of ""I"".)
+sentiment: positive (The sentiment of the utterance is positive, as it conveys a favorable opinion about school.)
+emotional_reaction: 0 (There is no emotional reaction from another person in this utterance, as it is a standalone statement.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's feelings in this utterance.)
+explorations: 0 (There is no attempt to explore or probe into someone else's emotions or situation in this utterance.)
+
+classification_label: 0","The utterance is a straightforward statement expressing a positive feeling about school, without seeking or providing empathy.",0,1,0,positive,0,0,0,0
+I took this picture of my bike because I go to school on it. You can also see my house in the background.,Do you go to school without a school uniform?,1,DN_1,1,1,1,"reason: The utterance is a straightforward, fact-oriented statement about taking a picture of a bike and mentioning the house in the background. It doesn't express a need for empathy or understanding of emotions, nor does it offer empathy or explore the emotions of another.
+arousal: 0 (The statement is neutral and doesn't convey high or low emotional intensity.)
+valence: 0 (The emotional polarity is neutral, as there's no expression of happiness, sadness, or any other emotion.)
+who: 0 (The main attention is on the speaker themselves, indicated by ""I"" and their actions.)
+sentiment: neutral (The statement lacks emotional sentiment, being purely informational.)
+emotional_reaction: 0 (There's no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There's no demonstration of understanding or interpretation of another's emotions.)
+explorations: 0 (There's no attempt to explore or understand the emotions or situation of another.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about taking a picture of a bike and mentioning the house in the background. It doesn't express a need for empathy or understanding of emotions, nor does it offer empathy or explore the emotions of another.",0,0,0,neutral,0,0,0,0
+Yeah because I go to a public school.,I see. Do you guys do the piano dance?,1,DN_1,1,1,1,"reason: The utterance is a straightforward statement about the person's educational setting, without expressing any emotional need or providing emotional support.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The statement is neutral and does not express a positive or negative emotion.)
+who: 0 (The person's main attention is on themselves, indicated by the use of ""I"".)
+sentiment: neutral (The statement does not express a positive, negative, or emotional sentiment.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's emotions.)
+explorations: 0 (There is no interest or probing into someone else's situation or emotions.)
+
+classification_label: 0","The utterance is a straightforward statement about the person's educational setting, without expressing any emotional need or providing emotional support.",0,0,0,neutral,0,0,0,0
+I used to play the piano. But now I play the violin.,"No, I’m talking about dancing.",1,DN_1,1,1,1,"reason: The utterance is a straightforward statement about the person's change in musical instrument, without expressing any emotional need or providing emotional support.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The statement is neutral, neither positive nor negative.)
+who: 0 (The person's main attention is on themselves, using the pronoun ""I"".)
+sentiment: neutral (The statement does not express any positive or negative sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of any emotions.)
+explorations: 0 (There is no attempt to explore or understand any emotions.)
+
+classification_label: 0","The utterance is a straightforward statement about the person's change in musical instrument, without expressing any emotional need or providing emotional support.",0,0,0,neutral,0,0,0,0
+"oh no, I do ballet.","I see.
+",1,DN_1,1,1,1,"reason: The utterance ""oh no, I do ballet"" expresses a negative sentiment towards the activity of doing ballet, indicating a need for understanding or acknowledgement of their feelings.
+arousal: 0.2 - The emotional intensity is somewhat low, as the phrase ""oh no"" indicates a mild negative reaction.
+valence: -0.5 - The emotional polarity is slightly negative, as the speaker seems to be expressing dissatisfaction with doing ballet.
+who: 0 - The person's main attention is on themselves, as indicated by the use of the pronoun ""I"".
+sentiment: negative - The overall sentiment of the utterance is negative, as the speaker expresses a negative reaction to doing ballet.
+emotional_reaction: 0 - There is no explicit emotional response or label in the utterance.
+interpretations: 0 - There is no expression of understanding or interpretation of the situation.
+explorations: 0 - There is no interest or probing into the situation, as the utterance is a statement rather than a question.
+
+classification_label: 1","The utterance ""oh no, I do ballet"" expresses a negative sentiment towards the activity of doing ballet, indicating a need for understanding or acknowledgement of their feelings.",0.2,,0,negative,0,0,0,1
+How do you go to school? ,I live in the school.,1,DN_1,1,1,1,"reason: The utterance is a straightforward, fact-oriented question that does not express any emotional need or provide emotional support.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral and does not express positive or negative emotions.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by the use of ""you"".)
+sentiment: neutral (The question does not convey any emotional tone or sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness or reaction in the question.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of another's emotions.)
+explorations: 1 (The question is a weak exploration, as it is a generic inquiry about someone's daily routine.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented question that does not express any emotional need or provide emotional support.",0,0,1,neutral,0,0,1,0
+Are you guys not having exams?,"Oh no, not at the moment. Well, she might but I’m not. What is the name of you guys’ school?",1,ND_2,2,3,3,"reason: The utterance is a question about the exam schedule of others, indicating a inquiry about their situation without expressing a personal need for empathy or providing emotional support.
+arousal: 0 (The question is neutral and does not convey high emotional intensity.)
+valence: 0 (The utterance is neutral, neither positive nor negative.)
+who: 1 (The main attention is on the people being asked, ""you guys"".)
+sentiment: neutral (The question is factual and does not express a positive or negative sentiment.)
+emotional_reaction: 0 (There is no emotional expression or reaction in the utterance.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of another's feelings.)
+explorations: 1 (The question can be seen as a weak exploration into the situation of others, albeit not specifically aimed at understanding their emotions.)
+
+classification_label: 0","The utterance is a question about the exam schedule of others, indicating a inquiry about their situation without expressing a personal need for empathy or providing emotional support.",0,0,1,neutral,0,0,1,0
+ primary school. And yours?,"We go to Bember and she goes to South
+",1,ND_2,1,1,1,"reason: The utterance is a question asking about the listener's primary school, indicating a desire to engage in conversation and potentially understand the listener's experiences or feelings.
+arousal: 0 (The utterance is neutral and does not express high emotional intensity.)
+valence: 0 (The utterance has a neutral emotional polarity, neither positive nor negative.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""And yours?"" which shifts focus to the listener.)
+sentiment: neutral (The utterance does not express a negative or positive sentiment.)
+emotional_reaction: 0 (The utterance does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in the utterance.)
+explorations: 1 (The question ""And yours?"" can be seen as a weak exploration into the listener's background or experiences, as it is a generic inquiry.)
+
+classification_label: 0 
+
+This conversation is classified as ""None (Label: 0)"" because, although it shows a slight interest in the listener's experience, it does not strongly seek or provide empathy. The question asked is more of a casual inquiry rather than a deep exploration of feelings or an attempt to understand and share the emotions of another.","The utterance is a question asking about the listener's primary school, indicating a desire to engage in conversation and potentially understand the listener's experiences or feelings.",0,0,1,neutral,0,0,1,0
+"Those are nice school names. And really, what is your favorite sport?",My favorite sport is probably soccer,1,ND_2,1,1,1,"reason: The utterance is a straightforward, fact-oriented question that shows interest in the other person's preferences but does not explicitly seek or provide emotional support or understanding.
+arousal: 0 (The conversation is very calm, without any signs of high emotional intensity.)
+valence: 0.5 (The utterance has a slightly positive tone due to the initial positive statement about school names, but it's generally neutral.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""your"" and a question about their favorite sport.)
+sentiment: neutral (The overall sentiment is neutral, with a slight positive inclination at the beginning.)
+emotional_reaction: 0 (There is no allusion to any emotion in the response.)
+interpretations: 0 (There is no expression of understanding in the response.)
+explorations: 1 (There is a generic question about the person's favorite sport, showing some interest but not deeply probing into their emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented question that shows interest in the other person's preferences but does not explicitly seek or provide emotional support or understanding.",0,0.5,1,neutral,0,0,1,0
+Oh! ,I used to play but now I don't play much anymore,1,ND_2,1,1,1,"reason: The utterance ""Oh!"" is a brief expression of surprise, which doesn't clearly indicate seeking or providing empathy. It lacks context about the situation or emotions involved, making it difficult to categorize under seeking or providing empathy.
+arousal: 0.5 (The utterance suggests a moderate level of emotional intensity due to its exclamatory nature.)
+valence: 0 (The valence is neutral since ""Oh!"" can express surprise without clear positive or negative connotation.)
+who: 2 (The subject of the conversation is not explicitly mentioned, implying the attention is on another person, topic, or situation, rather than the speaker or the listener.)
+sentiment: neutral (The sentiment is neutral because ""Oh!"" doesn't inherently convey positive or negative feelings.)
+emotional_reaction: 0 (There's no explicit emotional response in the utterance.)
+interpretations: 0 (There's no demonstration of understanding in the utterance.)
+explorations: 0 (The utterance does not help explore emotions or situations.)
+
+classification_label: 0","The utterance ""Oh!"" is a brief expression of surprise, which doesn't clearly indicate seeking or providing empathy. It lacks context about the situation or emotions involved, making it difficult to categorize under seeking or providing empathy.",0.5,0,2,neutral,0,0,0,0
+Why?! ,"Maybe it is cause I do other things, like I act. I’m an actor",1,ND_2,1,1,1,"reason: The utterance ""Why?!"" indicates a strong emotional reaction and a desire for understanding or explanation, which suggests that the speaker is seeking empathy.
+arousal: 1 (The use of the exclamation mark and the abrupt question suggests high emotional intensity.)
+valence: -1 (The tone of the utterance implies a negative emotional state, such as frustration or sadness.)
+who: 0 (The speaker's attention is on themselves, as they are questioning their own situation or emotions.)
+sentiment: negative (The utterance expresses a negative sentiment, implying dissatisfaction or distress.)
+emotional_reaction: 0 (There is no explicit emotional label, but the tone implies a strong emotional state.)
+interpretations: 0 (There is no expression of understanding or interpretation of another's emotions.)
+explorations: 0 (There is no attempt to explore or understand another's emotions, but rather a demand for explanation.)
+
+classification_label: 1","The utterance ""Why?!"" indicates a strong emotional reaction and a desire for understanding or explanation, which suggests that the speaker is seeking empathy.",1,,0,negative,0,0,0,1
+Wow!,Actress I guess,1,ND_2,1,1,1,"reason: The utterance ""Wow!"" is a brief expression of surprise or astonishment, which does not explicitly seek or provide empathy. It lacks any clear indication of understanding or acknowledgment of another's feelings and does not invite further exploration of emotions.
+arousal: 0.5 (The utterance indicates a moderate level of emotional intensity, as ""Wow!"" can express a range of emotions from mild surprise to intense astonishment.)
+valence: 1 (The valence is positive because ""Wow!"" is generally used to express a positive or exciting reaction, even if it's just surprise.)
+who: 2 (The subject of the conversation is not explicitly the speaker or the person they're talking to, but rather the thing or situation that prompted the ""Wow!"".)
+sentiment: positive (The sentiment of the utterance is positive due to the nature of the exclamation ""Wow!"", which typically expresses a favorable reaction.)
+emotional_reaction: 0 (There is no explicit emotional response in the utterance; it's a reaction rather than a reflection of empathy.)
+interpretations: 0 (There is no demonstration of understanding in the utterance.)
+explorations: 0 (The utterance does not help explore emotions; it's a standalone expression of surprise.)
+
+classification_label: 0","The utterance ""Wow!"" is a brief expression of surprise or astonishment, which does not explicitly seek or provide empathy. It lacks any clear indication of understanding or acknowledgment of another's feelings and does not invite further exploration of emotions.",0.5,1,2,positive,0,0,0,0
+What movie did you play?,"Oh, not like a movie actor. Just musical theater and art creatively ",1,ND_2,2,2,1,"reason: The utterance is a straightforward question about a movie, without any emotional tone or attempt to understand the other person's feelings.
+arousal: 0 (The question is neutral and does not convey any emotional intensity.)
+valence: 0 (The question is neutral and does not express any positive or negative emotion.)
+who: 1 (The question is directed at the person being spoken to, using the ""you"" pronoun.)
+sentiment: neutral (The question is factual and does not convey any sentiment.)
+emotional_reaction: 0 (There is no emotional reaction or expression in the question.)
+interpretations: 0 (There is no attempt to understand or interpret the other person's feelings or situation.)
+explorations: 0 (There is no attempt to explore or probe into the other person's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward question about a movie, without any emotional tone or attempt to understand the other person's feelings.",0,0,1,neutral,0,0,0,0
+Oh,"Like, do you know about it? So, I just do…there is a field of theater districts in Bloomington that I do just once in a while. I’m not hugely hugely experienced but I enjoy it and singing",1,ND_2,1,1,1,"reason: The utterance ""Oh"" is a brief and neutral expression that does not provide enough context to determine if it is seeking or providing empathy. It could be a reaction to something, but without more information, it's hard to classify it as seeking empathy or providing empathy.
+arousal: 0 (The utterance does not convey high or low emotional intensity, it's a very calm or neutral expression)
+valence: 0 (The utterance is neutral and does not express a positive or negative emotion)
+who: 0 (The utterance does not specify who the subject is, but given its brevity and lack of context, it's likely the speaker is reacting to something and thus the attention is on themselves)
+sentiment: neutral (The utterance does not express a clear sentiment)
+emotional_reaction: 0 (The utterance does not allude to any emotion explicitly)
+interpretations: 0 (There is no expression of understanding)
+explorations: 0 (There is no interest or probing into the situation of another)
+
+classification_label: 0","The utterance ""Oh"" is a brief and neutral expression that does not provide enough context to determine if it is seeking or providing empathy. It could be a reaction to something, but without more information, it's hard to classify it as seeking empathy or providing empathy.",0,0,0,neutral,0,0,0,0
+So you sing?,Yes,1,ND_2,1,1,1,"reason: The utterance is a question about the person's activity, which does not express a need for empathy or understanding, nor does it acknowledge or share any emotions.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral, without any positive or negative emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by the use of ""you"".)
+sentiment: neutral (The question does not express any negative or positive sentiment.)
+emotional_reaction: 0 (The question does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in the question.)
+explorations: 1 (The question can be seen as a weak exploration into the person's activities or interests, but it's more of a factual inquiry than an emotional probe.)
+
+classification_label: 0","The utterance is a question about the person's activity, which does not express a need for empathy or understanding, nor does it acknowledge or share any emotions.",0,0,1,neutral,0,0,1,0
+What is your favorite song,"You know, I don’t really have a favorite song but probably anything from Hamilton.",1,ND_2,1,1,1,"reason: The utterance is a straightforward question about the person's preference, without any emotional tone or attempt to understand the other's feelings.
+arousal: 0 (The question is neutral and does not convey any emotional intensity.)
+valence: 0 (The question is neutral and does not have a positive or negative emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, using the ""your"" pronoun.)
+sentiment: neutral (The question is neutral and does not express any sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the question.)
+interpretations: 0 (There is no expression of understanding or attempt to interpret the other's feelings.)
+explorations: 0 (There is no interest or probing into the situation or emotions of the other person, although it could be argued as a weak exploration, the context suggests it's more of a casual question.)
+
+classification_label: 0","The utterance is a straightforward question about the person's preference, without any emotional tone or attempt to understand the other's feelings.",0,0,1,neutral,0,0,0,0
+Can you sing for us?,"Hahaha, I don’t know. There is this weird thing, I can sing in front of people I don’t know. But singing in a room with people I know is so weird.",1,ND_2,1,1,1,"reason: The utterance is a straightforward request and does not involve seeking or providing emotional support.
+arousal: 0 (The request is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The request is neutral and does not have a positive or negative emotional polarity.)
+who: 2 (The person's main attention is on another person or topic, in this case, the action of singing.)
+sentiment: neutral (The utterance does not express a negative or positive sentiment.)
+emotional_reaction: 0 (The utterance does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding or attempt to interpret the emotional state of another.)
+explorations: 0 (There is no interest or probing into the situation or emotions of another.)
+
+classification_label: 0",The utterance is a straightforward request and does not involve seeking or providing emotional support.,0,0,2,neutral,0,0,0,0
+How is your country like (there?),Pretty good. How is yours?,1,ND_2,2,3,3,"reason: The utterance is a question about the person's country, which indicates a desire to understand or know more about the other person's situation or experiences, but it does not directly express a need for empathy or provide empathy.
+arousal: 0 (The utterance is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The utterance is neutral and does not express a positive or negative emotional polarity.)
+who: 2 (The person's main attention is on another person or topic, in this case, the person's country.)
+sentiment: neutral (The utterance does not express a negative, positive, or emotional sentiment.)
+emotional_reaction: 0 (The utterance does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in the utterance.)
+explorations: 1 (The question ""How is your country like?"" is a generic inquiry into the situation of another, indicating a weak exploration.)
+
+classification_label: 0 
+
+This conversation is classified as ""None"" because it is a straightforward, fact-oriented question that does not seek or provide empathy. The question is about gathering information rather than expressing or understanding emotions.","The utterance is a question about the person's country, which indicates a desire to understand or know more about the other person's situation or experiences, but it does not directly express a need for empathy or provide empathy.",0,0,2,neutral,0,0,1,0
+Fine. Is it daytime?,Do you guys have pets?,1,ND_2,1,1,1,"reason: The utterance ""Fine. Is it daytime?"" seems to be a straightforward, fact-oriented question without any emotional depth or an attempt to understand or be understood on an emotional level. The initial ""Fine"" could be interpreted as a vague expression of sentiment but lacks the context to be classified as seeking or providing empathy.
+
+arousal: 0 (The emotional intensity appears to be minimal, given the lack of explicit emotional language or context.)
+
+valence: 0 (The sentiment is neutral, as ""Fine"" can be seen as neutral or slightly positive but is not strong enough to sway the valence significantly, and ""Is it daytime?"" is a factual question.)
+
+who: 2 (The main attention is on the topic of the time of day, rather than on the speaker themselves or the person they are talking to.)
+
+sentiment: neutral (The overall sentiment of the utterance is neutral, as it primarily consists of a factual question and a vague, neutral expression.)
+
+emotional_reaction: 0 (There is no explicit emotional label or reaction in the utterance.)
+
+interpretations: 0 (There is no expression of understanding or attempt to interpret the feelings of another.)
+
+explorations: 0 (There is no interest or probing into the situation or emotions of another; the question is purely factual.)
+
+classification_label: 0 
+
+This classification is based on the provided categories and features, indicating that the utterance does not seek or provide empathy, aligning with Label 0: ""None"".","The utterance ""Fine. Is it daytime?"" seems to be a straightforward, fact-oriented question without any emotional depth or an attempt to understand or be understood on an emotional level. The initial ""Fine"" could be interpreted as a vague expression of sentiment but lacks the context to be classified as seeking or providing empathy.",0,0,2,neutral,0,0,0,0
+What is the name of your instrument?,It is a trombone.,1,ND_2,1,1,1,"reason: The utterance is a straightforward, fact-oriented question that does not express any emotional need or provide emotional support.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral and does not express positive or negative emotions.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the question about ""your"" instrument.)
+sentiment: neutral (The question is neutral and does not express any sentiment.)
+emotional_reaction: 0 (The question does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in the question.)
+explorations: 0 (There is no interest or probing into the situation or emotions of another in the question.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented question that does not express any emotional need or provide emotional support.",0,0,1,neutral,0,0,0,0
+"I enjoy making costumes. I like roleplaying.
+",Is that a school project or you’re just doing it for fun?,1,DN_2,3,3,3,"reason: The utterance expresses a positive personal experience and interest, without explicitly seeking or providing empathy.
+arousal: 0.2 (The person seems mildly enthusiastic about their hobby, but the tone is generally calm.)
+valence: 0.8 (The statement has a positive emotional polarity, indicating enjoyment and liking.)
+who: 0 (The person's main attention is on themselves, using the pronoun ""I"".)
+sentiment: positive (The overall sentiment of the utterance is positive, focusing on enjoyment and liking.)
+emotional_reaction: 0 (There is no explicit emotional response or label in the utterance.)
+interpretations: 0 (There is no expression of understanding or interpretation of another person's feelings or situation.)
+explorations: 0 (There is no interest or probing into another person's situation or emotions.)
+
+classification_label: 0","The utterance expresses a positive personal experience and interest, without explicitly seeking or providing empathy.",0.2,0.8,0,positive,0,0,0,0
+I made it for fun and for other people who like acting.,That is nice.,1,DN_2,3,1,2,"reason: The utterance expresses a positive sentiment and focuses on the speaker's action and its intention for others, but it doesn't explicitly seek or provide empathy.
+arousal: 0 (The statement seems calm and doesn't convey high emotional intensity.)
+valence: 0.5 (The utterance has a mildly positive tone, indicating a positive but not extremely positive emotion.)
+who: 0 (The main attention is on the speaker themselves, indicated by ""I"".)
+sentiment: positive (The utterance conveys a positive feeling about making something for fun and for others.)
+emotional_reaction: 0 (There's no explicit emotional response or label in the utterance.)
+interpretations: 0 (There's no demonstration of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There's no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance expresses a positive sentiment and focuses on the speaker's action and its intention for others, but it doesn't explicitly seek or provide empathy.",0,0.5,0,positive,0,0,0,0
+Why did you take a picture of this?,Because I like it. It reflects my identity.,1,DN_2,3,1,1,"reason: The utterance is a straightforward question about an action, without expressing any emotional need or attempting to understand the emotions of another.
+arousal: 0 (The question is neutral and does not convey high emotional intensity.)
+valence: 0 (The utterance is neutral and does not express a positive or negative emotion.)
+who: 1 (The question is directed at the person being addressed, indicated by ""you"".)
+sentiment: neutral (The question itself does not express a negative or positive sentiment.)
+emotional_reaction: 0 (There is no emotional reaction expressed in the utterance.)
+interpretations: 0 (The utterance does not demonstrate an understanding of the other's emotions or situation.)
+explorations: 0 (The question, while inquiring about an action, does not explore emotions or the situation in an empathetic manner.)
+
+classification_label: 0","The utterance is a straightforward question about an action, without expressing any emotional need or attempting to understand the emotions of another.",0,0,1,neutral,0,0,0,0
+That is nice to hear.,Thank you,1,DN_2,3,1,1,"reason: The utterance ""That is nice to hear"" is a response that acknowledges and shows appreciation for some positive news or information shared by another person. It indicates a level of understanding and shared positive feeling, which aligns with providing empathy by recognizing and vicariously sharing the positive emotions of another.
+
+arousal: 0.2 - The emotional intensity is relatively low, as the response is polite and courteous but does not express high arousal.
+
+valence: 0.8 - The emotional polarity is positive, as the utterance responds to something ""nice"" and therefore indicates a positive sentiment.
+
+who: 2 - The subject of the conversation is another person or topic, as indicated by the phrase ""to hear,"" which implies listening to someone or something else.
+
+sentiment: positive - The sentiment of the utterance is positive, reflecting a pleasant or welcoming attitude towards the information received.
+
+emotional_reaction: 1 - The response shows a weak emotional reaction, as it acknowledges the positivity without explicitly stating an emotional response.
+
+interpretations: 0 - There is no strong expression of understanding beyond a generic acknowledgment of the information being ""nice to hear.""
+
+explorations: 0 - There is no attempt to explore the emotions or situation further, as the response is more of a standalone acknowledgment.
+
+classification_label: 2 
+
+This classification is based on the utterance providing a form of empathy by acknowledging and appreciating the positive sentiment shared by another, even if it does so in a mild and somewhat generic manner.","The utterance ""That is nice to hear"" is a response that acknowledges and shows appreciation for some positive news or information shared by another person. It indicates a level of understanding and shared positive feeling, which aligns with providing empathy by recognizing and vicariously sharing the positive emotions of another.",0.2,0.8,2,positive,1,0,0,2
+What is your favorite color?,"Pink, red, and blue.",1,DN_2,3,1,1,"reason: The utterance is a straightforward question that does not express any emotional need or provide emotional support.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral, neither positive nor negative.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""your"".)
+sentiment: neutral (The question does not express any sentiment.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the question.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of emotions.)
+explorations: 0 (There is no attempt to explore emotions, just a factual question.)
+
+classification_label: 0",The utterance is a straightforward question that does not express any emotional need or provide emotional support.,0,0,1,neutral,0,0,0,0
+It is my basketball t-shirt.,What is your favorite basketball player?,1,ND_3,1,1,1,"reason: The utterance is a straightforward statement about an object, without expressing any emotional need or attempting to understand someone else's feelings.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The statement has a neutral emotional polarity, neither positive nor negative.)
+who: 0 (The person's main attention is on themselves, indicated by the possessive pronoun ""my"".)
+sentiment: neutral (The statement does not express any sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the statement.)
+interpretations: 0 (There is no expression of understanding or attempt to interpret someone else's emotions.)
+explorations: 0 (There is no interest or probing into someone else's situation or emotions.)
+
+classification_label: 0","The utterance is a straightforward statement about an object, without expressing any emotional need or attempting to understand someone else's feelings.",0,0,0,neutral,0,0,0,0
+It is Lebron James,Wooww! I don’t like Lebrone. James,1,ND_3,1,1,1,"reason: The utterance is a straightforward statement of fact, providing no emotional context or personal experience.
+arousal: 0 (The statement is neutral and does not express any emotional intensity.)
+valence: 0 (The statement has no positive or negative emotional polarity.)
+who: 2 (The main attention is on another person, Lebron James, but without any emotional or personal connection.)
+sentiment: neutral (The statement does not express any sentiment towards Lebron James or any situation.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of any emotions or situations.)
+explorations: 0 (There is no attempt to explore any emotions or situations.)
+
+classification_label: 0","The utterance is a straightforward statement of fact, providing no emotional context or personal experience.",0,0,2,neutral,0,0,0,0
+Why do you like Lebron?, I think he is a good player. I like his playing style.,1,DN_3,1,1,1,"reason: The utterance is a question about the other person's preference, indicating an interest in their opinion or feelings.
+arousal: 0 (The question is neutral and does not convey high emotional intensity.)
+valence: 0 (The question is neutral and does not express a positive or negative emotion.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by the use of ""you"".)
+sentiment: neutral (The question is neutral and does not express a positive or negative sentiment.)
+emotional_reaction: 0 (The question does not allude to any emotion.)
+interpretations: 0 (The question does not demonstrate understanding of the other person's feelings or emotions.)
+explorations: 1 (The question is a generic inquiry into the other person's preference, showing some interest in their opinion.)
+
+classification_label: 0 
+
+This conversation is classified as ""None"" because it is a straightforward, fact-oriented question that does not seek or provide empathy. While it shows some interest in the other person's opinion, it does not demonstrate an understanding of their feelings or emotions, and it does not express emotional support or acknowledgement.","The utterance is a question about the other person's preference, indicating an interest in their opinion or feelings.",0,0,1,neutral,0,0,1,0
+Can I ask you a question?,Yeah,1,ND_4,1,1,1,"reason: The utterance ""Can I ask you a question?"" is a straightforward and polite request for permission to ask a question, without expressing any emotions or seeking empathy directly.
+arousal: 0 (The utterance does not convey high or low emotional intensity.)
+valence: 0 (The utterance is neutral, without positive or negative emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""you"".)
+sentiment: neutral (The utterance does not express a negative or positive sentiment.)
+emotional_reaction: 0 (The utterance does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in this utterance.)
+explorations: 0 (There is no interest or probing into the situation of another in this initial request.)
+
+classification_label: 0","The utterance ""Can I ask you a question?"" is a straightforward and polite request for permission to ask a question, without expressing any emotions or seeking empathy directly.",0,0,1,neutral,0,0,0,0
+Who is your favorite celebrity?,I really like Taylos Swift because she is a strong and independent woman.,1,ND_4,1,1,1,"reason: The utterance is a straightforward question about the person's preference and does not express any emotional need or attempt to understand another's feelings.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The utterance is neutral, neither positive nor negative.)
+who: 2 (The question is about another person or entity, in this case, a celebrity, rather than the speaker or the listener.)
+sentiment: neutral (The question itself does not express any sentiment towards the celebrity or any other topic.)
+emotional_reaction: 0 (There is no emotional reaction or expression in the question.)
+interpretations: 0 (The question does not demonstrate any understanding or interpretation of someone's feelings.)
+explorations: 0 (The question is not probing into someone's emotional state or situation.)
+
+classification_label: 0",The utterance is a straightforward question about the person's preference and does not express any emotional need or attempt to understand another's feelings.,0,0,2,neutral,0,0,0,0
+"So, she wanted to know who your favorite celebrities are","Jenna Ortega, Kanye West, and Taylor Swift",1,ND_4,1,1,1,"reason: The utterance is a straightforward, fact-oriented statement about someone else's question, without any emotional tone or attempt to seek or provide empathy.
+arousal: 0 (The statement is neutral and does not convey any emotional intensity.)
+valence: 0 (The statement has no emotional polarity, as it is simply a factual report.)
+who: 2 (The main attention is on another person, ""she"", and the topic of favorite celebrities.)
+sentiment: neutral (The statement does not express any sentiment or emotion.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of anyone's emotions.)
+explorations: 0 (There is no attempt to explore or probe into anyone's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about someone else's question, without any emotional tone or attempt to seek or provide empathy.",0,0,2,neutral,0,0,0,0
+Ok,Did you get it?,1,ND_4,1,1,1,"reason: The utterance ""Ok"" is a brief and neutral response that does not express any emotional intensity or seek to understand another's feelings. It is a straightforward acknowledgment without any empathetic content.
+arousal: 0 (The response is very calm, indicating no emotional intensity.)
+valence: 0 (The response is neutral, indicating no positive or negative emotional polarity.)
+who: 2 (The subject of the conversation is not explicitly mentioned, implying the focus is on the topic or situation rather than the speaker or the listener.)
+sentiment: neutral (The response does not convey any negative or positive sentiment.)
+emotional_reaction: 0 (There is no allusion to any emotion in the response.)
+interpretations: 0 (The response does not demonstrate any understanding or interpretation of the situation.)
+explorations: 0 (There is no attempt to explore or understand the emotions or situation of another.)
+
+classification_label: 0","The utterance ""Ok"" is a brief and neutral response that does not express any emotional intensity or seek to understand another's feelings. It is a straightforward acknowledgment without any empathetic content.",0,0,2,neutral,0,0,0,0
+Yeah,What about yours?,1,ND_4,1,1,1,"reason: The utterance ""Yeah"" is a brief and neutral response that does not express any emotional intensity or sentiment related to seeking or providing empathy. It appears to be a straightforward, fact-oriented utterance.
+arousal: 0 (The response is very calm, indicating no emotional intensity.)
+valence: 0 (The response is neutral, indicating no emotional polarity.)
+who: 2 (The subject of the conversation is not explicitly mentioned, and the focus is not on the speaker or the person they are talking to.)
+sentiment: neutral (The response does not express any positive or negative sentiment.)
+emotional_reaction: 0 (The response does not allude to any emotion.)
+interpretations: 0 (The response does not demonstrate any understanding or expression of empathy.)
+explorations: 0 (The response does not show any interest or probing into the situation of another.)
+
+classification_label: 0","The utterance ""Yeah"" is a brief and neutral response that does not express any emotional intensity or sentiment related to seeking or providing empathy. It appears to be a straightforward, fact-oriented utterance.",0,0,2,neutral,0,0,0,0
+Mine is Katty B and Nicki Minaj,Who? Is that even a celebrity? ,1,ND_4,1,1,1,"reason: The utterance does not express any emotional need or provide emotional support. It appears to be a statement of preference or interest without seeking understanding or offering empathy.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The emotional polarity is neutral as it does not express happiness, sadness, or any other emotion.)
+who: 0 (The subject of the conversation is the speaker themselves, indicated by ""Mine"".)
+sentiment: neutral (The statement is about personal preference without expressing a positive or negative sentiment towards the subject matter.)
+emotional_reaction: 0 (There is no emotional expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of any emotional context.)
+explorations: 0 (There is no attempt to explore emotions or situations, just a straightforward statement.)
+
+classification_label: 0",The utterance does not express any emotional need or provide emotional support. It appears to be a statement of preference or interest without seeking understanding or offering empathy.,0,0,0,neutral,0,0,0,0
+What do you like Lipgloss?,"I don’t know. I can answer that another time.
+",1,ND_5,1,1,1,"reason: The utterance is a straightforward question about the person's preference, without any emotional tone or attempt to understand their feelings.
+arousal: 0 (The question is neutral and does not convey any emotional intensity.)
+valence: 0 (The question is neutral and does not express any positive or negative emotion.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the use of ""you"".)
+sentiment: neutral (The question is neutral and does not express any sentiment.)
+emotional_reaction: 0 (The question does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in the question.)
+explorations: 1 (The question is a weak exploration, as it is a generic question about the person's preference.)
+
+classification_label: 0","The utterance is a straightforward question about the person's preference, without any emotional tone or attempt to understand their feelings.",0,0,1,neutral,0,0,1,0
+I chose this avatar cause I ate fish yesterday,What type of fish?,1,JA_1,1,3,3,"reason: The utterance is a straightforward statement about choosing an avatar based on a personal experience (eating fish) and does not express any emotional need for understanding or offer empathy to another.
+arousal: 0 (The statement is neutral and does not convey high emotional intensity.)
+valence: 0 (The statement is neutral, lacking positive or negative emotional polarity.)
+who: 0 (The person's main attention is on themselves, indicated by ""I"".)
+sentiment: neutral (The statement does not express a negative or positive sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness or response.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of another's feelings.)
+explorations: 0 (There is no attempt to explore or understand another's emotions or situation.)
+
+classification_label: 0",The utterance is a straightforward statement about choosing an avatar based on a personal experience (eating fish) and does not express any emotional need for understanding or offer empathy to another.,0,0,0,neutral,0,0,0,0
+You know maguro? I had it yesterday,Oh! Yum! Is that your favorite food?,1,JA_1,3,3,3,"reason: The utterance is a straightforward statement about having maguro (a type of sushi) yesterday, without expressing any emotional need or attempting to understand someone else's feelings.
+arousal: 0 (The statement is neutral and doesn't convey high or low emotional intensity.)
+valence: 0.5 (The mention of having a specific food might imply a slightly positive experience, but it's not explicitly stated.)
+who: 0 (The person's main attention is on themselves, using ""I"" to share their experience.)
+sentiment: neutral (The statement is more about sharing an event than expressing a clear positive or negative emotion.)
+emotional_reaction: 0 (There's no emotional response or label provided in the utterance.)
+interpretations: 0 (There's no demonstration of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There's no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward statement about having maguro (a type of sushi) yesterday, without expressing any emotional need or attempting to understand someone else's feelings.",0,0.5,0,neutral,0,0,0,0
+I chose this because I like cheese,Oh same! We all like cheese,1,JA_1,3,3,3,"reason: The utterance is a straightforward statement expressing a personal preference without seeking emotional understanding or providing emotional support to another.
+arousal: 0 (The statement is neutral and does not convey high emotional intensity.)
+valence: 0.5 (The sentiment is slightly positive due to the expression of liking something, but it's not strongly positive.)
+who: 0 (The person's main attention is on themselves, indicated by the use of ""I"".)
+sentiment: positive
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0",The utterance is a straightforward statement expressing a personal preference without seeking emotional understanding or providing emotional support to another.,0,0.5,0,positive,0,0,0,0
+I chose this one cause it is the same,Good choice,1,JA_1,1,1,1,"reason: The utterance is a straightforward statement explaining a choice, without expressing any emotional need or attempting to understand someone else's feelings.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The statement is neutral, neither positive nor negative.)
+who: 0 (The person's main attention is on themselves, indicated by ""I"".)
+sentiment: neutral (The statement does not express a positive or negative sentiment.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no expression of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward statement explaining a choice, without expressing any emotional need or attempting to understand someone else's feelings.",0,0,0,neutral,0,0,0,0
+I like playing rock songs,Rock! Good I like metal,1,JA_1,3,1,3,"reason: The utterance is a straightforward statement about a personal preference and does not express a need for understanding or recognition of emotions, nor does it acknowledge or respond to someone else's emotions.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0.5 (The sentiment is mildly positive because the person expresses a liking for something.)
+who: 0 (The main attention is on themselves, indicated by ""I"".)
+sentiment: positive
+emotional_reaction: 0 (There is no emotional reaction or expressiveness aimed at providing empathy.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward statement about a personal preference and does not express a need for understanding or recognition of emotions, nor does it acknowledge or respond to someone else's emotions.",0,0.5,0,positive,0,0,0,0
+What is your favorite music band?,I like Black Sabbath,1,JA_1,1,1,1,"reason: The utterance is a straightforward question about the person's preference, without any emotional tone or attempt to understand the other's feelings.
+arousal: 0 (The question is neutral and does not convey any emotional intensity.)
+valence: 0 (The question is neutral and does not have a positive or negative emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, using the ""your"" pronoun.)
+sentiment: neutral (The question is neutral and does not express any sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the question.)
+interpretations: 0 (There is no expression of understanding or attempt to interpret the other's feelings.)
+explorations: 0 (There is no interest or probing into the situation or emotions of the other person, although it could be argued as a weak exploration, the context suggests it's more of a casual conversation starter rather than an attempt to understand the person's emotions.)
+
+classification_label: 0","The utterance is a straightforward question about the person's preference, without any emotional tone or attempt to understand the other's feelings.",0,0,1,neutral,0,0,0,0
+Very nice I always listen to black Sabbath,My sister has a very different type of music taste,1,JA_1,1,1,1,"reason: The utterance is a straightforward statement about the person's music preference, without expressing any emotional need or attempting to understand someone else's feelings.
+arousal: 0 (the statement is neutral and doesn't convey high or low emotional intensity)
+valence: 0.5 (the word ""nice"" indicates a slightly positive tone, but it's not strongly positive)
+who: 0 (the person's main attention is on themselves, as indicated by the implicit ""I"" pronoun)
+sentiment: positive
+emotional_reaction: 0 (there is no emotional reaction or expressiveness in the utterance)
+interpretations: 0 (there is no demonstration of understanding or interpretation of someone else's feelings)
+explorations: 0 (there is no attempt to explore or understand someone else's emotions or situation)
+
+classification_label: 0","The utterance is a straightforward statement about the person's music preference, without expressing any emotional need or attempting to understand someone else's feelings.",0,0.5,0,positive,0,0,0,0
+I play the flute and I like listening to pop music and recently went to a concert. Have you guys been to any concert?,I can play the trumpet. Ever since grade school I have played the trumpet,1,JA_1,3,1,3,"reason: The utterance is about sharing personal interests and experiences, and then shifts to asking others about their experiences, which indicates a desire to connect and understand others, but primarily focuses on sharing personal feelings and seeking a form of understanding or shared experience.
+arousal: 0.2 - The emotional intensity is relatively low, as the topics discussed (playing the flute, listening to pop music, attending a concert) are generally positive and not highly arousing.
+valence: 0.8 - The emotional polarity is positive, reflecting enjoyment and pleasure in the activities mentioned.
+who: 0 - The main attention is initially on themselves (""I play the flute,"" ""I like listening to pop music""), then shifts to include others (""Have you guys been to any concert?""), but the primary subject is the speaker's own experiences and feelings.
+sentiment: positive - The overall sentiment of the utterance is positive, given the enjoyment expressed in musical activities and attending a concert.
+emotional_reaction: 0 - There is no explicit emotional response aimed at eliciting empathy or indicating a strong emotional state in relation to others.
+interpretations: 0 - There is no demonstration of understanding or interpretation of another's feelings, as the utterance is more about personal experience and a question that doesn't delve into emotional understanding.
+explorations: 1 - The question ""Have you guys been to any concert?"" can be seen as a weak exploration into the experiences of others, as it's a generic inquiry rather than a deep or emotionally specific question.
+
+classification_label: 1
+
+This classification is based on the utterance seeking to share personal experiences and feelings, and then asking others about their experiences in a way that seeks understanding or connection, which aligns with seeking empathy. However, the primary focus is on the speaker's own feelings and experiences, and the question asked of others is more about shared activities than about understanding their emotional states.","The utterance is about sharing personal interests and experiences, and then shifts to asking others about their experiences, which indicates a desire to connect and understand others, but primarily focuses on sharing personal feelings and seeking a form of understanding or shared experience.",0.2,0.8,0,positive,0,0,1,1
+Do you have any pets? another pet?,Yes I have a bird and I used to have dog. Do you have pets? ,1,JA_1,3,3,3,"reason: The utterance is a straightforward question about pets, without expressing or seeking emotional understanding.
+arousal: 0 (The conversation is calm and lacks emotional intensity.)
+valence: 0 (The utterance is neutral, lacking any positive or negative emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by ""you"".)
+sentiment: neutral (The question is factual and does not express any sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the utterance.)
+interpretations: 0 (There is no expression of understanding in the question.)
+explorations: 0 (The question does not help explore emotions; it's a simple inquiry.)
+
+classification_label: 0","The utterance is a straightforward question about pets, without expressing or seeking emotional understanding.",0,0,1,neutral,0,0,0,0
+"No, I am allergic",What is your favorite animal?,1,JA_1,1,3,1,"reason: The utterance is a straightforward, fact-oriented response to a question, likely about a medical condition or food preference. It does not express a need for emotional understanding or provide emotional support.
+arousal: -0.5 (The response is calm, but the situation might be slightly uncomfortable due to the health implication.)
+valence: -0.2 (The utterance has a slightly negative tone because it mentions an allergy, which can be a negative experience.)
+who: 0 (The person's main attention is on themselves, using the pronoun ""I"".)
+sentiment: neutral (Although the utterance mentions an allergy, which might have negative connotations, the tone itself is more matter-of-fact than emotional.)
+emotional_reaction: 0 (There's no emotional expression or response in the utterance.)
+interpretations: 0 (There's no attempt to understand or interpret the feelings of another person.)
+explorations: 0 (There's no exploration or probing into the situation or emotions of another.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented response to a question, likely about a medical condition or food preference. It does not express a need for emotional understanding or provide emotional support.",,,0,neutral,0,0,0,0
+Cat!,Yay! Have you been to a cat café in Tokyo?,1,JA_1,4,3,4,"reason: The utterance ""Cat!"" is a brief and straightforward statement that does not express any emotional need or provide emotional support. It lacks context to determine if it's seeking or providing empathy.
+arousal: 0 (The utterance does not convey high or low emotional intensity.)
+valence: 0 (The emotional polarity is neutral as ""Cat!"" does not inherently express a positive or negative emotion.)
+who: 2 (The subject of the conversation is an object or topic, in this case, a ""cat."")
+sentiment: neutral (The statement is neutral and does not express a negative or positive sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the utterance.)
+interpretations: 0 (The utterance does not demonstrate understanding of anyone's feelings or emotions.)
+explorations: 0 (There is no attempt to explore emotions or situations.)
+
+classification_label: 0","The utterance ""Cat!"" is a brief and straightforward statement that does not express any emotional need or provide emotional support. It lacks context to determine if it's seeking or providing empathy.",0,0,2,neutral,0,0,0,0
+"No, I have allergy","Oh, yeah that does not help. If you had any pet what would it be?",1,JA_1,5,3,4,"reason: The utterance is a straightforward, fact-oriented response to a question, indicating a personal condition (allergy) without expressing any emotional need or offering emotional support.
+arousal: -1 (very calm)
+valence: 0 (neutral, as it's a statement of fact without positive or negative emotion)
+who: 0 (the person's main attention is on themselves, using ""I"")
+sentiment: neutral
+emotional_reaction: 0 (does not allude to any emotion)
+interpretations: 0 (no expression of understanding towards another, as the statement is self-focused)
+explorations: 0 (no interest or probing into the situation of another)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented response to a question, indicating a personal condition (allergy) without expressing any emotional need or offering emotional support.",,0,0,neutral,0,0,0,0
+I had a beetle ,Wow do you like dogs?,1,JA_1,1,3,3,"reason: The utterance ""I had a beetle"" is a straightforward statement that doesn't express any emotional need for understanding or acknowledgment, nor does it demonstrate an attempt to understand or acknowledge someone else's emotions.
+arousal: 0 (The statement is neutral and doesn't convey high or low emotional intensity.)
+valence: 0 (The emotional polarity is neutral, as having a beetle doesn't inherently convey positive or negative feelings without additional context.)
+who: 0 (The main attention is on the speaker themselves, indicated by the use of ""I"".)
+sentiment: neutral (The statement doesn't express a clear positive or negative sentiment.)
+emotional_reaction: 0 (There's no allusion to any emotion in the statement.)
+interpretations: 0 (There's no expression of understanding or attempt to understand someone else's feelings.)
+explorations: 0 (There's no interest or probing into the situation of another.)
+
+classification_label: 0","The utterance ""I had a beetle"" is a straightforward statement that doesn't express any emotional need for understanding or acknowledgment, nor does it demonstrate an attempt to understand or acknowledge someone else's emotions.",0,0,0,neutral,0,0,0,0
+Yeah,You have a favorite breed?,1,JA_1,1,1,1,"reason: The utterance ""Yeah"" is a brief and neutral response that does not express any emotional intensity or sentiment related to seeking or providing empathy. It appears to be a straightforward, fact-oriented utterance.
+arousal: 0 (The response is very calm, indicating no emotional intensity.)
+valence: 0 (The response is neutral, indicating no emotional polarity.)
+who: 2 (The subject of the conversation is not explicitly mentioned, and the focus is not on the speaker or the person they are talking to.)
+sentiment: neutral (The response does not express any positive or negative sentiment.)
+emotional_reaction: 0 (The response does not allude to any emotion.)
+interpretations: 0 (The response does not demonstrate any understanding or expression of empathy.)
+explorations: 0 (The response does not show any interest or probing into the situation of another.)
+
+classification_label: 0","The utterance ""Yeah"" is a brief and neutral response that does not express any emotional intensity or sentiment related to seeking or providing empathy. It appears to be a straightforward, fact-oriented utterance.",0,0,2,neutral,0,0,0,0
+Do you know the Japanese one?,"Oh yeah, we saw a lot of Shibas",1,JA_1,1,1,1,"reason: The utterance ""Do you know the Japanese one?"" appears to be a straightforward, fact-oriented question that doesn't express any emotional need or provide emotional support.
+arousal: 0 (The question is neutral and doesn't convey high or low emotional intensity.)
+valence: 0 (The question is neutral, without any positive or negative emotional polarity.)
+who: 1 (The person's main attention is on the person they are having the conversation with, indicated by the use of ""you"".)
+sentiment: neutral (The question doesn't express any negative or positive sentiment.)
+emotional_reaction: 0 (The question doesn't allude to any emotion.)
+interpretations: 0 (There's no expression of understanding or interpretation of another's emotions.)
+explorations: 0 (There's no interest or probing into the situation or emotions of another.)
+
+classification_label: 0","The utterance ""Do you know the Japanese one?"" appears to be a straightforward, fact-oriented question that doesn't express any emotional need or provide emotional support.",0,0,1,neutral,0,0,0,0
+I chose my avatar to be a donut because I live eating donuts.,Me too. Delicious! ,1,AJ_1,3,3,3,"reason: The utterance is a straightforward statement about the person's preference for donuts and their choice of avatar, without expressing any need for emotional support or understanding, nor does it demonstrate an attempt to understand or acknowledge someone else's emotions.
+arousal: 0.2 (The person seems mildly excited about their choice, but the tone is generally casual.)
+valence: 0.8 (The statement has a positive tone, as it involves a favorite food and a personal choice.)
+who: 0 (The person's main attention is on themselves, as indicated by the use of ""I"".)
+sentiment: positive
+emotional_reaction: 0 (There is no explicit emotional response or acknowledgment of emotions in the utterance.)
+interpretations: 0 (There is no expression of understanding or attempt to interpret someone else's feelings.)
+explorations: 0 (There is no interest or probing into the situation of another; the statement is self-focused.)
+
+classification_label: 0","The utterance is a straightforward statement about the person's preference for donuts and their choice of avatar, without expressing any need for emotional support or understanding, nor does it demonstrate an attempt to understand or acknowledge someone else's emotions.",0.2,0.8,0,positive,0,0,0,0
+I chose my avatar to be a fried egg because I ate a fried egg this morning.,Ahh! I love fried eggs. ,1,JA_2,3,1,3,"reason: The utterance is a straightforward, fact-oriented statement about the user's choice of avatar and does not express any emotional need for understanding or recognition, nor does it attempt to understand or acknowledge someone else's feelings.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The emotional polarity is neutral, as there is no negative or positive emotion expressed.)
+who: 0 (The person's main attention is on themselves, indicated by ""I"".)
+sentiment: neutral (The sentiment of the statement is neutral, as it simply reports a fact without expressing a positive or negative emotion.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's feelings.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about the user's choice of avatar and does not express any emotional need for understanding or recognition, nor does it attempt to understand or acknowledge someone else's feelings.",0,0,0,neutral,0,0,0,0
+I took this picture during summer vacation. It is a summer festival. It is a picture of Bon Dance.,How often is this festival? Is it only one day? Or once a year?,1,JA_2,3,3,3,"reason: The utterance is a straightforward, fact-oriented statement about a picture taken during a summer festival, without any emotional tone or request for understanding.
+arousal: 0 (The statement is neutral and does not express high or low emotional intensity.)
+valence: 0 (The statement has a neutral emotional polarity, neither positive nor negative.)
+who: 0 (The person's main attention is on themselves, as indicated by the use of ""I"" pronoun, but the focus is on sharing information rather than seeking empathy.)
+sentiment: neutral (The sentiment of the statement is neutral, as it simply provides information without expressing a positive or negative emotion.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of any emotions in the statement.)
+explorations: 0 (There is no attempt to explore or understand the emotions or situation of another person.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about a picture taken during a summer festival, without any emotional tone or request for understanding.",0,0,0,neutral,0,0,0,0
+It is once a year.,Ohh once a year. Is it always at night?,1,JA_2,3,3,3,"reason: The utterance ""It is once a year"" is a straightforward, fact-oriented statement that does not express any emotional need or provide emotional support.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The statement is neutral and does not express positive or negative emotions.)
+who: 2 (The subject of the conversation is an event or situation, not the speaker or the listener.)
+sentiment: neutral (The statement does not express any sentiment or emotional tone.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of any emotions.)
+explorations: 0 (There is no attempt to explore or understand any emotions or situations.)
+
+classification_label: 0","The utterance ""It is once a year"" is a straightforward, fact-oriented statement that does not express any emotional need or provide emotional support.",0,0,2,neutral,0,0,0,0
+"Yes, Bon Dance is performed at night.","Oh, very interesting.",1,JA_2,3,3,3,"reason: The utterance is a straightforward, fact-oriented statement about the Bon Dance.
+arousal: 0 (The statement is neutral and does not convey any emotional intensity.)
+valence: 0 (The statement has a neutral emotional polarity, neither positive nor negative.)
+who: 2 (The main attention is on the topic, ""Bon Dance"", rather than the speaker or the person they are talking to.)
+sentiment: neutral (The statement does not express any sentiment, positive, negative, or otherwise.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (The statement does not demonstrate any understanding or interpretation of someone's emotions.)
+explorations: 0 (The statement does not show any interest or probing into someone's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about the Bon Dance.",0,0,2,neutral,0,0,0,0
+ This is a picture of my band festival. We took it during a school festival. I play the trombone.,We also play instruments. It is super fun. I play the flute. ,1,JA_3,4,1,4,"reason: The utterance is a straightforward, fact-oriented statement about a personal experience, without any explicit emotional appeal or attempt to elicit empathy.
+arousal: 0.2 (slightly positive due to sharing a personal achievement, but overall calm)
+valence: 0.5 (positive, as sharing a personal experience and hobby)
+who: 0 (the person's main attention is on themselves, using ""I"" and ""we"" pronouns)
+sentiment: positive
+emotional_reaction: 0 (does not allude to any emotion)
+interpretations: 0 (no expression of understanding or empathy towards others)
+explorations: 0 (no interest or probing into the situation of another)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about a personal experience, without any explicit emotional appeal or attempt to elicit empathy.",0.2,0.5,0,positive,0,0,0,0
+That is nice!,I also play the French Horn. Maybe it is called different in Japanese. It is the curled one.,1,JA_3,4,1,3,"reason: The utterance ""That is nice!"" is a positive acknowledgement, but it does not explicitly seek or provide empathy. It's a straightforward, fact-oriented response that acknowledges something positive without delving into the emotions or feelings of the situation.
+arousal: 0.2 (The response indicates a mildly positive emotional state, but it's not highly arousing.)
+valence: 0.5 (The valence is positive, as the word ""nice"" has a positive connotation.)
+who: 2 (The subject of the conversation is on another topic or situation being acknowledged as ""nice"", rather than the speaker themselves or the person they're talking to.)
+sentiment: positive
+emotional_reaction: 0 (There's no explicit emotional response or label in the utterance.)
+interpretations: 0 (The utterance does not demonstrate an understanding of any emotional state or situation beyond a surface-level acknowledgement.)
+explorations: 0 (There's no attempt to explore or understand the situation or emotions further.)
+
+classification_label: 0","The utterance ""That is nice!"" is a positive acknowledgement, but it does not explicitly seek or provide empathy. It's a straightforward, fact-oriented response that acknowledges something positive without delving into the emotions or feelings of the situation.",0.2,0.5,2,positive,0,0,0,0
+Ohh I see. ,How long have you been playing the trombone?,1,JA_3,3,3,3,"reason: The utterance ""Ohh I see"" is a generic acknowledgment that indicates understanding but does not explicitly express emotion or probe into the situation of another.
+arousal: 0 (The response is calm and does not indicate high emotional intensity.)
+valence: 0 (The utterance is neutral and does not convey positive or negative emotions.)
+who: 2 (The person's main attention is on another person or topic, as indicated by the acknowledgment of something they've been told.)
+sentiment: neutral (The sentiment of the utterance is neutral, as it neither expresses a positive nor a negative emotion.)
+emotional_reaction: 0 (The utterance does not allude to any emotion, making the emotional reaction minimal.)
+interpretations: 1 (The response demonstrates a weak expression of understanding through a generic acknowledgment.)
+explorations: 0 (There is no interest or probing into the situation of another in this utterance.)
+
+classification_label: 2","The utterance ""Ohh I see"" is a generic acknowledgment that indicates understanding but does not explicitly express emotion or probe into the situation of another.",0,0,2,neutral,0,1,0,2
+Only two years.,Two years! Wow! That is exciting.,1,JA_3,4,3,3,"reason: The utterance ""Only two years"" is a brief statement that lacks emotional expression or a clear indication of seeking or providing empathy. It appears to be a factual statement without a clear context of emotional support or understanding.
+arousal: 0 (The utterance does not convey high or low emotional intensity.)
+valence: 0 (The statement is neutral and does not express positive or negative emotions.)
+who: 2 (The subject of the conversation is not clearly focused on the speaker or the listener, but rather on a fact or a topic, implied by ""two years"" which could refer to any number of things without more context.)
+sentiment: neutral (There is no clear positive or negative sentiment expressed in the utterance.)
+emotional_reaction: 0 (The utterance does not allude to any emotion, either strong or weak.)
+interpretations: 0 (There is no expression of understanding or attempt to interpret the situation or feelings of another.)
+explorations: 0 (There is no interest or probing into the situation or emotions of another in this utterance.)
+
+classification_label: 0","The utterance ""Only two years"" is a brief statement that lacks emotional expression or a clear indication of seeking or providing empathy. It appears to be a factual statement without a clear context of emotional support or understanding.",0,0,2,neutral,0,0,0,0
+ I took this picture at a festival for girls.,Do you need to go to a place to see what you show in the picture?,1,JA_4,3,3,3,"reason: The utterance is a straightforward statement about taking a picture at a festival, without expressing any emotional need or providing emotional support.
+arousal: 0 (The utterance does not convey high or low emotional intensity.)
+valence: 0 (The utterance is neutral, neither positive nor negative.)
+who: 0 (The person's main attention is on themselves, using the pronoun ""I"".)
+sentiment: neutral (The utterance does not express a clear positive or negative sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the utterance.)
+interpretations: 0 (There is no expression of understanding or empathy in the utterance.)
+explorations: 0 (There is no interest or probing into the situation of another in the utterance.)
+
+classification_label: 0","The utterance is a straightforward statement about taking a picture at a festival, without expressing any emotional need or providing emotional support.",0,0,0,neutral,0,0,0,0
+"No, this one is at my house. ",Nice!,1,JA_4,3,1,1,"reason: The utterance is a straightforward, fact-oriented statement that provides information about the location of an item, without expressing any emotions or seeking understanding.
+arousal: 0 (the statement is neutral and calm)
+valence: 0 (the statement has no emotional polarity)
+who: 0 (the person's main attention is on themselves, referring to ""my house"")
+sentiment: neutral (the statement has no emotional tone)
+emotional_reaction: 0 (there is no emotional expressiveness)
+interpretations: 0 (there is no expression of understanding)
+explorations: 0 (there is no interest or probing into the situation of another)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement that provides information about the location of an item, without expressing any emotions or seeking understanding.",0,0,0,neutral,0,0,0,0
+My grandmother made these dolls in the picture.,She is very talented.,1,AJ_2,3,1,3,"reason: The utterance is a straightforward, fact-oriented statement about the person's grandmother making dolls, without expressing any emotions or seeking understanding.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The statement has a neutral emotional polarity, neither positive nor negative.)
+who: 2 (The person's main attention is on another person, their grandmother, and an object, the dolls.)
+sentiment: neutral (The statement does not express any sentiment or emotion.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of any emotions.)
+explorations: 0 (There is no attempt to explore or probe into any emotions or situations.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about the person's grandmother making dolls, without expressing any emotions or seeking understanding.",0,0,2,neutral,0,0,0,0
+This is a soccer match at a field near the place where I live.,What sports do you play?,1,AJ_2,3,3,3,"reason: The utterance is a straightforward, fact-oriented statement about a soccer match, without any emotional tone or request for understanding.
+arousal: 0 (The statement is neutral and does not convey any high or low emotional intensity.)
+valence: 0 (The statement has a neutral emotional polarity, neither positive nor negative.)
+who: 2 (The main attention is on the event, the soccer match, rather than the speaker or the person they are talking to.)
+sentiment: neutral (The statement does not express any negative or positive sentiment.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the statement.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of any emotions.)
+explorations: 0 (There is no attempt to explore or understand any emotions or situations.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about a soccer match, without any emotional tone or request for understanding.",0,0,2,neutral,0,0,0,0
+I do swimming because I live close to the beach. I also play tag rugby. ,wow! Really!,1,AJ_2,3,3,3,"reason: The utterance is a straightforward statement about the person's activities and location, without expressing any emotional need or providing emotional support.
+arousal: 0 (The utterance does not convey high or low emotional intensity.)
+valence: 0.5 (The utterance has a slightly positive tone due to mentioning enjoyable activities, but it's not extremely positive.)
+who: 0 (The person's main attention is on themselves, using ""I"" pronoun.)
+sentiment: positive (The activities mentioned are generally considered enjoyable.)
+emotional_reaction: 0 (There is no emotional reaction or expression in the utterance.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's emotions.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward statement about the person's activities and location, without expressing any emotional need or providing emotional support.",0,0.5,0,positive,0,0,0,0
+Do you guys play any sport? ,I like basketball.,1,AJ_2,3,1,1,"reason: The utterance is a straightforward question about the activities of the people being addressed, without any emotional tone or request for understanding.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral, neither positive nor negative.)
+who: 1 (The person's main attention is on the people they are having the conversation with, as indicated by ""you guys"".)
+sentiment: neutral (The question does not express any sentiment.)
+emotional_reaction: 0 (The question does not allude to any emotion.)
+interpretations: 0 (There is no expression of understanding in the question.)
+explorations: 1 (The question can be seen as a weak exploration into the activities of others, but it's more about fact-finding than emotional exploration.)
+
+classification_label: 0","The utterance is a straightforward question about the activities of the people being addressed, without any emotional tone or request for understanding.",0,0,1,neutral,0,0,1,0
+This is me getting graded. I do Brazilian jiu-jitsu. This is a gray belt which is one from white bell.,Good job! Is white bell the top one?,1,JA_3,4,5,5,"reason: The utterance is a straightforward, fact-oriented statement about the speaker's experience with Brazilian jiu-jitsu and their current belt level. There is no expression of emotion, need for understanding, or attempt to understand someone else's feelings.
+arousal: 0 (The utterance does not convey high or low emotional intensity.)
+valence: 0.5 (The utterance has a slightly positive tone, as it mentions an achievement, but it is not extremely positive.)
+who: 0 (The person's main attention is on themselves, as indicated by the use of ""me"" and ""I"".)
+sentiment: neutral (The utterance does not express strong emotions, but it has a slightly positive tone.)
+emotional_reaction: 0 (There is no emotional reaction or expression in the utterance.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's emotions.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about the speaker's experience with Brazilian jiu-jitsu and their current belt level. There is no expression of emotion, need for understanding, or attempt to understand someone else's feelings.",0,0.5,0,neutral,0,0,0,0
+"No, white bell is the lowest one.",Oh! Hahaha.,1,JA_3,4,1,3,"reason: The utterance is a straightforward, fact-oriented statement that does not express any emotional need or provide emotional support.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The statement has a neutral emotional polarity, neither positive nor negative.)
+who: 2 (The subject of the conversation is an object or topic, ""white bell"", rather than the speaker or the listener.)
+sentiment: neutral (The statement does not express any sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the statement.)
+interpretations: 0 (The statement does not demonstrate understanding of any emotional experience.)
+explorations: 0 (The statement does not show any interest or probing into the situation or emotions of another.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement that does not express any emotional need or provide emotional support.",0,0,2,neutral,0,0,0,0
+"Do you know karate?
+","Yes, I used to do it when I was little.",1,JA_3,4,1,1,"reason: The utterance is a straightforward question about knowledge of a specific martial art, without any emotional tone or request for understanding.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral and does not express a positive or negative emotion.)
+who: 1 (The question is directed at the person being spoken to, indicated by ""you"".)
+sentiment: neutral (The question does not express a negative, positive, or emotional sentiment.)
+emotional_reaction: 0 (There is no emotional expression or reaction in the question.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone's feelings.)
+explorations: 0 (There is no attempt to explore or understand someone's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward question about knowledge of a specific martial art, without any emotional tone or request for understanding.",0,0,1,neutral,0,0,0,0
+Do you do karate?,Only a little bit. Not too much.,1,JA_3,4,1,1,"reason: The utterance is a straightforward question about someone's activity, lacking any emotional tone or language that seeks or provides empathy.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral and does not express a positive or negative emotion.)
+who: 1 (The question is directed at the person being spoken to, indicated by ""you"".)
+sentiment: neutral (The question does not express a negative, positive, or emotional sentiment.)
+emotional_reaction: 0 (There is no emotional expression or reaction in the question.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone's feelings.)
+explorations: 0 (The question does not explore anyone's emotions or situation; it's a factual inquiry.)
+
+classification_label: 0","The utterance is a straightforward question about someone's activity, lacking any emotional tone or language that seeks or provides empathy.",0,0,1,neutral,0,0,0,0
+What style do you do?,Only the elementary school type.,1,JA_3,3,1,2,"reason: The utterance ""What style do you do?"" is a straightforward question that does not express any emotional need or provide emotional support. It appears to be a factual inquiry.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral and does not express positive or negative emotions.)
+who: 1 (The question is directed at the person being spoken to, indicated by ""you"".)
+sentiment: neutral (The sentiment of the question is neutral, as it does not express any emotion.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the question.)
+interpretations: 0 (The question does not demonstrate understanding or interpretation of another's emotions.)
+explorations: 1 (The question can be seen as a weak exploration into the topic or situation of another, as it asks for information but does not specifically probe into emotions.)
+
+classification_label: 0","The utterance ""What style do you do?"" is a straightforward question that does not express any emotional need or provide emotional support. It appears to be a factual inquiry.",0,0,1,neutral,0,0,1,0
+This is a photo with my friends at a concert in Sydney. We had a really fun night.,Did you make your dress?,1,AJ_3,2,3,3,"reason: The utterance is a straightforward, fact-oriented statement about a personal experience, without any explicit request for understanding or expression of emotional support for someone else.
+arousal: 0.5 (The utterance describes a ""really fun night"", indicating a moderately positive emotional intensity.)
+valence: 1 (The overall emotional polarity is very positive, as the speaker had a fun night.)
+who: 0 (The person's main attention is on themselves and their experience, using the pronoun ""we"" to include their friends.)
+sentiment: positive (The sentiment of the utterance is positive, describing a fun experience.)
+emotional_reaction: 0 (There is no explicit emotional response or expression of empathy towards someone else.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of someone else's emotions.)
+explorations: 0 (There is no attempt to explore or understand someone else's emotions or situation.)
+
+classification_label: 0","The utterance is a straightforward, fact-oriented statement about a personal experience, without any explicit request for understanding or expression of emotional support for someone else.",0.5,1,0,positive,0,0,0,0
+I didn’t make my dress but I made my bracelets. Also the decorated parts. ,Nice!,1,AJ_3,2,1,2,"reason: The utterance is a statement about the person's creations and does not express a need for understanding or recognition of their emotions, nor does it acknowledge or respond to someone else's emotions.
+arousal: 0 (The statement is neutral and does not convey high or low emotional intensity.)
+valence: 0.5 (The utterance has a slightly positive tone, as it mentions things the person ""made,"" implying a sense of accomplishment or pride.)
+who: 0 (The person's main attention is on themselves, using ""I"" to describe their actions.)
+sentiment: positive (The sentiment is positive because the person is talking about things they created, which suggests a sense of achievement.)
+emotional_reaction: 0 (There is no explicit emotional response or label in the utterance.)
+interpretations: 0 (There is no expression of understanding or interpretation of emotions in the statement.)
+explorations: 0 (There is no interest or probing into the situation or emotions of another in the utterance.)
+
+classification_label: 0","The utterance is a statement about the person's creations and does not express a need for understanding or recognition of their emotions, nor does it acknowledge or respond to someone else's emotions.",0,0.5,0,positive,0,0,0,0
+Do you guys know who Taylor Swift is? Do you know any of her songs?,"No, sorry.",1,AJ_3,2,1,2,"reason: The utterance is a straightforward question about general knowledge and does not express any emotional need or offer emotional support.
+arousal: 0 (The question is neutral and does not convey high or low emotional intensity.)
+valence: 0 (The question is neutral, lacking positive or negative emotional polarity.)
+who: 2 (The subject of the conversation is Taylor Swift, indicating the person's main attention is on another person or topic, not themselves or the person they are talking to.)
+sentiment: neutral (The question does not express a negative, positive, or emotional sentiment towards the topic.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the question.)
+interpretations: 0 (There is no demonstration of understanding or interpretation of anyone's feelings or emotions.)
+explorations: 0 (There is no attempt to explore or probe into anyone's emotions or situation.)
+
+classification_label: 0",The utterance is a straightforward question about general knowledge and does not express any emotional need or offer emotional support.,0,0,2,neutral,0,0,0,0
+What do you listen to?,I listen to a famous Japanese artist called Yonezu. Do you know it?,1,AJ_3,2,3,3,"reason: The utterance ""What do you listen to?"" is a straightforward question that does not express any emotional need or provide emotional support. It's a fact-oriented inquiry.
+arousal: 0 (The question is neutral and doesn't convey high or low emotional intensity.)
+valence: 0 (The question is neutral, lacking positive or negative emotional polarity.)
+who: 1 (The question is directed at the person being spoken to, indicated by ""you"".)
+sentiment: neutral (The question itself does not express any sentiment.)
+emotional_reaction: 0 (There's no emotional reaction or expression in the question.)
+interpretations: 0 (The question does not demonstrate understanding of another's feelings or situation.)
+explorations: 1 (The question could be seen as a weak exploration into the other person's preferences or interests, but it's not specifically aimed at understanding their emotions.)
+
+classification_label: 0","The utterance ""What do you listen to?"" is a straightforward question that does not express any emotional need or provide emotional support. It's a fact-oriented inquiry.",0,0,1,neutral,0,0,1,0
+"No, is it very famous? ","Yeah, at least in Japan. He makes songs for animations and openings. ",1,AJ_3,2,1,2,"reason: The utterance is a question about the fame of something, which indicates a straightforward, fact-oriented inquiry.
+arousal: 0 (The tone is neutral, and there is no emotional intensity.)
+valence: 0 (The utterance does not express any emotional polarity.)
+who: 2 (The person's main attention is on the topic, in this case, the fame of something.)
+sentiment: neutral (The utterance does not convey any positive or negative sentiment.)
+emotional_reaction: 0 (There is no emotional expressiveness in the utterance.)
+interpretations: 0 (There is no expression of understanding or interpretation of emotions.)
+explorations: 0 (There is no interest or probing into the situation or emotions of another.)
+
+classification_label: 0","The utterance is a question about the fame of something, which indicates a straightforward, fact-oriented inquiry.",0,0,2,neutral,0,0,0,0
+"My favorite subject at school is English. I like reading and writing. I love everything related to books. And I express my creativity with drama, acting.",I cook and I like playing the piano,1,AJ_4,2,1,2,"reason: The utterance is a straightforward statement about the person's favorite subject and hobbies, without any emotional appeal or attempt to understand someone else's feelings.
+arousal: 0.2 (slightly positive, as the person is expressing a liking for a subject)
+valence: 0.8 (positive, as the person uses words like ""love"" and ""favorite"" to describe their feelings)
+who: 0 (the person's main attention is on themselves, using ""I"" pronoun)
+sentiment: positive
+emotional_reaction: 0 (no emotional reaction is expected or provided)
+interpretations: 0 (there is no attempt to understand or acknowledge someone else's feelings)
+explorations: 0 (there is no probing or questioning to explore someone else's emotions)
+
+classification_label: 0 
+
+This conversation does not seek or provide empathy, as it is a fact-oriented utterance about the person's interests and hobbies, without any emotional appeal or attempt to understand someone else's feelings.","The utterance is a straightforward statement about the person's favorite subject and hobbies, without any emotional appeal or attempt to understand someone else's feelings.",0.2,0.8,0,positive,0,0,0,0
+It sounds fun. What is your favorite thing to cook?,I like cupcakes. ,1,AJ_4,2,1,2,"reason: The utterance is a response to someone's interest or hobby, and it acknowledges their enthusiasm while asking an open-ended question to encourage further conversation.
+arousal: 0.2 (The conversation is casual and relaxed, with a low to moderate level of emotional intensity.)
+valence: 0.8 (The tone is generally positive, as the speaker finds the topic ""fun"" and is interested in the other person's favorite thing to cook.)
+who: 1 (The person's main attention is on the person they are having the conversation with, as indicated by the question ""What is your favorite thing to cook?"")
+sentiment: positive (The overall sentiment of the utterance is positive, with a focus on a enjoyable activity.)
+emotional_reaction: 1 (The speaker expresses a weak emotional reaction by saying ""It sounds fun,"" but does not explicitly state a strong emotional response.)
+interpretations: 0 (There is no explicit expression of understanding or interpretation of the other person's emotions or experiences.)
+explorations: 1 (The speaker asks a generic question to explore the other person's interests, but it is not a deeply personal or probing question.)
+
+classification_label: 2 (Providing Empathy)","The utterance is a response to someone's interest or hobby, and it acknowledges their enthusiasm while asking an open-ended question to encourage further conversation.",0.2,0.8,1,positive,1,0,1,2
+"During Christmas, we meet up with family and we eat lunch. It is during the summer, so we have a barbecue or we go to the beach to swim.",Many people like sleeping in their beds with mandarins. I like eating soup with mochi. But you can get fat if you eat too much mochi.,1,AJ_5,2,1,2,"reason: The utterance describes a routine family activity during Christmas, focusing on factual information about the event without expressing any emotional needs or attempting to understand someone else's feelings.
+arousal: 0 (The utterance is neutral and does not convey high or low emotional intensity.)
+valence: 0.5 (The overall tone is mildly positive due to the mention of festivities and leisure activities, but it does not express a strong positive emotion.)
+who: 0 (The subject of the conversation is the speaker and their family, indicated by ""we"".)
+sentiment: positive (The description of meeting up with family and engaging in activities like barbecues or swimming implies a positive sentiment.)
+emotional_reaction: 0 (There is no emotional reaction or expressiveness in the utterance.)
+interpretations: 0 (The utterance does not demonstrate any understanding or interpretation of someone else's feelings.)
+explorations: 0 (There is no attempt to explore or inquire about someone else's emotions or situation.)
+
+classification_label: 0","The utterance describes a routine family activity during Christmas, focusing on factual information about the event without expressing any emotional needs or attempting to understand someone else's feelings.",0,0.5,0,positive,0,0,0,0
