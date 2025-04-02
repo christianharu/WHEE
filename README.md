@@ -24,7 +24,7 @@ We provide access to the datasets and results used to evaluate our **whEE** fram
 
 ## Relevant Files
 
-- [`cues_utilities/`](cues_utilities/)  
+- [`cues_utilities/`](cue_utilities/)  
   Scripts used to generate empathy cues with established affective computing methods for the baseline models.
 
 - [`graphs.ipynb`](graphs.ipynb)  
