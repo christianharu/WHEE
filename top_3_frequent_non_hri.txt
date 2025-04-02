@@ -1,0 +1,67 @@
+Dataset: LLaMa 3.3
+Classification Label: None
+Top 3 most frequent values for who:
+2.0: 876 (0.46)
+0.0: 824 (0.43)
+1.0: 220 (0.11)
+Top 3 most frequent values for sentiment:
+neutral: 901 (0.47)
+positive: 831 (0.43)
+negative: 188 (0.10)
+Top 3 most frequent values for predictions_ER:
+0: 1713 (0.89)
+1: 203 (0.11)
+2: 5 (0.00)
+Top 3 most frequent values for predictions_IP:
+0: 1234 (0.64)
+2: 608 (0.32)
+1: 79 (0.04)
+Top 3 most frequent values for predictions_EX:
+0: 1576 (0.82)
+2: 302 (0.16)
+1: 43 (0.02)
+
+Classification Label: Seeking
+Top 3 most frequent values for who:
+0.0: 1843 (0.92)
+2.0: 127 (0.06)
+1.0: 27 (0.01)
+Top 3 most frequent values for sentiment:
+negative: 1269 (0.64)
+positive: 594 (0.30)
+neutral: 134 (0.07)
+Top 3 most frequent values for predictions_ER:
+0: 1810 (0.91)
+1: 150 (0.08)
+2: 38 (0.02)
+Top 3 most frequent values for predictions_IP:
+2: 1418 (0.71)
+0: 497 (0.25)
+1: 83 (0.04)
+Top 3 most frequent values for predictions_EX:
+0: 1919 (0.96)
+2: 58 (0.03)
+1: 21 (0.01)
+
+Classification Label: Providing
+Top 3 most frequent values for who:
+1.0: 671 (0.45)
+2.0: 643 (0.43)
+0.0: 192 (0.13)
+Top 3 most frequent values for sentiment:
+positive: 941 (0.62)
+negative: 340 (0.23)
+neutral: 225 (0.15)
+Top 3 most frequent values for predictions_ER:
+0: 668 (0.44)
+1: 645 (0.43)
+2: 193 (0.13)
+Top 3 most frequent values for predictions_IP:
+0: 1215 (0.81)
+2: 231 (0.15)
+1: 60 (0.04)
+Top 3 most frequent values for predictions_EX:
+0: 1010 (0.67)
+2: 387 (0.26)
+1: 109 (0.07)
+
