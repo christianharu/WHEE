@@ -70,13 +70,13 @@ def main():
     #read all datasets
     dir_path = os.path.dirname(os.path.realpath(__file__))
 
-    eerobot = pd.read_csv(dir_path + '/results/EERobot/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv', )
+    edr = pd.read_csv(dir_path + '/results/EDR/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv', )
     tsc = pd.read_csv(dir_path + '/results/TSC/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv')
     #key none = 0, seek = 1, provide = 2
     tsc = tsc.rename(columns={"final_label": "empathy"})
-    print(eerobot.head())
+    print(edr.head())
 
-    joined_df = pd.concat([eerobot,tsc])
+    joined_df = pd.concat([edr,tsc])
     print(joined_df.head())
     joined_df.reset_index()
     

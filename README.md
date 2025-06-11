@@ -17,8 +17,8 @@ We provide access to the datasets and results used to evaluate our **whEE** fram
 - [`results/non_hri_data_test/`](results/non_hri_data_test)  
   Contains evaluation results from non-HRI settings using the same models. Confusion matrix figures are also provided.
 
-- [`results/TSC/`](results/TSC/) and [`results/EERobot/`](results/EERobot/)  
-  Include results from the empathetic text generation experiments in HRI settings: _EERobot_ and _The Talking Room_ (TSC). The files that end with "generated_classify" include the results from the classification (if a sample contains or empathetic prpmpt in the "instruction" column, it meands it as classified as "seeking empathy") and the genereted text.
+- [`results/TSC/`](results/TSC/) and [`results/EDR/`](results/EDR/)  
+  Include results from the empathetic text generation experiments in HRI settings: _EDR_ and _The Talking Room_ (TSC). The files that end with "generated_classify" include the results from the classification (if a sample contains or empathetic prpmpt in the "instruction" column, it meands it as classified as "seeking empathy") and the genereted text.
 
 ---
 
@@ -122,13 +122,13 @@ Respond with:
 You can see when the empathetic text generation prompt was activated by checking the column named `instruction` in the following files:
 
 - [`results/TSC/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv`](results/TSC/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv)
-- [`results/EERobot/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv`](results/EERobot/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv)
+- [`results/EDR/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv`](results/EDR/Meta-Llama-3.3-70B-Instruct-AWQ-INT4_generate_classify.csv)
 
 
 # HRI Datasets
 We describe all the datasets used to evaluate the system in human–robot interaction (HRI) settings.
-## EERobot
-The first dataset, **Empathetic Exchanges with a Robot (EERobot)**, comprises semi-structured conversations between a speaker and a listener held in the presence of our social robot, Haru. The dataset can be found in the file [`EERobot.csv`].
+## EDR
+The first dataset, **Empathetic Exchanges with a Robot (EDR)**, comprises semi-structured conversations between a speaker and a listener held in the presence of our social robot, Haru. The dataset can be found in the file [`EDR.csv`].
 
 ## The Talking Room
 The second dataset comes from **The Talking Room** multi-group application, where two groups of children engage in conversations, each facilitated by a Haru robot acting as a mediator. Due to privacy restrictions, the interaction data involving children cannot be shared. The results and labels for this dataset can be found in the folder [`results/TSC/`].

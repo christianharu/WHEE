@@ -72,7 +72,7 @@ def main():
     iempathize = pd.read_csv(dir_path + '/iempathize.csv',encoding='windows-1252' )
     tweetemp = pd.read_csv(dir_path + '/TwittEmp.csv', )
 
-    eerobot = pd.read_csv(dir_path + '/EERobot.csv', )
+    edr = pd.read_csv(dir_path + '/EDR.csv', )
     ex = pd.read_csv(dir_path + '/EmpatheticExchanges_extended_v2.0.csv')
     tsc = pd.read_csv(dir_path + '/TSC.csv')
     #key none = 0, seek = 1, provide = 2
@@ -87,8 +87,8 @@ def main():
 
     extracted_listener_ex = get_utterances(ex,'listener')
     extracted_speaker_ex = get_utterances(ex,'speaker')
-    extracted_listener_eer = get_utterances(eerobot,'listener')
-    extracted_speaker_eer = get_utterances(eerobot,'speaker')
+    extracted_listener_eer = get_utterances(edr,'listener')
+    extracted_speaker_eer = get_utterances(edr,'speaker')
     extracted_listener_tsc = get_utterances_no_seek(tsc,'listener')
     extracted_speaker_tsc = get_utterances_no_seek(tsc,'speaker')
 
