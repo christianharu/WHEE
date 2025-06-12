@@ -10,7 +10,7 @@ Accepted at the **IEEE RO-MAN 2025** conference.
 If you use this work, please cite it as:
 
 ```bibtex
-@inproceedings{cruz2024data,
+@inproceedings{arzate2025when,
   title     = {When and How to Express Empathy in Human-Robot Interaction Scenarios},
   author    = {Cruz, Christian Arzate and Montiel-V{\'a}zquez, Edwin C and Maeda, Chikara and Gomez, Randy},
   booktitle = {2025 34rd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
