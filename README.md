@@ -1,11 +1,29 @@
 # whEE Framework
 
-This repository accompanies the article _"When and How to Express Empathy in HRI Scenarios"_, currently under review for the IEEE RO-MAN 2025 conference.
+This repository contains the code, datasets, and resources accompanying the article:
 
-We provide access to the datasets and results used to evaluate our **whEE** framework (**w**hen and **h**ow to **e**xpress **e**mpathy) in both non-HRI and HRI scenarios.
+**_When and How to Express Empathy in Human-Robot Interaction Scenarios_**  
+Accepted at the **IEEE RO-MAN 2025** conference.
+
+## Citation
+
+If you use this work, please cite it as:
+
+```bibtex
+@inproceedings{cruz2024data,
+  title     = {When and How to Express Empathy in Human-Robot Interaction Scenarios},
+  author    = {Cruz, Christian Arzate and Montiel-V{\'a}zquez, Edwin C and Maeda, Chikara and Gomez, Randy},
+  booktitle = {2025 34rd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+  pages     = {--},
+  year      = {2025},
+  organization = {IEEE}
+}
+```
+
 
 ---
 ## Results
+We provide access to the datasets and results used to evaluate our **whEE** framework (**w**hen and **h**ow to **e**xpress **e**mpathy) in both non-HRI and HRI scenarios.
 
 **Note:** Files with `"with_cues"` in the name are not used in the final paper. We experimented with providing generated empathy cues from baseline tools as input; however, this approach reduced performance and was therefore discarded.
 
